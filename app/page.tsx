@@ -916,7 +916,9 @@ export default function Page() {
                                 </svg>
                             </a>
                             <a
-                                href="#"
+                                href="https://x.com/VpnRyn"
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 className="text-gray-400 hover:text-white transition-colors"
                                 data-oid="60kb_07"
                             >
