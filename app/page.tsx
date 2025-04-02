@@ -702,7 +702,7 @@ export default function Page() {
                 data-oid="_kr694v"
             >
                 <div className="container mx-auto max-w-6xl" data-oid="zxuh949">
-                    <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8" data-oid="st_4ddn">
+                    <div className="grid grid-cols-1 md:grid-cols-5 gap-8 mb-8" data-oid="st_4ddn">
                         <div data-oid="jxtvi7s">
                             <div className="flex items-center space-x-2 mb-4" data-oid="pd0jd0r">
                                 <div className="h-10 w-10 overflow-hidden" data-oid="na14gg:">
@@ -837,9 +837,27 @@ export default function Page() {
                                         Terms of Service
                                     </a>
                                 </li>
-                                <li data-oid="fbc8nwe"></li>
-                                <li data-oid="xv9_0hi"></li>
                             </ul>
+                        </div>
+                        <div data-oid="contact-info">
+                            <h3 className="text-lg font-bold mb-4 text-white" data-oid="i9hbd_j">
+                                Contact Us
+                            </h3>
+                            <div className="text-gray-400 space-y-2" data-oid="5czuvzc">
+                                <p data-oid="3d212uz">Human Data Systems Private Limited,</p>
+                                <p data-oid="8yv8lw8">H NO.-8/9, BASEMENT ROAD-8,</p>
+                                <p data-oid="mx.-qc2">SARVPRIYA VIHAR NEW DELHI South Delhi DL</p>
+                                <p data-oid="30--757">110017 IN</p>
+                                <p className="pt-2" data-oid="tr6bsi_">
+                                    <a
+                                        href="mailto:bugs@rynvpn.com"
+                                        className="text-purple-400 hover:text-purple-300 transition-colors"
+                                        data-oid="y6o_45:"
+                                    >
+                                        bugs@rynvpn.com
+                                    </a>
+                                </p>
+                            </div>
                         </div>
                     </div>
                     <div
