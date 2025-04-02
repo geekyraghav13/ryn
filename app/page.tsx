@@ -292,26 +292,16 @@ export default function Page() {
                                 href="https://play.google.com/store/apps/details?id=com.secure.cryptovpn&hl=en_IN"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="bg-purple-600 hover:bg-purple-700 text-white font-medium py-3 px-6 rounded-lg transition-colors flex items-center justify-center gap-2"
+                                className="inline-block transform hover:-translate-y-1 transition-transform duration-300"
                                 data-oid="552ue-e"
+                                aria-label="Get it on Google Play"
                             >
-                                <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    className="h-6 w-6"
-                                    fill="none"
-                                    viewBox="0 0 24 24"
-                                    stroke="currentColor"
-                                    data-oid="d1q.fty"
-                                >
-                                    <path
-                                        strokeLinecap="round"
-                                        strokeLinejoin="round"
-                                        strokeWidth={2}
-                                        d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"
-                                        data-oid="q3tb3hb"
-                                    />
-                                </svg>
-                                Get it on Google Play
+                                <img
+                                    src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"
+                                    alt="Get it on Google Play"
+                                    className="h-14 w-auto shadow-lg rounded"
+                                    data-oid="6fpr8.6"
+                                />
                             </a>
                             <a
                                 href="#features"
@@ -683,43 +673,25 @@ export default function Page() {
                     </h2>
                     <p className="text-xl text-gray-200 mb-8 max-w-2xl mx-auto" data-oid="uy:1lwb">
                         Download Ryn VPN now and take control of your online security and privacy
-                        with just one tap.
+                        with just one tap. Experience anonymous browsing and protect your sensitive
+                        data with our top-rated VPN. Enjoy unblock websites and stream content from
+                        anywhere, ensuring your digital footprint remains private. Get premium VPN
+                        protection and reclaim your internet freedom today.
                     </p>
                     <a
                         href="https://play.google.com/store/apps/details?id=com.secure.cryptovpn&hl=en_IN"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="group inline-flex items-center bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700 text-white font-medium py-4 px-8 rounded-xl transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 border-2 border-white border-opacity-20"
+                        className="inline-block transform hover:-translate-y-1 transition-transform duration-300"
                         data-oid="uhy8-:3"
+                        aria-label="Get it on Google Play"
                     >
-                        <div
-                            className="bg-white bg-opacity-20 p-2 rounded-lg mr-4 group-hover:bg-opacity-30 transition-all"
-                            data-oid="zego:1v"
-                        >
-                            <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                className="h-7 w-7"
-                                fill="currentColor"
-                                viewBox="0 0 24 24"
-                                data-oid=".hwq4ar"
-                            >
-                                <path
-                                    d="M5.26 3.795L15.59 12 5.26 20.205c-.32.25-.76.03-.76-.38V4.175c0-.41.44-.63.76-.38zM17.5 12l2.92 2.92c.39.39.39 1.02 0 1.41l-3.37 3.38L12.41 12 17.05 4.29l3.37 3.38c.39.39.39 1.02 0 1.41L17.5 12z"
-                                    data-oid=".fxpeds"
-                                />
-                            </svg>
-                        </div>
-                        <div className="flex flex-col items-start" data-oid="f0.l4eu">
-                            <span
-                                className="text-xs font-light tracking-wider text-gray-100"
-                                data-oid="b5pzc8m"
-                            >
-                                GET IT ON
-                            </span>
-                            <span className="text-xl font-bold tracking-wide" data-oid="-_io3f9">
-                                Google Play
-                            </span>
-                        </div>
+                        <img
+                            src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"
+                            alt="Get it on Google Play"
+                            className="h-16 w-auto shadow-lg rounded-lg"
+                            data-oid="eyhz4mw"
+                        />
                     </a>
                 </div>
             </section>
@@ -752,37 +724,16 @@ export default function Page() {
                                 href="https://play.google.com/store/apps/details?id=com.secure.cryptovpn&hl=en_IN"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="inline-flex items-center bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700 text-white font-medium py-2 px-4 rounded-lg transition-all duration-300 shadow-md hover:shadow-lg"
+                                className="inline-block hover:opacity-90 transition-opacity"
                                 data-oid="0c:4agj"
+                                aria-label="Get it on Google Play"
                             >
-                                <div
-                                    className="bg-white bg-opacity-20 p-1 rounded mr-2"
-                                    data-oid="fnr6m47"
-                                >
-                                    <svg
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        className="h-4 w-4"
-                                        fill="currentColor"
-                                        viewBox="0 0 24 24"
-                                        data-oid="h-3zfmg"
-                                    >
-                                        <path
-                                            d="M5.26 3.795L15.59 12 5.26 20.205c-.32.25-.76.03-.76-.38V4.175c0-.41.44-.63.76-.38zM17.5 12l2.92 2.92c.39.39.39 1.02 0 1.41l-3.37 3.38L12.41 12 17.05 4.29l3.37 3.38c.39.39.39 1.02 0 1.41L17.5 12z"
-                                            data-oid=".zzupo."
-                                        />
-                                    </svg>
-                                </div>
-                                <div className="flex flex-col items-start" data-oid="rnm08k-">
-                                    <span className="text-[10px] leading-tight" data-oid="_n_z1oo">
-                                        GET IT ON
-                                    </span>
-                                    <span
-                                        className="text-sm font-bold leading-tight"
-                                        data-oid="l7:zcyl"
-                                    >
-                                        Google Play
-                                    </span>
-                                </div>
+                                <img
+                                    src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"
+                                    alt="Get it on Google Play"
+                                    className="h-12 w-auto shadow-md rounded"
+                                    data-oid="uyn_zlv"
+                                />
                             </a>
                         </div>
                         <div data-oid="wywynn8">
@@ -808,15 +759,7 @@ export default function Page() {
                                         Blog
                                     </a>
                                 </li>
-                                <li data-oid=".hap-zf">
-                                    <a
-                                        href="#"
-                                        className="text-gray-400 hover:text-white transition-colors"
-                                        data-oid="pa5p4q2"
-                                    >
-                                        Careers
-                                    </a>
-                                </li>
+                                <li data-oid=".hap-zf"></li>
                                 <li data-oid="flk0:ox">
                                     <a
                                         href="#"
@@ -894,24 +837,8 @@ export default function Page() {
                                         Terms of Service
                                     </a>
                                 </li>
-                                <li data-oid="fbc8nwe">
-                                    <a
-                                        href="#"
-                                        className="text-gray-400 hover:text-white transition-colors"
-                                        data-oid="0n1oe0i"
-                                    >
-                                        Cookie Policy
-                                    </a>
-                                </li>
-                                <li data-oid="xv9_0hi">
-                                    <a
-                                        href="#"
-                                        className="text-gray-400 hover:text-white transition-colors"
-                                        data-oid="y7k:mz2"
-                                    >
-                                        GDPR Compliance
-                                    </a>
-                                </li>
+                                <li data-oid="fbc8nwe"></li>
+                                <li data-oid="xv9_0hi"></li>
                             </ul>
                         </div>
                     </div>
