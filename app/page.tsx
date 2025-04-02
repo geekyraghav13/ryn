@@ -894,7 +894,7 @@ export default function Page() {
                         data-oid="lcanw6_"
                     >
                         <div className="text-gray-400 mb-4 md:mb-0" data-oid="_b3psj:">
-                            © 2023 Ryn VPN. All rights reserved.
+                            © 2025 Ryn VPN - All Rights Reserved.
                         </div>
                         <div className="flex space-x-4" data-oid="793e8fm">
                             <a
