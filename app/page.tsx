@@ -693,7 +693,7 @@ export default function Page() {
                             <img
                                 src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"
                                 alt="Get it on Google Play"
-                                className="h-16 w-auto shadow-lg rounded-none"
+                                className="h-16 w-auto shadow-lg rounded-lg"
                                 data-oid="eyhz4mw"
                             />
                         </a>
@@ -740,21 +740,38 @@ export default function Page() {
                             <p className="text-gray-400 mb-4" data-oid="66jv:dn">
                                 Secure, fast, and reliable VPN service for all your devices.
                             </p>
-                            <a
-                                href="https://play.google.com/store/apps/details?id=com.secure.cryptovpn&hl=en_IN"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="inline-block hover:opacity-90 transition-opacity"
-                                data-oid="0c:4agj"
-                                aria-label="Get it on Google Play"
-                            >
-                                <img
-                                    src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"
-                                    alt="Get it on Google Play"
-                                    className="h-12 w-auto shadow-md rounded"
-                                    data-oid="uyn_zlv"
-                                />
-                            </a>
+                            <div className="flex flex-col sm:flex-row gap-3" data-oid="hiw2xzf">
+                                <a
+                                    href="https://play.google.com/store/apps/details?id=com.secure.cryptovpn&hl=en_IN"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="inline-block hover:opacity-90 transition-opacity"
+                                    data-oid="0c:4agj"
+                                    aria-label="Get it on Google Play"
+                                >
+                                    <img
+                                        src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"
+                                        alt="Get it on Google Play"
+                                        className="h-12 w-auto shadow-md rounded-lg"
+                                        data-oid="uyn_zlv"
+                                    />
+                                </a>
+                                <a
+                                    href="https://apps.apple.com/in/app/ryn-vpn-secure-vpn-master/id1493328027"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="inline-block hover:opacity-90 transition-opacity"
+                                    aria-label="Download on the App Store"
+                                    data-oid="lsjufp8"
+                                >
+                                    <img
+                                        src="https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg"
+                                        alt="Download on the App Store"
+                                        className="h-12 w-auto shadow-md rounded-lg"
+                                        data-oid=".5delbv"
+                                    />
+                                </a>
+                            </div>
                         </div>
                         <div data-oid="wywynn8">
                             <h3 className="text-lg font-bold mb-4 text-white" data-oid=".14u4nu">
@@ -839,17 +856,7 @@ export default function Page() {
                                 Legal
                             </h3>
                             <ul className="space-y-2" data-oid="zr3hl8e">
-                                <li data-oid="1mr:q3k">
-                                    <a
-                                        href="https://kalagato.ai/ryn-vpn-privacy-policy/"
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        className="text-gray-400 hover:text-white transition-colors"
-                                        data-oid="5vjd5sn"
-                                    >
-                                        Privacy Policy
-                                    </a>
-                                </li>
+                                <li data-oid="1mr:q3k"></li>
                                 <li data-oid="s10-ssj">
                                     <a
                                         href="#"
