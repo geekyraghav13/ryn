@@ -328,7 +328,7 @@ export default function Page() {
                             data-oid="frc_d63"
                         >
                             <img
-                                src="/vpn-app-mockup.png"
+                                src="https://placehold.co/300x600/indigo/white?text=Ryn+VPN+App"
                                 alt="Ryn VPN App Mockup"
                                 className="w-full h-auto max-h-[550px] object-cover"
                                 data-oid="ekkhg05"
