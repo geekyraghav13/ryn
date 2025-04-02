@@ -678,21 +678,41 @@ export default function Page() {
                         anywhere, ensuring your digital footprint remains private. Get premium VPN
                         protection and reclaim your internet freedom today.
                     </p>
-                    <a
-                        href="https://play.google.com/store/apps/details?id=com.secure.cryptovpn&hl=en_IN"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="inline-block transform hover:-translate-y-1 transition-transform duration-300"
-                        data-oid="uhy8-:3"
-                        aria-label="Get it on Google Play"
+                    <div
+                        className="flex flex-col sm:flex-row justify-center gap-4"
+                        data-oid="elm0c56"
                     >
-                        <img
-                            src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"
-                            alt="Get it on Google Play"
-                            className="h-16 w-auto shadow-lg rounded-lg"
-                            data-oid="eyhz4mw"
-                        />
-                    </a>
+                        <a
+                            href="https://play.google.com/store/apps/details?id=com.secure.cryptovpn&hl=en_IN"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-block transform hover:-translate-y-1 transition-transform duration-300"
+                            data-oid="uhy8-:3"
+                            aria-label="Get it on Google Play"
+                        >
+                            <img
+                                src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"
+                                alt="Get it on Google Play"
+                                className="h-16 w-auto shadow-lg rounded-none"
+                                data-oid="eyhz4mw"
+                            />
+                        </a>
+                        <a
+                            href="https://apps.apple.com/in/app/ryn-vpn-secure-vpn-master/id1493328027"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-block transform hover:-translate-y-1 transition-transform duration-300"
+                            aria-label="Download on the App Store"
+                            data-oid="wqejg0l"
+                        >
+                            <img
+                                src="https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg"
+                                alt="Download on the App Store"
+                                className="h-16 w-auto shadow-lg rounded-lg"
+                                data-oid="hmtgryc"
+                            />
+                        </a>
+                    </div>
                 </div>
             </section>
 
