@@ -740,7 +740,7 @@ export default function Page() {
                             <p className="text-gray-400 mb-4" data-oid="66jv:dn">
                                 Secure, fast, and reliable VPN service for all your devices.
                             </p>
-                            <div className="flex flex-col sm:flex-row gap-3" data-oid="hiw2xzf">
+                            <div className="flex flex-col gap-3" data-oid="hiw2xzf">
                                 <a
                                     href="https://play.google.com/store/apps/details?id=com.secure.cryptovpn&hl=en_IN"
                                     target="_blank"
