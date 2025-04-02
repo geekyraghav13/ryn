@@ -512,84 +512,31 @@ export default function Page() {
                                     Limited features
                                 </p>
                             </div>
-                            <ul className="space-y-3 mb-6" data-oid="e9-kjud">
-                                <li className="flex items-center text-gray-700" data-oid="occ3jxn">
-                                    <svg
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        className="h-5 w-5 text-green-500 mr-2"
-                                        fill="none"
-                                        viewBox="0 0 24 24"
-                                        stroke="currentColor"
-                                        data-oid="s3:312_"
-                                    >
-                                        <path
-                                            strokeLinecap="round"
-                                            strokeLinejoin="round"
-                                            strokeWidth={2}
-                                            d="M5 13l4 4L19 7"
-                                            data-oid="dqimwun"
-                                        />
-                                    </svg>
-                                    Basic encryption
-                                </li>
-                                <li className="flex items-center" data-oid="y-bx5g2">
-                                    <svg
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        className="h-5 w-5 text-green-500 mr-2"
-                                        fill="none"
-                                        viewBox="0 0 24 24"
-                                        stroke="currentColor"
-                                        data-oid="4:tqhjy"
-                                    >
-                                        <path
-                                            strokeLinecap="round"
-                                            strokeLinejoin="round"
-                                            strokeWidth={2}
-                                            d="M5 13l4 4L19 7"
-                                            data-oid="mhgqrfx"
-                                        />
-                                    </svg>
-                                    Limited server locations
-                                </li>
-                                <li className="flex items-center" data-oid="wqrss8o">
-                                    <svg
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        className="h-5 w-5 text-green-500 mr-2"
-                                        fill="none"
-                                        viewBox="0 0 24 24"
-                                        stroke="currentColor"
-                                        data-oid="y07fguw"
-                                    >
-                                        <path
-                                            strokeLinecap="round"
-                                            strokeLinejoin="round"
-                                            strokeWidth={2}
-                                            d="M5 13l4 4L19 7"
-                                            data-oid="9glm7db"
-                                        />
-                                    </svg>
-                                    Standard speed
-                                </li>
-                                <li className="flex items-center text-gray-500" data-oid="-c9yqwj">
-                                    <svg
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        className="h-5 w-5 text-red-500 mr-2"
-                                        fill="none"
-                                        viewBox="0 0 24 24"
-                                        stroke="currentColor"
-                                        data-oid="772zt2z"
-                                    >
-                                        <path
-                                            strokeLinecap="round"
-                                            strokeLinejoin="round"
-                                            strokeWidth={2}
-                                            d="M6 18L18 6M6 6l12 12"
-                                            data-oid="tskj72x"
-                                        />
-                                    </svg>
-                                    Ad-supported
-                                </li>
-                            </ul>
+                            <div
+                                className="bg-gray-100 text-gray-800 rounded-lg p-4 mb-6"
+                                data-oid="e9-kjud"
+                            >
+                                <h4
+                                    className="font-bold text-lg mb-3 text-center"
+                                    data-oid="amjvx1q"
+                                >
+                                    Free Features:
+                                </h4>
+                                <ul className="space-y-3 list-disc pl-5" data-oid="a712mf9">
+                                    <li className="font-medium" data-oid="occ3jxn">
+                                        Basic encryption protection
+                                    </li>
+                                    <li className="font-medium" data-oid="y-bx5g2">
+                                        Limited server locations
+                                    </li>
+                                    <li className="font-medium" data-oid="wqrss8o">
+                                        Standard connection speed
+                                    </li>
+                                    <li className="font-medium text-gray-500" data-oid="-c9yqwj">
+                                        Includes advertisements
+                                    </li>
+                                </ul>
+                            </div>
                             <a
                                 href="https://play.google.com/store/apps/details?id=com.secure.cryptovpn&hl=en_IN"
                                 target="_blank"
@@ -628,103 +575,31 @@ export default function Page() {
                                     per month
                                 </p>
                             </div>
-                            <ul className="space-y-3 mb-6" data-oid="k0.d8l1">
-                                <li className="flex items-center" data-oid="phj-73h">
-                                    <svg
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        className="h-5 w-5 text-green-500 mr-2"
-                                        fill="none"
-                                        viewBox="0 0 24 24"
-                                        stroke="currentColor"
-                                        data-oid="slng7za"
-                                    >
-                                        <path
-                                            strokeLinecap="round"
-                                            strokeLinejoin="round"
-                                            strokeWidth={2}
-                                            d="M5 13l4 4L19 7"
-                                            data-oid="_7wm7ci"
-                                        />
-                                    </svg>
-                                    Military-grade encryption
-                                </li>
-                                <li className="flex items-center" data-oid="akx.h_j">
-                                    <svg
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        className="h-5 w-5 text-green-500 mr-2"
-                                        fill="none"
-                                        viewBox="0 0 24 24"
-                                        stroke="currentColor"
-                                        data-oid="4zhzl:7"
-                                    >
-                                        <path
-                                            strokeLinecap="round"
-                                            strokeLinejoin="round"
-                                            strokeWidth={2}
-                                            d="M5 13l4 4L19 7"
-                                            data-oid="zmbp-38"
-                                        />
-                                    </svg>
-                                    100+ server locations
-                                </li>
-                                <li className="flex items-center" data-oid="-1-5wno">
-                                    <svg
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        className="h-5 w-5 text-green-500 mr-2"
-                                        fill="none"
-                                        viewBox="0 0 24 24"
-                                        stroke="currentColor"
-                                        data-oid="kasouo5"
-                                    >
-                                        <path
-                                            strokeLinecap="round"
-                                            strokeLinejoin="round"
-                                            strokeWidth={2}
-                                            d="M5 13l4 4L19 7"
-                                            data-oid="e5747-z"
-                                        />
-                                    </svg>
-                                    High-speed servers
-                                </li>
-                                <li className="flex items-center" data-oid="su-xu-7">
-                                    <svg
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        className="h-5 w-5 text-green-500 mr-2"
-                                        fill="none"
-                                        viewBox="0 0 24 24"
-                                        stroke="currentColor"
-                                        data-oid="ve_x10f"
-                                    >
-                                        <path
-                                            strokeLinecap="round"
-                                            strokeLinejoin="round"
-                                            strokeWidth={2}
-                                            d="M5 13l4 4L19 7"
-                                            data-oid="1t8vhlr"
-                                        />
-                                    </svg>
-                                    Ad-free experience
-                                </li>
-                                <li className="flex items-center" data-oid="qb0uxhr">
-                                    <svg
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        className="h-5 w-5 text-green-500 mr-2"
-                                        fill="none"
-                                        viewBox="0 0 24 24"
-                                        stroke="currentColor"
-                                        data-oid="a7ndof."
-                                    >
-                                        <path
-                                            strokeLinecap="round"
-                                            strokeLinejoin="round"
-                                            strokeWidth={2}
-                                            d="M5 13l4 4L19 7"
-                                            data-oid="road61l"
-                                        />
-                                    </svg>
-                                    5 devices simultaneously
-                                </li>
-                            </ul>
+                            <div
+                                className="bg-white text-purple-900 rounded-lg p-4 mb-6 shadow-inner"
+                                data-oid="k0.d8l1"
+                            >
+                                <h4
+                                    className="font-bold text-lg mb-3 text-center"
+                                    data-oid="k71574v"
+                                >
+                                    Premium Features:
+                                </h4>
+                                <ul className="space-y-3 list-disc pl-5" data-oid="g6v6kro">
+                                    <li className="font-medium" data-oid="phj-73h" key="olk-0unb">
+                                        Military-grade encryption
+                                    </li>
+                                    <li className="font-medium" data-oid="akx.h_j" key="olk-9tL1">
+                                        1000+ server locations worldwide
+                                    </li>
+                                    <li className="font-medium" data-oid="-1-5wno" key="olk-JvxF">
+                                        High-speed servers for streaming
+                                    </li>
+                                    <li className="font-medium" data-oid="su-xu-7" key="olk-MFn8">
+                                        Ad-free experience guaranteed
+                                    </li>
+                                </ul>
+                            </div>
                             <a
                                 href="https://play.google.com/store/apps/details?id=com.secure.cryptovpn&hl=en_IN"
                                 target="_blank"
@@ -740,7 +615,7 @@ export default function Page() {
                             className="bg-white rounded-xl p-6 border border-gray-200 shadow-lg hover:shadow-xl transition-all"
                             data-oid="i4whev1"
                         >
-                            <div className="text-center mb-6" data-oid="26dh_x4">
+                            <div className="text-center mb-6" data-oid="26dh_x4" key="olk-Zrjm">
                                 <h3
                                     className="text-xl font-bold mb-2 text-gray-800"
                                     data-oid="qhrn475"
@@ -757,112 +632,35 @@ export default function Page() {
                                     12 Months
                                 </p>
                             </div>
-                            <ul className="space-y-3 mb-6" data-oid="hzjm8pg">
-                                <li className="flex items-center text-gray-700" data-oid="wp4ihqr">
-                                    <svg
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        className="h-5 w-5 text-green-500 mr-2"
-                                        fill="none"
-                                        viewBox="0 0 24 24"
-                                        stroke="currentColor"
-                                        data-oid="lrqc39q"
-                                    >
-                                        <path
-                                            strokeLinecap="round"
-                                            strokeLinejoin="round"
-                                            strokeWidth={2}
-                                            d="M5 13l4 4L19 7"
-                                            data-oid="lxo1.y5"
-                                        />
-                                    </svg>
-                                    Everything in Premium
-                                </li>
-                                <li className="flex items-center" data-oid="dk7w4vw">
-                                    <svg
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        className="h-5 w-5 text-green-500 mr-2"
-                                        fill="none"
-                                        viewBox="0 0 24 24"
-                                        stroke="currentColor"
-                                        data-oid="mk--4eo"
-                                    >
-                                        <path
-                                            strokeLinecap="round"
-                                            strokeLinejoin="round"
-                                            strokeWidth={2}
-                                            d="M5 13l4 4L19 7"
-                                            data-oid="qhukww8"
-                                        />
-                                    </svg>
-                                    Dedicated IP option
-                                </li>
-                                <li className="flex items-center" data-oid="a9w_9m3">
-                                    <svg
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        className="h-5 w-5 text-green-500 mr-2"
-                                        fill="none"
-                                        viewBox="0 0 24 24"
-                                        stroke="currentColor"
-                                        data-oid="q83uwd5"
-                                    >
-                                        <path
-                                            strokeLinecap="round"
-                                            strokeLinejoin="round"
-                                            strokeWidth={2}
-                                            d="M5 13l4 4L19 7"
-                                            data-oid=".pijbtx"
-                                        />
-                                    </svg>
-                                    Priority support
-                                </li>
-                                <li className="flex items-center" data-oid="xzloepl">
-                                    <svg
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        className="h-5 w-5 text-green-500 mr-2"
-                                        fill="none"
-                                        viewBox="0 0 24 24"
-                                        stroke="currentColor"
-                                        data-oid="mj1b68o"
-                                    >
-                                        <path
-                                            strokeLinecap="round"
-                                            strokeLinejoin="round"
-                                            strokeWidth={2}
-                                            d="M5 13l4 4L19 7"
-                                            data-oid="z_6ry4."
-                                        />
-                                    </svg>
-                                    10 devices simultaneously
-                                </li>
-                                <li className="flex items-center" data-oid="71nn6ji">
-                                    <svg
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        className="h-5 w-5 text-green-500 mr-2"
-                                        fill="none"
-                                        viewBox="0 0 24 24"
-                                        stroke="currentColor"
-                                        data-oid="9h4.hh3"
-                                    >
-                                        <path
-                                            strokeLinecap="round"
-                                            strokeLinejoin="round"
-                                            strokeWidth={2}
-                                            d="M5 13l4 4L19 7"
-                                            data-oid="e2anr53"
-                                        />
-                                    </svg>
-                                    Team management console
-                                </li>
-                            </ul>
-                            <a
-                                href="https://play.google.com/store/apps/details?id=com.secure.cryptovpn&hl=en_IN"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="block text-center bg-purple-100 hover:bg-purple-200 text-purple-900 font-medium py-2 px-4 rounded-lg transition-colors border border-purple-200"
-                                data-oid="o_iuxut"
+                            <div
+                                className="bg-gray-100 text-gray-800 rounded-lg p-4 mb-6"
+                                data-oid="hzjm8pg"
+                                key="olk-pmRa"
                             >
-                                Get Business Plan
-                            </a>
+                                <h4
+                                    className="font-bold text-lg mb-3 text-center"
+                                    data-oid="vc4s5nh"
+                                >
+                                    Yearly Plan Features:
+                                </h4>
+                                <ul className="space-y-3 list-disc pl-5" data-oid="rtetkbm">
+                                    <li className="font-medium" data-oid="wp4ihqr">
+                                        All Premium features included
+                                    </li>
+                                    <li className="font-medium" data-oid="dk7w4vw">
+                                        Dedicated IP address option
+                                    </li>
+                                    <li className="font-medium" data-oid="a9w_9m3">
+                                        Priority customer support
+                                    </li>
+                                    <li className="font-medium" data-oid="xzloepl">
+                                        Connect up to 10 devices simultaneously
+                                    </li>
+                                    <li className="font-medium" data-oid="71nn6ji">
+                                        Team management console access
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
