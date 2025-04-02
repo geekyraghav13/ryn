@@ -15,7 +15,7 @@ export default function Page() {
             icon: (
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="h-10 w-10 text-indigo-600"
+                    className="h-10 w-10 text-teal-500"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -108,12 +108,12 @@ export default function Page() {
 
     return (
         <div
-            className="min-h-screen bg-gradient-to-b from-gray-900 to-indigo-900 text-white"
+            className="min-h-screen bg-gradient-to-b from-gray-900 to-teal-900 text-white"
             data-oid="gk5nwir"
         >
             {/* Header */}
             <header
-                className="sticky top-0 z-50 bg-gray-900 bg-opacity-90 backdrop-blur-sm"
+                className="sticky top-0 z-50 bg-gray-900 bg-opacity-90 backdrop-blur-sm border-b border-teal-800"
                 data-oid="uc2o63h"
             >
                 <div className="container mx-auto px-4 py-4" data-oid="jcushpy">
@@ -138,7 +138,7 @@ export default function Page() {
                         <nav className="hidden md:flex space-x-8" data-oid="d.3zqxm">
                             <a
                                 href="#home"
-                                className="hover:text-indigo-400 transition-colors"
+                                className="hover:text-teal-400 transition-colors"
                                 onClick={() => setActiveSection('home')}
                                 data-oid="cjri.7n"
                             >
@@ -199,7 +199,7 @@ export default function Page() {
                             href="https://play.google.com/store/apps/details?id=com.secure.cryptovpn&hl=en_IN"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="hidden md:block bg-indigo-600 hover:bg-indigo-700 text-white font-medium py-2 px-4 rounded-lg transition-colors"
+                            className="hidden md:block bg-teal-600 hover:bg-teal-700 text-white font-medium py-2 px-4 rounded-lg transition-colors"
                             data-oid="-3yr4ij"
                         >
                             Download Now
@@ -211,7 +211,7 @@ export default function Page() {
                         <nav className="md:hidden mt-4 space-y-3 pb-3" data-oid="7-cornf">
                             <a
                                 href="#home"
-                                className="block hover:text-indigo-400 transition-colors"
+                                className="block hover:text-teal-400 transition-colors"
                                 onClick={() => {
                                     setActiveSection('home');
                                     toggleMenu();
@@ -257,7 +257,7 @@ export default function Page() {
                                 href="https://play.google.com/store/apps/details?id=com.secure.cryptovpn&hl=en_IN"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="block bg-indigo-600 hover:bg-indigo-700 text-white font-medium py-2 px-4 rounded-lg transition-colors text-center mt-4"
+                                className="block bg-teal-600 hover:bg-teal-700 text-white font-medium py-2 px-4 rounded-lg transition-colors text-center mt-4"
                                 data-oid="ll4p2sh"
                             >
                                 Download Now
@@ -279,7 +279,7 @@ export default function Page() {
                             data-oid="jecz-8w"
                         >
                             Secure Your Online Privacy with{' '}
-                            <span className="text-indigo-400" data-oid="mi2r8l5">
+                            <span className="text-teal-400" data-oid="mi2r8l5">
                                 Ryn VPN
                             </span>
                         </h1>
@@ -292,7 +292,7 @@ export default function Page() {
                                 href="https://play.google.com/store/apps/details?id=com.secure.cryptovpn&hl=en_IN"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="bg-indigo-600 hover:bg-indigo-700 text-white font-medium py-3 px-6 rounded-lg transition-colors flex items-center justify-center gap-2"
+                                className="bg-teal-600 hover:bg-teal-700 text-white font-medium py-3 px-6 rounded-lg transition-colors flex items-center justify-center gap-2"
                                 data-oid="552ue-e"
                             >
                                 <svg
@@ -315,7 +315,7 @@ export default function Page() {
                             </a>
                             <a
                                 href="#features"
-                                className="border border-indigo-600 text-white hover:bg-indigo-600 font-medium py-3 px-6 rounded-lg transition-colors text-center"
+                                className="border border-teal-600 text-white hover:bg-teal-600 font-medium py-3 px-6 rounded-lg transition-colors text-center"
                                 data-oid="te_qkuf"
                             >
                                 Learn More
@@ -385,7 +385,7 @@ export default function Page() {
             {/* How It Works Section */}
             <section
                 id="how-it-works"
-                className="py-20 px-4 bg-indigo-900 bg-opacity-30"
+                className="py-20 px-4 bg-teal-900 bg-opacity-30"
                 data-oid="erbo4cq"
             >
                 <div className="container mx-auto max-w-6xl" data-oid="w-nqoar">
@@ -402,7 +402,7 @@ export default function Page() {
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8" data-oid="qi8fvqt">
                         <div className="bg-gray-800 rounded-xl p-6 text-center" data-oid="uznup8v">
                             <div
-                                className="w-16 h-16 bg-indigo-600 rounded-full flex items-center justify-center mx-auto mb-6"
+                                className="w-16 h-16 bg-teal-600 rounded-full flex items-center justify-center mx-auto mb-6"
                                 data-oid="ijjw2n1"
                             >
                                 <span className="text-2xl font-bold" data-oid="-7zfzqz">
@@ -573,12 +573,12 @@ export default function Page() {
                         </div>
 
                         <div
-                            className="bg-indigo-900 rounded-xl p-6 border-2 border-indigo-600 transform md:scale-105 z-10 shadow-xl"
+                            className="bg-teal-900 rounded-xl p-6 border-2 border-teal-600 transform md:scale-105 z-10 shadow-xl"
                             data-oid="ubww:58"
                         >
                             <div className="text-center mb-6" data-oid="xa21-5a">
                                 <div
-                                    className="bg-indigo-600 text-white text-sm font-medium py-1 px-3 rounded-full inline-block mb-2"
+                                    className="bg-teal-600 text-white text-sm font-medium py-1 px-3 rounded-full inline-block mb-2"
                                     data-oid="q01pcql"
                                 >
                                     MOST POPULAR
@@ -694,7 +694,7 @@ export default function Page() {
                                 href="https://play.google.com/store/apps/details?id=com.secure.cryptovpn&hl=en_IN"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="block text-center bg-indigo-600 hover:bg-indigo-700 text-white font-medium py-2 px-4 rounded-lg transition-colors"
+                                className="block text-center bg-teal-600 hover:bg-teal-700 text-white font-medium py-2 px-4 rounded-lg transition-colors"
                                 data-oid="e.vtqww"
                             >
                                 Get Premium
@@ -828,7 +828,7 @@ export default function Page() {
             </section>
 
             {/* Download CTA Section */}
-            <section className="py-20 px-4 bg-indigo-800" data-oid="9zuaq2.">
+            <section className="py-20 px-4 bg-teal-800" data-oid="9zuaq2.">
                 <div className="container mx-auto max-w-4xl text-center" data-oid="1l:..k0">
                     <h2 className="text-3xl md:text-4xl font-bold mb-6" data-oid=":5_o18u">
                         Ready to Secure Your Online Privacy?
