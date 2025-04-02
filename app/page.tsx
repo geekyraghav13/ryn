@@ -954,7 +954,9 @@ export default function Page() {
                                 </svg>
                             </a>
                             <a
-                                href="#"
+                                href="https://www.youtube.com/@RynVpn"
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 className="text-gray-400 hover:text-white transition-colors"
                                 data-oid="k5.ai28"
                             >
