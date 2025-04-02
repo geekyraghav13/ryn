@@ -146,7 +146,7 @@ export default function Page() {
                         <nav className="hidden md:flex space-x-8" data-oid="dr_4yxd">
                             <a
                                 href="#home"
-                                className="text-gray-700 hover:text-purple-700 transition-colors"
+                                className="text-gray-700 hover:text-purple-700 transition-colors font-bold"
                                 onClick={() => setActiveSection('home')}
                                 data-oid="dgdh6tw"
                             >
@@ -154,7 +154,7 @@ export default function Page() {
                             </a>
                             <a
                                 href="#features"
-                                className="text-gray-700 hover:text-purple-700 transition-colors"
+                                className="text-gray-700 hover:text-purple-700 transition-colors font-bold"
                                 onClick={() => setActiveSection('features')}
                                 data-oid="_-o_3po"
                             >
@@ -162,7 +162,7 @@ export default function Page() {
                             </a>
                             <a
                                 href="#how-it-works"
-                                className="text-gray-700 hover:text-purple-700 transition-colors"
+                                className="text-gray-700 hover:text-purple-700 transition-colors font-bold"
                                 onClick={() => setActiveSection('how-it-works')}
                                 data-oid="rvz9.pz"
                             >
@@ -170,7 +170,7 @@ export default function Page() {
                             </a>
                             <a
                                 href="#pricing"
-                                className="text-gray-700 hover:text-purple-700 transition-colors"
+                                className="text-gray-700 hover:text-purple-700 transition-colors font-bold"
                                 onClick={() => setActiveSection('pricing')}
                                 data-oid="kfn9458"
                             >
@@ -223,7 +223,7 @@ export default function Page() {
                         <nav className="md:hidden mt-4 space-y-3 pb-3" data-oid="cxigow7">
                             <a
                                 href="#home"
-                                className="block text-gray-700 hover:text-purple-700 transition-colors"
+                                className="block text-gray-700 hover:text-purple-700 transition-colors font-bold"
                                 onClick={() => {
                                     setActiveSection('home');
                                     toggleMenu();
@@ -234,7 +234,7 @@ export default function Page() {
                             </a>
                             <a
                                 href="#features"
-                                className="block text-gray-700 hover:text-purple-700 transition-colors"
+                                className="block text-gray-700 hover:text-purple-700 transition-colors font-bold"
                                 onClick={() => {
                                     setActiveSection('features');
                                     toggleMenu();
@@ -245,7 +245,7 @@ export default function Page() {
                             </a>
                             <a
                                 href="#how-it-works"
-                                className="block text-gray-700 hover:text-purple-700 transition-colors"
+                                className="block text-gray-700 hover:text-purple-700 transition-colors font-bold"
                                 onClick={() => {
                                     setActiveSection('how-it-works');
                                     toggleMenu();
@@ -256,7 +256,7 @@ export default function Page() {
                             </a>
                             <a
                                 href="#pricing"
-                                className="block text-gray-700 hover:text-purple-700 transition-colors"
+                                className="block text-gray-700 hover:text-purple-700 transition-colors font-bold"
                                 onClick={() => {
                                     setActiveSection('pricing');
                                     toggleMenu();
