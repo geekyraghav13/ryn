@@ -467,13 +467,24 @@ export default function Page() {
             </section>
 
             {/* Pricing Section */}
-            <section id="pricing" className="py-20 px-4 bg-gray-900" data-oid="215q35i">
-                <div className="container mx-auto max-w-6xl" data-oid="r_opb8z">
+            <section
+                id="pricing"
+                className="py-20 px-4 bg-white text-gray-900 relative"
+                data-oid="215q35i"
+            >
+                <div
+                    className="absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(168,85,247,0.1)_0%,_transparent_70%)]"
+                    data-oid="::hv08:"
+                ></div>
+                <div className="container mx-auto max-w-6xl relative z-10" data-oid="r_opb8z">
                     <div className="text-center mb-16" data-oid="prcxjc3">
-                        <h2 className="text-3xl md:text-4xl font-bold mb-4" data-oid="zssujj6">
+                        <h2
+                            className="text-3xl md:text-4xl font-bold mb-4 text-purple-900"
+                            data-oid="zssujj6"
+                        >
                             Simple, Transparent Pricing
                         </h2>
-                        <p className="text-xl text-gray-300 max-w-3xl mx-auto" data-oid="a:pvlk9">
+                        <p className="text-xl text-gray-600 max-w-3xl mx-auto" data-oid="a:pvlk9">
                             Choose the plan that works best for you. All plans include our core
                             features.
                         </p>
@@ -481,22 +492,28 @@ export default function Page() {
 
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8" data-oid="437qkp5">
                         <div
-                            className="bg-gray-800 rounded-xl p-6 border border-white border-opacity-10"
+                            className="bg-white rounded-xl p-6 border border-gray-200 shadow-lg hover:shadow-xl transition-all"
                             data-oid="-2-obqf"
                         >
                             <div className="text-center mb-6" data-oid="50mm654">
-                                <h3 className="text-xl font-bold mb-2" data-oid="tfd-c0w">
+                                <h3
+                                    className="text-xl font-bold mb-2 text-gray-800"
+                                    data-oid="tfd-c0w"
+                                >
                                     Free
                                 </h3>
-                                <div className="text-4xl font-bold mb-2" data-oid="zkbht5:">
+                                <div
+                                    className="text-4xl font-bold mb-2 text-purple-900"
+                                    data-oid="zkbht5:"
+                                >
                                     $0
                                 </div>
-                                <p className="text-gray-400" data-oid="r4edc9w">
+                                <p className="text-gray-500" data-oid="r4edc9w">
                                     Limited features
                                 </p>
                             </div>
                             <ul className="space-y-3 mb-6" data-oid="e9-kjud">
-                                <li className="flex items-center" data-oid="occ3jxn">
+                                <li className="flex items-center text-gray-700" data-oid="occ3jxn">
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
                                         className="h-5 w-5 text-green-500 mr-2"
@@ -577,7 +594,7 @@ export default function Page() {
                                 href="https://play.google.com/store/apps/details?id=com.secure.cryptovpn&hl=en_IN"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="block text-center bg-gray-700 hover:bg-gray-600 text-white font-medium py-2 px-4 rounded-lg transition-colors"
+                                className="block text-center bg-purple-100 hover:bg-purple-200 text-purple-900 font-medium py-2 px-4 rounded-lg transition-colors border border-purple-200"
                                 data-oid="vcj:-mm"
                             >
                                 Download Free
@@ -585,23 +602,29 @@ export default function Page() {
                         </div>
 
                         <div
-                            className="bg-purple-900 rounded-xl p-6 border-2 border-purple-600 transform md:scale-105 z-10 shadow-xl ring-2 ring-white ring-opacity-10"
+                            className="bg-purple-900 rounded-xl p-6 border-2 border-purple-600 transform md:scale-105 z-10 shadow-2xl text-white ring-4 ring-purple-200"
                             data-oid="ubww:58"
                         >
                             <div className="text-center mb-6" data-oid="xa21-5a">
                                 <div
-                                    className="bg-purple-600 text-white text-sm font-medium py-1 px-3 rounded-full inline-block mb-2"
+                                    className="bg-white text-purple-900 text-sm font-bold py-1 px-3 rounded-full inline-block mb-2 shadow-md"
                                     data-oid="q01pcql"
                                 >
                                     MOST POPULAR
                                 </div>
-                                <h3 className="text-xl font-bold mb-2" data-oid="ww0fyxb">
+                                <h3
+                                    className="text-xl font-bold mb-2 text-white"
+                                    data-oid="ww0fyxb"
+                                >
                                     Premium
                                 </h3>
-                                <div className="text-4xl font-bold mb-2" data-oid="8l0dw_x">
-                                    $7.99
+                                <div
+                                    className="text-4xl font-bold mb-2 text-white"
+                                    data-oid="8l0dw_x"
+                                >
+                                    ₹999.00/mo
                                 </div>
-                                <p className="text-gray-300" data-oid="1vq.zwt">
+                                <p className="text-purple-200" data-oid="1vq.zwt">
                                     per month
                                 </p>
                             </div>
@@ -714,22 +737,28 @@ export default function Page() {
                         </div>
 
                         <div
-                            className="bg-gray-800 rounded-xl p-6 border border-white border-opacity-10"
+                            className="bg-white rounded-xl p-6 border border-gray-200 shadow-lg hover:shadow-xl transition-all"
                             data-oid="i4whev1"
                         >
                             <div className="text-center mb-6" data-oid="26dh_x4">
-                                <h3 className="text-xl font-bold mb-2" data-oid="qhrn475">
-                                    Business
+                                <h3
+                                    className="text-xl font-bold mb-2 text-gray-800"
+                                    data-oid="qhrn475"
+                                >
+                                    Yearly Plan
                                 </h3>
-                                <div className="text-4xl font-bold mb-2" data-oid="g3_op1m">
-                                    $12.99
+                                <div
+                                    className="text-4xl font-bold mb-2 text-purple-900"
+                                    data-oid="g3_op1m"
+                                >
+                                    ₹4450.00/mo
                                 </div>
-                                <p className="text-gray-400" data-oid="2xc-q72">
-                                    per month
+                                <p className="text-gray-500" data-oid="2xc-q72">
+                                    12 Months
                                 </p>
                             </div>
                             <ul className="space-y-3 mb-6" data-oid="hzjm8pg">
-                                <li className="flex items-center" data-oid="wp4ihqr">
+                                <li className="flex items-center text-gray-700" data-oid="wp4ihqr">
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
                                         className="h-5 w-5 text-green-500 mr-2"
@@ -829,7 +858,7 @@ export default function Page() {
                                 href="https://play.google.com/store/apps/details?id=com.secure.cryptovpn&hl=en_IN"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="block text-center bg-gray-700 hover:bg-gray-600 text-white font-medium py-2 px-4 rounded-lg transition-colors"
+                                className="block text-center bg-purple-100 hover:bg-purple-200 text-purple-900 font-medium py-2 px-4 rounded-lg transition-colors border border-purple-200"
                                 data-oid="o_iuxut"
                             >
                                 Get Business Plan
