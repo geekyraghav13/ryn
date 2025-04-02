@@ -121,7 +121,7 @@ export default function Page() {
         >
             {/* Header */}
             <header
-                className="sticky top-0 z-50 bg-gray-900 bg-opacity-90 backdrop-blur-sm border-b border-white border-opacity-10"
+                className="sticky top-0 z-50 bg-white shadow-md border-b border-purple-100"
                 data-oid="j2pnr23"
             >
                 <div className="container mx-auto px-4 py-4" data-oid="0ywnk.0">
@@ -137,7 +137,7 @@ export default function Page() {
                                     data-oid="xwh3_jz"
                                 />
                             </div>
-                            <span className="text-xl font-bold text-white" data-oid="7vtr7jy">
+                            <span className="text-xl font-bold text-purple-800" data-oid="7vtr7jy">
                                 Ryn VPN
                             </span>
                         </div>
@@ -146,7 +146,7 @@ export default function Page() {
                         <nav className="hidden md:flex space-x-8" data-oid="dr_4yxd">
                             <a
                                 href="#home"
-                                className="hover:text-teal-400 transition-colors"
+                                className="text-gray-700 hover:text-purple-700 transition-colors"
                                 onClick={() => setActiveSection('home')}
                                 data-oid="dgdh6tw"
                             >
@@ -154,7 +154,7 @@ export default function Page() {
                             </a>
                             <a
                                 href="#features"
-                                className="hover:text-purple-400 transition-colors"
+                                className="text-gray-700 hover:text-purple-700 transition-colors"
                                 onClick={() => setActiveSection('features')}
                                 data-oid="_-o_3po"
                             >
@@ -162,7 +162,7 @@ export default function Page() {
                             </a>
                             <a
                                 href="#how-it-works"
-                                className="hover:text-indigo-400 transition-colors"
+                                className="text-gray-700 hover:text-purple-700 transition-colors"
                                 onClick={() => setActiveSection('how-it-works')}
                                 data-oid="rvz9.pz"
                             >
@@ -170,7 +170,7 @@ export default function Page() {
                             </a>
                             <a
                                 href="#pricing"
-                                className="hover:text-indigo-400 transition-colors"
+                                className="text-gray-700 hover:text-purple-700 transition-colors"
                                 onClick={() => setActiveSection('pricing')}
                                 data-oid="kfn9458"
                             >
@@ -179,7 +179,11 @@ export default function Page() {
                         </nav>
 
                         {/* Mobile Menu Button */}
-                        <button className="md:hidden" onClick={toggleMenu} data-oid="1lmsq5s">
+                        <button
+                            className="md:hidden text-purple-800"
+                            onClick={toggleMenu}
+                            data-oid="1lmsq5s"
+                        >
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 className="h-6 w-6"
@@ -219,7 +223,7 @@ export default function Page() {
                         <nav className="md:hidden mt-4 space-y-3 pb-3" data-oid="cxigow7">
                             <a
                                 href="#home"
-                                className="block hover:text-purple-400 transition-colors"
+                                className="block text-gray-700 hover:text-purple-700 transition-colors"
                                 onClick={() => {
                                     setActiveSection('home');
                                     toggleMenu();
@@ -230,7 +234,7 @@ export default function Page() {
                             </a>
                             <a
                                 href="#features"
-                                className="block hover:text-indigo-400 transition-colors"
+                                className="block text-gray-700 hover:text-purple-700 transition-colors"
                                 onClick={() => {
                                     setActiveSection('features');
                                     toggleMenu();
@@ -241,7 +245,7 @@ export default function Page() {
                             </a>
                             <a
                                 href="#how-it-works"
-                                className="block hover:text-indigo-400 transition-colors"
+                                className="block text-gray-700 hover:text-purple-700 transition-colors"
                                 onClick={() => {
                                     setActiveSection('how-it-works');
                                     toggleMenu();
@@ -252,7 +256,7 @@ export default function Page() {
                             </a>
                             <a
                                 href="#pricing"
-                                className="block hover:text-indigo-400 transition-colors"
+                                className="block text-gray-700 hover:text-purple-700 transition-colors"
                                 onClick={() => {
                                     setActiveSection('pricing');
                                     toggleMenu();
@@ -913,7 +917,7 @@ export default function Page() {
 
             {/* Footer */}
             <footer
-                className="bg-gray-900 py-12 px-4 border-t border-white border-opacity-5"
+                className="bg-white py-12 px-4 border-t border-purple-100 shadow-inner"
                 data-oid="h:j9vxo"
             >
                 <div className="container mx-auto max-w-6xl" data-oid="y3kmh:e">
@@ -928,11 +932,14 @@ export default function Page() {
                                         data-oid="jpzw977"
                                     />
                                 </div>
-                                <span className="text-xl font-bold text-white" data-oid="h7q09_0">
+                                <span
+                                    className="text-xl font-bold text-purple-800"
+                                    data-oid="h7q09_0"
+                                >
                                     Ryn VPN
                                 </span>
                             </div>
-                            <p className="text-gray-400 mb-4" data-oid=":wvj_mh">
+                            <p className="text-gray-600 mb-4" data-oid=":wvj_mh">
                                 Secure, fast, and reliable VPN service for all your devices.
                             </p>
                             <div className="flex flex-col gap-3" data-oid="dmye835">
@@ -969,14 +976,17 @@ export default function Page() {
                             </div>
                         </div>
                         <div data-oid="u7aw0vb">
-                            <h3 className="text-lg font-bold mb-4 text-white" data-oid="ztqxn47">
+                            <h3
+                                className="text-lg font-bold mb-4 text-purple-800"
+                                data-oid="ztqxn47"
+                            >
                                 Company
                             </h3>
                             <ul className="space-y-2" data-oid="zu_r3xa">
                                 <li data-oid="6x3xr3q">
                                     <a
                                         href="#"
-                                        className="text-gray-400 hover:text-white transition-colors"
+                                        className="text-gray-600 hover:text-purple-700 transition-colors"
                                         data-oid="jwl3syr"
                                     >
                                         About Us
@@ -985,7 +995,7 @@ export default function Page() {
                                 <li data-oid="nt0epcs">
                                     <a
                                         href="#"
-                                        className="text-gray-400 hover:text-white transition-colors"
+                                        className="text-gray-600 hover:text-purple-700 transition-colors"
                                         data-oid="_ag4.bc"
                                     >
                                         Blog
@@ -995,7 +1005,7 @@ export default function Page() {
                                 <li data-oid="x8opfr0">
                                     <a
                                         href="#"
-                                        className="text-gray-400 hover:text-white transition-colors"
+                                        className="text-gray-600 hover:text-purple-700 transition-colors"
                                         data-oid=":qxtht2"
                                     >
                                         Press
@@ -1004,14 +1014,17 @@ export default function Page() {
                             </ul>
                         </div>
                         <div data-oid="7mh0xw2">
-                            <h3 className="text-lg font-bold mb-4 text-white" data-oid="tawx14j">
+                            <h3
+                                className="text-lg font-bold mb-4 text-purple-800"
+                                data-oid="tawx14j"
+                            >
                                 Support
                             </h3>
                             <ul className="space-y-2" data-oid="69208k0">
                                 <li data-oid="twxokf.">
                                     <a
                                         href="#"
-                                        className="text-gray-400 hover:text-white transition-colors"
+                                        className="text-gray-600 hover:text-purple-700 transition-colors"
                                         data-oid="9f3m0:e"
                                     >
                                         Help Center
@@ -1020,7 +1033,7 @@ export default function Page() {
                                 <li data-oid="2sw0e8u">
                                     <a
                                         href="#"
-                                        className="text-gray-400 hover:text-white transition-colors"
+                                        className="text-gray-600 hover:text-purple-700 transition-colors"
                                         data-oid="7q3lh:q"
                                     >
                                         Contact Us
@@ -1029,7 +1042,7 @@ export default function Page() {
                                 <li data-oid="wmfzffq">
                                     <a
                                         href="#"
-                                        className="text-gray-400 hover:text-white transition-colors"
+                                        className="text-gray-600 hover:text-purple-700 transition-colors"
                                         data-oid="surklo3"
                                     >
                                         FAQs
@@ -1038,7 +1051,7 @@ export default function Page() {
                                 <li data-oid="mxcn::2">
                                     <a
                                         href="#"
-                                        className="text-gray-400 hover:text-white transition-colors"
+                                        className="text-gray-600 hover:text-purple-700 transition-colors"
                                         data-oid=":-pd:8o"
                                     >
                                         Server Status
@@ -1047,7 +1060,10 @@ export default function Page() {
                             </ul>
                         </div>
                         <div data-oid="an.-.7w">
-                            <h3 className="text-lg font-bold mb-4 text-white" data-oid="dwhpuhu">
+                            <h3
+                                className="text-lg font-bold mb-4 text-purple-800"
+                                data-oid="dwhpuhu"
+                            >
                                 Legal
                             </h3>
                             <ul className="space-y-2" data-oid="w.ws21a">
@@ -1055,7 +1071,7 @@ export default function Page() {
                                 <li data-oid="fb_cro9">
                                     <a
                                         href="#"
-                                        className="text-gray-400 hover:text-white transition-colors"
+                                        className="text-gray-600 hover:text-purple-700 transition-colors"
                                         data-oid="47hvcg:"
                                     >
                                         Terms of Service
@@ -1064,10 +1080,13 @@ export default function Page() {
                             </ul>
                         </div>
                         <div data-oid="f5zver5">
-                            <h3 className="text-lg font-bold mb-4 text-white" data-oid="24d42bj">
+                            <h3
+                                className="text-lg font-bold mb-4 text-purple-800"
+                                data-oid="24d42bj"
+                            >
                                 Contact Us
                             </h3>
-                            <div className="text-gray-400 space-y-2" data-oid="1o_dk-z">
+                            <div className="text-gray-600 space-y-2" data-oid="1o_dk-z">
                                 <p data-oid="ar_pb5_">Human Data Systems Private Limited,</p>
                                 <p data-oid="5l2ivup">H NO.-8/9, BASEMENT ROAD-8,</p>
                                 <p data-oid="0pjbq7m">SARVPRIYA VIHAR NEW DELHI South Delhi DL</p>
@@ -1085,16 +1104,16 @@ export default function Page() {
                         </div>
                     </div>
                     <div
-                        className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center"
+                        className="border-t border-purple-100 pt-8 flex flex-col md:flex-row justify-between items-center"
                         data-oid="r-8rgkk"
                     >
-                        <div className="text-gray-400 mb-4 md:mb-0" data-oid="tnpey07">
+                        <div className="text-gray-600 mb-4 md:mb-0" data-oid="tnpey07">
                             © 2025 Ryn VPN - All Rights Reserved.
                         </div>
                         <div className="flex space-x-4" data-oid="4hoh0ir">
                             <a
                                 href="#"
-                                className="text-gray-400 hover:text-white transition-colors"
+                                className="text-purple-600 hover:text-purple-800 transition-colors"
                                 data-oid="pvtlu0l"
                             >
                                 <svg
@@ -1114,7 +1133,7 @@ export default function Page() {
                                 href="https://x.com/VpnRyn"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="text-gray-400 hover:text-white transition-colors"
+                                className="text-purple-600 hover:text-purple-800 transition-colors"
                                 data-oid="p74adcg"
                             >
                                 <svg
@@ -1132,7 +1151,7 @@ export default function Page() {
                             </a>
                             <a
                                 href="#"
-                                className="text-gray-400 hover:text-white transition-colors"
+                                className="text-purple-600 hover:text-purple-800 transition-colors"
                                 data-oid="lhl42.k"
                             >
                                 <svg
@@ -1152,7 +1171,7 @@ export default function Page() {
                                 href="https://www.youtube.com/@RynVpn"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="text-gray-400 hover:text-white transition-colors"
+                                className="text-purple-600 hover:text-purple-800 transition-colors"
                                 data-oid="qidad76"
                             >
                                 <svg
