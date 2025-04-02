@@ -327,12 +327,21 @@ export default function Page() {
                             className="relative shadow-2xl rounded-3xl overflow-hidden max-w-[90%]"
                             data-oid="yidf:aa"
                         >
-                            <img
-                                src="https://placehold.co/300x600/indigo/white?text=Ryn+VPN+App"
-                                alt="Ryn VPN App Mockup"
-                                className="w-full h-auto max-h-[550px] object-cover"
-                                data-oid="6c80hwd"
-                            />
+                            <div className="relative" data-oid="ah6yp.c">
+                                <img
+                                    src="/vpn-app-mockup.png"
+                                    alt="Ryn VPN App Mockup"
+                                    className="w-full h-auto max-h-[550px] object-contain"
+                                    data-oid="6c80hwd"
+                                />
+
+                                <div
+                                    className="absolute bottom-0 left-0 right-0 text-center pb-4 text-purple-600 font-bold text-xl"
+                                    data-oid="d3-6eds"
+                                >
+                                    Access Content Worldwide
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
