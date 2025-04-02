@@ -120,14 +120,27 @@ export default function Page() {
                     <div className="flex justify-between items-center" data-oid="ls.ixbo">
                         {/* Logo */}
                         <div className="flex items-center space-x-2" data-oid="ot_d.mh">
-                            {/* Replace with actual logo */}
+                            {/* VPN Logo */}
                             <div
-                                className="h-10 w-10 rounded-full bg-indigo-600 flex items-center justify-center"
+                                className="h-10 w-10 rounded-full bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center overflow-hidden"
                                 data-oid="4ggvl6b"
                             >
-                                <span className="font-bold text-xl" data-oid="na8xw1t">
-                                    R
-                                </span>
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    strokeWidth="2"
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
+                                    className="h-6 w-6 text-white"
+                                    data-oid="na8xw1t"
+                                >
+                                    <path
+                                        d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"
+                                        data-oid="snpxdzu"
+                                    />
+                                </svg>
                             </div>
                             <span className="text-xl font-bold" data-oid="ukg8w9e">
                                 Ryn VPN
