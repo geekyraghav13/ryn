@@ -716,6 +716,126 @@ export default function Page() {
                 </div>
             </section>
 
+            {/* FAQ Section */}
+            <section id="faq" className="py-20 px-4 bg-gray-900" data-oid="faq-section">
+                <div className="container mx-auto max-w-4xl" data-oid="u49z9_5">
+                    <div className="text-center mb-16" data-oid="u741dwm">
+                        <h2
+                            className="text-3xl md:text-4xl font-bold mb-4 text-white"
+                            data-oid="8vcta.n"
+                        >
+                            Frequently Asked Questions
+                        </h2>
+                        <p className="text-xl text-gray-300 max-w-3xl mx-auto" data-oid="_zl4e9j">
+                            Get answers to the most common questions about Ryn VPN and online
+                            security
+                        </p>
+                    </div>
+
+                    <div className="space-y-6" data-oid="6a:ujef">
+                        {/* FAQ Item 1 */}
+                        <div
+                            className="bg-gray-800 rounded-xl p-6 border border-white border-opacity-5 hover:border-purple-500 transition-colors"
+                            data-oid="_qo3k0l"
+                        >
+                            <h3 className="text-xl font-bold mb-3 text-white" data-oid="yqdva68">
+                                What is a VPN and why do I need one for online privacy?
+                            </h3>
+                            <p className="text-gray-300" data-oid="d1z5n:t">
+                                A VPN (Virtual Private Network) creates an encrypted tunnel for your
+                                internet traffic, protecting your data from hackers, ISPs, and
+                                surveillance. Ryn VPN ensures your online privacy by masking your IP
+                                address and encrypting your connection with military-grade
+                                encryption, preventing anyone from monitoring your online activities
+                                or stealing sensitive information like passwords and credit card
+                                details.
+                            </p>
+                        </div>
+
+                        {/* FAQ Item 2 */}
+                        <div
+                            className="bg-gray-800 rounded-xl p-6 border border-white border-opacity-5 hover:border-purple-500 transition-colors"
+                            data-oid="qwobdzf"
+                        >
+                            <h3 className="text-xl font-bold mb-3 text-white" data-oid=".m5p.gz">
+                                Does Ryn VPN keep logs of my browsing history?
+                            </h3>
+                            <p className="text-gray-300" data-oid="f3x6c1e">
+                                No, Ryn VPN follows a strict no-logs policy. We do not track,
+                                collect, or store any information about your online activities,
+                                browsing history, or data content. Our secure VPN service is
+                                designed with your privacy as the top priority, ensuring complete
+                                anonymity while you browse. This zero-logs approach means there's no
+                                record of your digital footprint that could be compromised or shared
+                                with third parties.
+                            </p>
+                        </div>
+
+                        {/* FAQ Item 3 */}
+                        <div
+                            className="bg-gray-800 rounded-xl p-6 border border-white border-opacity-5 hover:border-purple-500 transition-colors"
+                            data-oid=":ik3cr9"
+                        >
+                            <h3 className="text-xl font-bold mb-3 text-white" data-oid="yz.j9s5">
+                                Can I use Ryn VPN to access geo-restricted content and streaming
+                                services?
+                            </h3>
+                            <p className="text-gray-300" data-oid="d:tu9ol">
+                                Yes, Ryn VPN allows you to bypass geo-restrictions and access
+                                content from anywhere in the world. With our global network of
+                                high-speed servers across multiple countries, you can unblock
+                                websites, streaming platforms like Netflix, Hulu, Disney+, and BBC
+                                iPlayer, and other region-locked content. Our optimized servers
+                                ensure smooth streaming without buffering, making it perfect for
+                                watching your favorite shows while traveling or accessing content
+                                not available in your region.
+                            </p>
+                        </div>
+
+                        {/* FAQ Item 4 */}
+                        <div
+                            className="bg-gray-800 rounded-xl p-6 border border-white border-opacity-5 hover:border-purple-500 transition-colors"
+                            data-oid="17uj5tu"
+                        >
+                            <h3 className="text-xl font-bold mb-3 text-white" data-oid="0dm5xbm">
+                                How does Ryn VPN protect me on public Wi-Fi networks?
+                            </h3>
+                            <p className="text-gray-300" data-oid="fu.za6o">
+                                Public Wi-Fi networks are notorious hotspots for cybercriminals. Ryn
+                                VPN protects you by creating a secure encrypted tunnel for your
+                                data, preventing hackers from intercepting your information even on
+                                unsecured networks. Our VPN security features include protection
+                                against man-in-the-middle attacks, data sniffing, and packet
+                                analysis. With Ryn VPN active, you can safely use airport, hotel,
+                                café, or any public Wi-Fi without worrying about your sensitive data
+                                being compromised.
+                            </p>
+                        </div>
+
+                        {/* FAQ Item 5 */}
+                        <div
+                            className="bg-gray-800 rounded-xl p-6 border border-white border-opacity-5 hover:border-purple-500 transition-colors"
+                            data-oid="tetyqon"
+                        >
+                            <h3 className="text-xl font-bold mb-3 text-white" data-oid="fz.pvtl">
+                                Will using a VPN slow down my internet connection?
+                            </h3>
+                            <p className="text-gray-300" data-oid="ox0fv_a">
+                                While all VPNs can affect speed due to encryption, Ryn VPN is
+                                designed to minimize this impact. Our high-speed VPN servers are
+                                optimized for performance with unlimited bandwidth and no
+                                throttling. Many users experience minimal to no noticeable
+                                difference in speed when using our service. For the best
+                                performance, we recommend connecting to servers closest to your
+                                physical location. Our Premium plan includes access to our fastest
+                                servers specifically optimized for streaming, gaming, and
+                                downloading large files.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             {/* Footer */}
             <footer
                 className="bg-gray-900 py-12 px-4 border-t border-white border-opacity-5"
