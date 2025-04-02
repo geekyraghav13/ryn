@@ -113,7 +113,7 @@ export default function Page() {
         >
             {/* Header */}
             <header
-                className="sticky top-0 z-50 bg-gray-900 bg-opacity-90 backdrop-blur-sm border-b border-purple-800"
+                className="sticky top-0 z-50 bg-gray-900 bg-opacity-90 backdrop-blur-sm border-b border-white border-opacity-10"
                 data-oid="uc2o63h"
             >
                 <div className="container mx-auto px-4 py-4" data-oid="jcushpy">
@@ -129,7 +129,7 @@ export default function Page() {
                                     data-oid="q7o:h4a"
                                 />
                             </div>
-                            <span className="text-xl font-bold" data-oid="ukg8w9e">
+                            <span className="text-xl font-bold text-white" data-oid="ukg8w9e">
                                 Ryn VPN
                             </span>
                         </div>
@@ -275,7 +275,7 @@ export default function Page() {
                 >
                     <div className="md:w-1/2 mb-10 md:mb-0" data-oid="_6a8zj6">
                         <h1
-                            className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight"
+                            className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight text-white drop-shadow-md"
                             data-oid="jecz-8w"
                         >
                             Secure Your Online Privacy with{' '}
@@ -324,7 +324,7 @@ export default function Page() {
                     </div>
                     <div className="md:w-1/2 flex justify-center items-center" data-oid="iuzmlu1">
                         <div
-                            className="relative shadow-2xl rounded-3xl overflow-hidden max-w-[90%]"
+                            className="relative shadow-2xl rounded-3xl overflow-hidden max-w-[90%] border border-white border-opacity-20"
                             data-oid="yidf:aa"
                         >
                             <div className="relative" data-oid="ah6yp.c">
@@ -351,7 +351,10 @@ export default function Page() {
             <section id="features" className="py-20 px-4 bg-gray-900" data-oid="woifl1c">
                 <div className="container mx-auto max-w-6xl" data-oid="0_4:w64">
                     <div className="text-center mb-16" data-oid="pyw6ho7">
-                        <h2 className="text-3xl md:text-4xl font-bold mb-4" data-oid="ydh0ogb">
+                        <h2
+                            className="text-3xl md:text-4xl font-bold mb-4 text-white drop-shadow-sm"
+                            data-oid="ydh0ogb"
+                        >
                             Why Choose Ryn VPN?
                         </h2>
                         <p className="text-xl text-gray-300 max-w-3xl mx-auto" data-oid="ru_10bz">
@@ -364,7 +367,7 @@ export default function Page() {
                         {features.map((feature, index) => (
                             <div
                                 key={index}
-                                className="bg-gray-800 rounded-xl p-6 hover:bg-gray-750 transition-colors"
+                                className="bg-gray-800 rounded-xl p-6 hover:bg-gray-750 transition-colors border border-white border-opacity-5 hover:border-opacity-10"
                                 data-oid="izaxeao"
                             >
                                 <div className="mb-4" data-oid="91g0nr0">
@@ -400,7 +403,10 @@ export default function Page() {
                     </div>
 
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8" data-oid="qi8fvqt">
-                        <div className="bg-gray-800 rounded-xl p-6 text-center" data-oid="uznup8v">
+                        <div
+                            className="bg-gray-800 rounded-xl p-6 text-center border border-white border-opacity-5"
+                            data-oid="uznup8v"
+                        >
                             <div
                                 className="w-16 h-16 bg-teal-600 rounded-full flex items-center justify-center mx-auto mb-6"
                                 data-oid="ijjw2n1"
@@ -417,7 +423,10 @@ export default function Page() {
                                 device.
                             </p>
                         </div>
-                        <div className="bg-gray-800 rounded-xl p-6 text-center" data-oid="9c:-q-8">
+                        <div
+                            className="bg-gray-800 rounded-xl p-6 text-center border border-white border-opacity-5"
+                            data-oid="9c:-q-8"
+                        >
                             <div
                                 className="w-16 h-16 bg-purple-600 rounded-full flex items-center justify-center mx-auto mb-6"
                                 data-oid="fpgk-xm"
@@ -434,7 +443,10 @@ export default function Page() {
                                 tap.
                             </p>
                         </div>
-                        <div className="bg-gray-800 rounded-xl p-6 text-center" data-oid="z6:mn0j">
+                        <div
+                            className="bg-gray-800 rounded-xl p-6 text-center border border-white border-opacity-5"
+                            data-oid="z6:mn0j"
+                        >
                             <div
                                 className="w-16 h-16 bg-indigo-600 rounded-full flex items-center justify-center mx-auto mb-6"
                                 data-oid="s_7zs.l"
@@ -469,7 +481,7 @@ export default function Page() {
 
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8" data-oid="437qkp5">
                         <div
-                            className="bg-gray-800 rounded-xl p-6 border border-gray-700"
+                            className="bg-gray-800 rounded-xl p-6 border border-white border-opacity-10"
                             data-oid="-2-obqf"
                         >
                             <div className="text-center mb-6" data-oid="50mm654">
@@ -573,7 +585,7 @@ export default function Page() {
                         </div>
 
                         <div
-                            className="bg-purple-900 rounded-xl p-6 border-2 border-purple-600 transform md:scale-105 z-10 shadow-xl"
+                            className="bg-purple-900 rounded-xl p-6 border-2 border-purple-600 transform md:scale-105 z-10 shadow-xl ring-2 ring-white ring-opacity-10"
                             data-oid="ubww:58"
                         >
                             <div className="text-center mb-6" data-oid="xa21-5a">
@@ -702,7 +714,7 @@ export default function Page() {
                         </div>
 
                         <div
-                            className="bg-gray-800 rounded-xl p-6 border border-gray-700"
+                            className="bg-gray-800 rounded-xl p-6 border border-white border-opacity-10"
                             data-oid="i4whev1"
                         >
                             <div className="text-center mb-6" data-oid="26dh_x4">
@@ -828,7 +840,10 @@ export default function Page() {
             </section>
 
             {/* Download CTA Section */}
-            <section className="py-20 px-4 bg-purple-800" data-oid="9zuaq2.">
+            <section
+                className="py-20 px-4 bg-purple-800 border-t border-b border-white border-opacity-10"
+                data-oid="9zuaq2."
+            >
                 <div className="container mx-auto max-w-4xl text-center" data-oid="1l:..k0">
                     <h2 className="text-3xl md:text-4xl font-bold mb-6" data-oid=":5_o18u">
                         Ready to Secure Your Online Privacy?
@@ -841,7 +856,7 @@ export default function Page() {
                         href="https://play.google.com/store/apps/details?id=com.secure.cryptovpn&hl=en_IN"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="inline-flex items-center bg-black hover:bg-gray-900 text-white font-medium py-3 px-6 rounded-lg transition-colors"
+                        className="inline-flex items-center bg-black hover:bg-gray-900 text-white font-medium py-3 px-6 rounded-lg transition-colors border border-white border-opacity-20 hover:border-opacity-30"
                         data-oid="uhy8-:3"
                     >
                         <svg
@@ -862,7 +877,10 @@ export default function Page() {
             </section>
 
             {/* Footer */}
-            <footer className="bg-gray-900 py-12 px-4" data-oid="_kr694v">
+            <footer
+                className="bg-gray-900 py-12 px-4 border-t border-white border-opacity-5"
+                data-oid="_kr694v"
+            >
                 <div className="container mx-auto max-w-6xl" data-oid="zxuh949">
                     <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8" data-oid="st_4ddn">
                         <div data-oid="jxtvi7s">
@@ -875,7 +893,7 @@ export default function Page() {
                                         data-oid="gyvfm0h"
                                     />
                                 </div>
-                                <span className="text-xl font-bold" data-oid="-56.w0a">
+                                <span className="text-xl font-bold text-white" data-oid="-56.w0a">
                                     Ryn VPN
                                 </span>
                             </div>
@@ -905,7 +923,7 @@ export default function Page() {
                             </a>
                         </div>
                         <div data-oid="wywynn8">
-                            <h3 className="text-lg font-bold mb-4" data-oid=".14u4nu">
+                            <h3 className="text-lg font-bold mb-4 text-white" data-oid=".14u4nu">
                                 Company
                             </h3>
                             <ul className="space-y-2" data-oid="nld0ksb">
@@ -948,7 +966,7 @@ export default function Page() {
                             </ul>
                         </div>
                         <div data-oid="8wq2o-x">
-                            <h3 className="text-lg font-bold mb-4" data-oid="ep5j9:9">
+                            <h3 className="text-lg font-bold mb-4 text-white" data-oid="ep5j9:9">
                                 Support
                             </h3>
                             <ul className="space-y-2" data-oid="1idc8nf">
@@ -991,7 +1009,7 @@ export default function Page() {
                             </ul>
                         </div>
                         <div data-oid="k0ejvoq">
-                            <h3 className="text-lg font-bold mb-4" data-oid="un.icj5">
+                            <h3 className="text-lg font-bold mb-4 text-white" data-oid="un.icj5">
                                 Legal
                             </h3>
                             <ul className="space-y-2" data-oid="zr3hl8e">
