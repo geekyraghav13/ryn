@@ -15,7 +15,7 @@ export default function Page() {
             icon: (
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="h-10 w-10 text-teal-500"
+                    className="h-10 w-10 text-purple-600"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -61,7 +61,7 @@ export default function Page() {
             icon: (
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="h-10 w-10 text-indigo-600"
+                    className="h-10 w-10 text-purple-600"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -358,8 +358,11 @@ export default function Page() {
                             Why Choose Ryn VPN?
                         </h2>
                         <p className="text-xl text-gray-300 max-w-3xl mx-auto" data-oid="ru_10bz">
-                            Our VPN service offers the perfect balance of security, speed, and
-                            simplicity to keep you protected online.
+                            Ryn VPN provides a secure and fast online experience, safeguarding your
+                            privacy with strong encryption and a no-logs policy. Enjoy unrestricted,
+                            global internet access with ease, protecting all your devices through
+                            its user-friendly interface. It's the simple solution for robust online
+                            security and freedom.
                         </p>
                     </div>
 
@@ -367,16 +370,19 @@ export default function Page() {
                         {features.map((feature, index) => (
                             <div
                                 key={index}
-                                className="bg-gray-800 rounded-xl p-6 hover:bg-gray-750 transition-colors border border-white border-opacity-5 hover:border-opacity-10"
+                                className="bg-white rounded-xl p-6 hover:bg-gray-50 transition-colors border border-gray-200 shadow-md hover:shadow-lg"
                                 data-oid="izaxeao"
                             >
                                 <div className="mb-4" data-oid="91g0nr0">
                                     {feature.icon}
                                 </div>
-                                <h3 className="text-xl font-bold mb-2" data-oid="i8aplk5">
+                                <h3
+                                    className="text-xl font-bold mb-2 text-gray-800"
+                                    data-oid="i8aplk5"
+                                >
                                     {feature.title}
                                 </h3>
-                                <p className="text-gray-300" data-oid="1._dkcg">
+                                <p className="text-gray-600" data-oid="1._dkcg">
                                     {feature.description}
                                 </p>
                             </div>
