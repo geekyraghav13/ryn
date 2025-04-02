@@ -121,26 +121,13 @@ export default function Page() {
                         {/* Logo */}
                         <div className="flex items-center space-x-2" data-oid="ot_d.mh">
                             {/* VPN Logo */}
-                            <div
-                                className="h-10 w-10 rounded-full bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center overflow-hidden"
-                                data-oid="4ggvl6b"
-                            >
-                                <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    viewBox="0 0 24 24"
-                                    fill="none"
-                                    stroke="currentColor"
-                                    strokeWidth="2"
-                                    strokeLinecap="round"
-                                    strokeLinejoin="round"
-                                    className="h-6 w-6 text-white"
-                                    data-oid="na8xw1t"
-                                >
-                                    <path
-                                        d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"
-                                        data-oid="snpxdzu"
-                                    />
-                                </svg>
+                            <div className="h-10 w-10 overflow-hidden" data-oid="4ggvl6b">
+                                <img
+                                    src="/ryn-vpn-logo.png"
+                                    alt="Ryn VPN Logo"
+                                    className="h-full w-full object-contain"
+                                    data-oid="q7o:h4a"
+                                />
                             </div>
                             <span className="text-xl font-bold" data-oid="ukg8w9e">
                                 Ryn VPN
@@ -880,14 +867,13 @@ export default function Page() {
                     <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8" data-oid="st_4ddn">
                         <div data-oid="jxtvi7s">
                             <div className="flex items-center space-x-2 mb-4" data-oid="pd0jd0r">
-                                {/* Replace with actual logo */}
-                                <div
-                                    className="h-10 w-10 rounded-full bg-indigo-600 flex items-center justify-center"
-                                    data-oid="na14gg:"
-                                >
-                                    <span className="font-bold text-xl" data-oid="yqrk_c:">
-                                        R
-                                    </span>
+                                <div className="h-10 w-10 overflow-hidden" data-oid="na14gg:">
+                                    <img
+                                        src="/ryn-vpn-logo.png"
+                                        alt="Ryn VPN Logo"
+                                        className="h-full w-full object-contain"
+                                        data-oid="gyvfm0h"
+                                    />
                                 </div>
                                 <span className="text-xl font-bold" data-oid="-56.w0a">
                                     Ryn VPN
