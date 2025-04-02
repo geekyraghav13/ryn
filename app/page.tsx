@@ -689,22 +689,37 @@ export default function Page() {
                         href="https://play.google.com/store/apps/details?id=com.secure.cryptovpn&hl=en_IN"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="inline-flex items-center bg-black hover:bg-gray-900 text-white font-medium py-3 px-6 rounded-lg transition-colors border border-white border-opacity-20 hover:border-opacity-30"
+                        className="group inline-flex items-center bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700 text-white font-medium py-4 px-8 rounded-xl transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 border-2 border-white border-opacity-20"
                         data-oid="uhy8-:3"
                     >
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            className="h-6 w-6 mr-2"
-                            fill="currentColor"
-                            viewBox="0 0 24 24"
-                            data-oid=".hwq4ar"
+                        <div
+                            className="bg-white bg-opacity-20 p-2 rounded-lg mr-4 group-hover:bg-opacity-30 transition-all"
+                            data-oid="zego:1v"
                         >
-                            <path
-                                d="M5.26 3.795L15.59 12 5.26 20.205c-.32.25-.76.03-.76-.38V4.175c0-.41.44-.63.76-.38zM17.5 12l2.92 2.92c.39.39.39 1.02 0 1.41l-3.37 3.38L12.41 12 17.05 4.29l3.37 3.38c.39.39.39 1.02 0 1.41L17.5 12z"
-                                data-oid=".fxpeds"
-                            />
-                        </svg>
-                        Get it on Google Play
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                className="h-7 w-7"
+                                fill="currentColor"
+                                viewBox="0 0 24 24"
+                                data-oid=".hwq4ar"
+                            >
+                                <path
+                                    d="M5.26 3.795L15.59 12 5.26 20.205c-.32.25-.76.03-.76-.38V4.175c0-.41.44-.63.76-.38zM17.5 12l2.92 2.92c.39.39.39 1.02 0 1.41l-3.37 3.38L12.41 12 17.05 4.29l3.37 3.38c.39.39.39 1.02 0 1.41L17.5 12z"
+                                    data-oid=".fxpeds"
+                                />
+                            </svg>
+                        </div>
+                        <div className="flex flex-col items-start" data-oid="f0.l4eu">
+                            <span
+                                className="text-xs font-light tracking-wider text-gray-100"
+                                data-oid="b5pzc8m"
+                            >
+                                GET IT ON
+                            </span>
+                            <span className="text-xl font-bold tracking-wide" data-oid="-_io3f9">
+                                Google Play
+                            </span>
+                        </div>
                     </a>
                 </div>
             </section>
@@ -737,22 +752,37 @@ export default function Page() {
                                 href="https://play.google.com/store/apps/details?id=com.secure.cryptovpn&hl=en_IN"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="inline-flex items-center bg-black hover:bg-gray-800 text-white text-sm font-medium py-2 px-4 rounded-lg transition-colors"
+                                className="inline-flex items-center bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700 text-white font-medium py-2 px-4 rounded-lg transition-all duration-300 shadow-md hover:shadow-lg"
                                 data-oid="0c:4agj"
                             >
-                                <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    className="h-5 w-5 mr-2"
-                                    fill="currentColor"
-                                    viewBox="0 0 24 24"
-                                    data-oid="h-3zfmg"
+                                <div
+                                    className="bg-white bg-opacity-20 p-1 rounded mr-2"
+                                    data-oid="fnr6m47"
                                 >
-                                    <path
-                                        d="M5.26 3.795L15.59 12 5.26 20.205c-.32.25-.76.03-.76-.38V4.175c0-.41.44-.63.76-.38zM17.5 12l2.92 2.92c.39.39.39 1.02 0 1.41l-3.37 3.38L12.41 12 17.05 4.29l3.37 3.38c.39.39.39 1.02 0 1.41L17.5 12z"
-                                        data-oid=".zzupo."
-                                    />
-                                </svg>
-                                Get it on Google Play
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        className="h-4 w-4"
+                                        fill="currentColor"
+                                        viewBox="0 0 24 24"
+                                        data-oid="h-3zfmg"
+                                    >
+                                        <path
+                                            d="M5.26 3.795L15.59 12 5.26 20.205c-.32.25-.76.03-.76-.38V4.175c0-.41.44-.63.76-.38zM17.5 12l2.92 2.92c.39.39.39 1.02 0 1.41l-3.37 3.38L12.41 12 17.05 4.29l3.37 3.38c.39.39.39 1.02 0 1.41L17.5 12z"
+                                            data-oid=".zzupo."
+                                        />
+                                    </svg>
+                                </div>
+                                <div className="flex flex-col items-start" data-oid="rnm08k-">
+                                    <span className="text-[10px] leading-tight" data-oid="_n_z1oo">
+                                        GET IT ON
+                                    </span>
+                                    <span
+                                        className="text-sm font-bold leading-tight"
+                                        data-oid="l7:zcyl"
+                                    >
+                                        Google Play
+                                    </span>
+                                </div>
                             </a>
                         </div>
                         <div data-oid="wywynn8">
