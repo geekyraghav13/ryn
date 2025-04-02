@@ -821,7 +821,9 @@ export default function Page() {
                             <ul className="space-y-2" data-oid="zr3hl8e">
                                 <li data-oid="1mr:q3k">
                                     <a
-                                        href="#"
+                                        href="https://kalagato.ai/ryn-vpn-privacy-policy/"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
                                         className="text-gray-400 hover:text-white transition-colors"
                                         data-oid="5vjd5sn"
                                     >
