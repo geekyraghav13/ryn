@@ -324,13 +324,13 @@ export default function Page() {
                     </div>
                     <div className="md:w-1/2 flex justify-center items-center" data-oid="znuz4fg">
                         <div
-                            className="relative shadow-2xl rounded-3xl overflow-hidden"
+                            className="relative shadow-2xl rounded-3xl overflow-hidden max-w-[90%]"
                             data-oid="frc_d63"
                         >
                             <img
                                 src="/vpn-app-mockup.png"
                                 alt="Ryn VPN App Mockup"
-                                className="w-auto h-[500px] object-contain"
+                                className="w-full h-auto max-h-[550px] object-cover"
                                 data-oid="ekkhg05"
                             />
                         </div>
