@@ -153,9 +153,8 @@ export default function Page() {
                                 Home
                             </a>
                             <a
-                                href="#features"
+                                href="/features"
                                 className="text-gray-700 hover:text-purple-700 transition-colors font-bold"
-                                onClick={() => setActiveSection('features')}
                                 data-oid="fo:_doy"
                             >
                                 Features
@@ -233,10 +232,9 @@ export default function Page() {
                                 Home
                             </a>
                             <a
-                                href="#features"
+                                href="/features"
                                 className="block text-gray-700 hover:text-purple-700 transition-colors font-bold"
                                 onClick={() => {
-                                    setActiveSection('features');
                                     toggleMenu();
                                 }}
                                 data-oid="9tos:_y"
