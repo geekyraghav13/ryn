@@ -95,217 +95,669 @@ export default function PrivacyPolicyPage() {
             <section className="py-16 px-4 bg-white" data-oid="a9584v-">
                 <div className="container mx-auto max-w-4xl" data-oid="7gkhlfl">
                     <div className="prose prose-lg max-w-none text-gray-700" data-oid="vnwcsoi">
-                        <h2 className="text-2xl font-bold text-purple-900 mb-4" data-oid="dsvvl3s">
-                            Introduction
-                        </h2>
-                        <p data-oid="wzdk4tq">
-                            Human Data Systems Private Limited ("we", "our", "us", or "Ryn VPN") is
-                            committed to protecting your privacy. This Privacy Policy explains how
-                            we collect, use, disclose, and safeguard your information when you use
-                            our Ryn VPN application and related services (collectively, the
-                            "Service").
+                        <div className="mb-8 text-center" data-oid="puqye6s">
+                            <h2
+                                className="text-3xl font-bold text-purple-900 mb-2"
+                                data-oid="privacy-title"
+                            >
+                                Privacy Policy
+                            </h2>
+                            <p
+                                className="text-xl text-purple-700 font-semibold"
+                                data-oid="privacy-subtitle"
+                            >
+                                Ryn VPN Is Committed To Safeguard Your Privacy
+                            </p>
+                        </div>
+
+                        <p data-oid="intro-p1">
+                            Ryn VPN is committed to protecting your privacy. We want you to
+                            understand what information we collect, what we don't collect, and how
+                            we collect, use, and store information. We do not collect logs of your
+                            activity, including no logging of browsing history, traffic destination,
+                            data content, or DNS queries. We also never store connection logs,
+                            meaning no logs of your IP address, your outgoing VPN IP address,
+                            connection timestamp, or session duration.
                         </p>
-                        <p data-oid="0z9qr_:">
-                            Please read this Privacy Policy carefully. By accessing or using our
-                            Service, you acknowledge that you have read, understood, and agree to be
-                            bound by all the terms outlined in this Privacy Policy. If you do not
-                            agree with our policies and practices, please do not use our Service.
+
+                        <p data-oid="intro-p2">
+                            Our guiding principle toward data collection is to collect only the
+                            minimal data required to operate a world-class VPN service at scale. We
+                            designed our systems to not have sensitive data about our customers;
+                            even when compelled, we cannot provide data that we do not possess.
+                        </p>
+
+                        <p data-oid="intro-p3">
+                            This privacy policy will help you understand how Human Data Systems
+                            Private Ltd. ("Ryn VPN," "we," "our," or "us") collects, uses, and
+                            stores information.
                         </p>
 
                         <h2
                             className="text-2xl font-bold text-purple-900 mb-4 mt-8"
-                            data-oid="3cm.04w"
+                            data-oid="general-info-title"
                         >
-                            Information We Collect
+                            General Information
                         </h2>
-                        <p data-oid="q2jv4.u">
-                            We are committed to maintaining a strict no-logs policy. This means we
-                            do not collect, store, or monitor any logs of your online activities,
-                            including browsing history, traffic data, or DNS queries.
-                        </p>
-                        <p data-oid="xptrtqp">
-                            However, we do collect minimal information necessary to provide and
-                            improve our Service:
-                        </p>
-                        <ul className="list-disc pl-6 mb-6" data-oid="cnl66bl">
-                            <li data-oid="8qkwpa:">
-                                <strong data-oid="ptb.pau">Account Information:</strong> When you
-                                create an account, we may collect your email address and payment
-                                information.
+                        <p data-oid="general-info-p">Ryn VPN collects four types of information:</p>
+                        <ul className="list-disc pl-6 mb-6" data-oid="general-info-list">
+                            <li data-oid="info-type-1">
+                                <strong data-oid="i7ffln:">
+                                    Information related to your account ("personal information")
+                                </strong>
+                                <br data-oid="jcbglr7" />
+                                This information is collected for the purpose of administering your
+                                Ryn VPN subscription and includes your name, email address, and
+                                payment information, which you submit on our order page when you
+                                subscribe for the Services.
                             </li>
-                            <li data-oid="iefv2eu">
-                                <strong data-oid="t3319rg">Aggregate Usage Statistics:</strong> We
-                                collect anonymous, aggregate data about the performance of our
-                                Service, such as server load and total bandwidth usage. This
-                                information cannot be used to identify individual users.
+                            <li data-oid="info-type-2">
+                                <strong data-oid="2s0cwj0">
+                                    Aggregate Apps and VPN connection summary statistics
+                                </strong>
+                                <br data-oid="c_ob386" />
+                                Ryn VPN collects minimal information about usage in order to
+                                maintain excellent customer support and quality of service. The
+                                section below specifies in detail what information we collect. These
+                                statistics never include anything about what the user did with the
+                                VPN: no data about the contents or destinations of VPN traffic, no
+                                DNS queries, and no IP addresses.
                             </li>
-                            <li data-oid="skf94t.">
-                                <strong data-oid="h610ydf">App Analytics:</strong> We collect
-                                anonymous data about how the app functions to identify and fix
-                                technical issues and improve user experience.
+                            <li data-oid="info-type-3">
+                                <strong data-oid="vinii0r">
+                                    (User-controlled option): Anonymous app diagnostics, including
+                                    crash reports
+                                </strong>
+                                <br data-oid="g8m2:2q" />
+                                App diagnostic data, which include crash reports, usability
+                                diagnostics, and VPN connection diagnostics, are anonymized and
+                                cannot be tied back to individual Ryn VPN users. This feature is
+                                similar to a "send bug report" option. Users can specify in the
+                                settings menu of any Ryn VPN App whether to send these data to us.
                             </li>
                         </ul>
 
                         <h2
                             className="text-2xl font-bold text-purple-900 mb-4 mt-8"
-                            data-oid="skbdb.t"
+                            data-oid="personal-info-title"
                         >
-                            How We Use Your Information
+                            Personal Information
                         </h2>
-                        <p data-oid="o99d-jh">
-                            We use the information we collect for the following purposes:
+                        <p data-oid="personal-info-p1">
+                            Ryn VPN collects personal information that you provide to us directly
+                            through the Site. We require that you provide personal information, such
+                            as an email address and payment information, in order to establish a Ryn
+                            VPN account, and so that we can email you, collect payments from you,
+                            and respond to support queries that you initiate. The specific
+                            information collected varies depending on the payment method you choose.
+                            To minimise the amount of personal information you submit to us, we
+                            recommend that you use Bitcoin payments when subscribing to our Service.
                         </p>
-                        <ul className="list-disc pl-6 mb-6" data-oid="sj11e7u">
-                            <li data-oid="qt6ck1i">
-                                To provide, maintain, and improve our Service
+
+                        <p data-oid="personal-info-p2">
+                            With some forms of payment, the Site may redirect you to the website of
+                            a third-party payment processor (namely PayPal, BitPay, or Paymentwall)
+                            to complete the transaction. To understand what personal information
+                            these processors collect and store, please refer to the respective
+                            processor's terms and privacy policy.
+                        </p>
+
+                        <p data-oid="personal-info-p3">
+                            Ryn VPN uses your email address for the following reasons:
+                        </p>
+
+                        <ul className="list-disc pl-6 mb-6" data-oid="email-use-list">
+                            <li data-oid="email-use-1">
+                                To send emails related to payment transactions.
                             </li>
-                            <li data-oid="--yqg3k">
-                                To process your transactions and manage your account
+                            <li data-oid="email-use-2">
+                                To provide links to our Site, including password reset emails.
                             </li>
-                            <li data-oid=".oheciy">
-                                To send you technical notices, updates, security alerts, and support
-                                messages
+                            <li data-oid="email-use-3">To send you updates and announcements.</li>
+                            <li data-oid="email-use-4">
+                                To communicate with you about your VPN services or respond to your
+                                communications.
                             </li>
-                            <li data-oid="52ddegg">
-                                To respond to your comments, questions, and requests
-                            </li>
-                            <li data-oid="k-:22ew">
-                                To monitor and analyze trends, usage, and activities in connection
-                                with our Service
-                            </li>
-                            <li data-oid="fs6gbv5">
-                                To detect, prevent, and address technical issues
+                            <li data-oid="email-use-5">
+                                To send marketing information, such as Ryn VPN offers, surveys,
+                                invitations, and content about other matters in connection with Ryn
+                                VPN ("Marketing emails"). You may choose to not receive Marketing
+                                emails by following the opt-out procedure described in these emails.
                             </li>
                         </ul>
 
-                        <h2
-                            className="text-2xl font-bold text-purple-900 mb-4 mt-8"
-                            data-oid="hqhrvvh"
-                        >
-                            Data Security
-                        </h2>
-                        <p data-oid="e6ni0np">
-                            We implement appropriate technical and organizational measures to
-                            protect the security of your personal information. However, please be
-                            aware that no method of transmission over the Internet or method of
-                            electronic storage is 100% secure. While we strive to use commercially
-                            acceptable means to protect your personal information, we cannot
-                            guarantee its absolute security.
+                        <p data-oid="personal-info-p4">
+                            Ryn VPN uses your personal information only for the purposes listed in
+                            this Privacy Policy, and we do not sell your personal information to
+                            third parties.
                         </p>
 
                         <h2
                             className="text-2xl font-bold text-purple-900 mb-4 mt-8"
-                            data-oid="0c8-su1"
+                            data-oid="aggregate-stats-title"
                         >
-                            Disclosure of Your Information
+                            Aggregate Apps and VPN Connection Summary Statistics
                         </h2>
-                        <p data-oid="ud9s5k6">
-                            We do not sell, trade, or otherwise transfer your personal information
-                            to third parties. We may disclose your information in the following
+                        <p data-oid="aggregate-stats-p1">
+                            We ensure that we never log browsing history, traffic destination, data
+                            content, IP addresses, or DNS queries. Therefore:
+                        </p>
+
+                        <ul className="list-disc pl-6 mb-6" data-oid="never-log-list">
+                            <li data-oid="never-log-1">
+                                We do not know which user ever accessed a particular website or
+                                service.
+                            </li>
+                            <li data-oid="never-log-2">
+                                We do not know which user was connected to the VPN at a specific
+                                time or which VPN server IP addresses they used.
+                            </li>
+                            <li data-oid="never-log-3">
+                                We do not know the set of original IP addresses of a user's
+                                computer.
+                            </li>
+                        </ul>
+
+                        <p data-oid="aggregate-stats-p2">
+                            Should anyone try to compel Ryn VPN to release user information based on
+                            any of the above, we cannot supply this information because the data
+                            don't exist.
+                        </p>
+
+                        <p data-oid="aggregate-stats-p3">
+                            In order to maintain excellent customer support and quality of service,
+                            Ryn VPN collects the following information related to your VPN usage:
+                        </p>
+
+                        <h3
+                            className="text-xl font-bold text-purple-800 mt-6 mb-2"
+                            data-oid="apps-versions-title"
+                        >
+                            Apps and Apps versions
+                        </h3>
+                        <p data-oid="apps-versions-p">
+                            We collect information related to which Apps and Apps version(s) you
+                            have activated. Knowing your current version of the Apps allows our
+                            Support Team to troubleshoot technical issues with you.
+                        </p>
+
+                        <h3
+                            className="text-xl font-bold text-purple-800 mt-6 mb-2"
+                            data-oid="successful-connection-title"
+                        >
+                            Successful connection
+                        </h3>
+                        <p data-oid="successful-connection-p">
+                            We collect information about whether you have successfully established a
+                            VPN connection on a particular day (but not a specific time of the day),
+                            to which VPN location (but not your assigned outgoing IP address), and
+                            from which country/ISP (but not your source IP address). This minimal
+                            information assists us in providing technical support, such as
+                            identifying connection problems, providing country-specific advice about
+                            how to best use our Service, and to enable Ryn VPN engineers to identify
+                            and fix network issues.
+                        </p>
+
+                        <h3
+                            className="text-xl font-bold text-purple-800 mt-6 mb-2"
+                            data-oid="data-transferred-title"
+                        >
+                            Aggregate sum of data transferred (in MB)
+                        </h3>
+                        <p data-oid="data-transferred-p">
+                            We collect information regarding the total sum of data transferred by a
+                            given user. Although we provide unlimited data transfer, if we notice
+                            that a single user pushes more traffic than thousands of others
+                            combined, thereby affecting the quality of service for other Ryn VPN
+                            users, we may contact that user for an explanation.
+                        </p>
+
+                        <h3
+                            className="text-xl font-bold text-purple-800 mt-6 mb-2"
+                            data-oid="summary-title"
+                        >
+                            Summary
+                        </h3>
+                        <p data-oid="summary-p">
+                            We collect minimal usage statistics to maintain our quality of service.
+                            We may know, for example, that our customer John had connected to our
+                            New York VPN location on Tuesday and had transferred an aggregate of 823
+                            MB of data across a 24-hour period. John can't be uniquely identified as
+                            responsible for any specific behaviour because his usage pattern
+                            overlaps with thousands of other Ryn VPN customers who also connected to
+                            the same location on the same day.
+                        </p>
+
+                        <p data-oid="summary-p2">
+                            We've engineered our systems to categorically eliminate storage of
+                            sensitive data. We may know THAT a customer has used Ryn VPN, but we
+                            never know HOW they have utilised our Service. We stand by our firm
+                            commitment to our customers' privacy by not possessing any data related
+                            to a user's online activities.
+                        </p>
+
+                        <h2
+                            className="text-2xl font-bold text-purple-900 mb-4 mt-8"
+                            data-oid="app-diagnostics-title"
+                        >
+                            Anonymous App Diagnostics, including Crash Reports (can be turned off by
+                            the user)
+                        </h2>
+                        <p data-oid="app-diagnostics-p1">
+                            With your permission, we collect anonymized app diagnostic data, which
+                            include crash reports, usability diagnostics, and VPN connection
+                            diagnostics. We use these data in our network operations tools to help
+                            optimize network speeds and to let us identify problems and areas for
+                            improvement related to specific apps, VPN servers, or ISPs. The
+                            information we receive is fully anonymized and cannot be tied back to
+                            individual Ryn VPN users (i.e., we do not store which user sent which
+                            data, and we do not store user IP addresses).
+                        </p>
+
+                        <p data-oid="app-diagnostics-p2">
+                            If you opt in to share this information with Ryn VPN, we will collect
+                            the following anonymized information:
+                        </p>
+
+                        <ul className="list-disc pl-6 mb-6" data-oid="diagnostics-list">
+                            <li data-oid="diagnostics-1">
+                                Diagnostic information about if and how a VPN connection attempt
+                                failed.
+                            </li>
+                            <li data-oid="diagnostics-2">Speed test data.</li>
+                            <li data-oid="diagnostics-3">
+                                App diagnostics, including crash reports and usability diagnostics,
+                                also without any personally identifiable information. These are
+                                handled in an anonymized form by these third parties, dependent on
+                                the platform you are using Ryn VPN on:
+                                <ul className="list-disc pl-6 mt-2" data-oid="7-vt3pw">
+                                    <li data-oid="kfds9s-">
+                                        Windows: Hockeyapp, owned by Microsoft, and Sentry, owned by
+                                        Functional Software, Inc. See Microsoft's Privacy Policy and
+                                        Sentry's Privacy Policy.
+                                    </li>
+                                    <li data-oid="6z8potr">
+                                        Mac: Crashlytics, owned by Google, and Sentry, owned by
+                                        Functional Software, Inc. See Crashlytics's Privacy Policy
+                                        and Sentry's Privacy Policy.
+                                    </li>
+                                    <li data-oid="tilz952">
+                                        Linux: Sentry, owned by Functional Software, Inc. See
+                                        Sentry's Privacy Policy.
+                                    </li>
+                                    <li data-oid="quv8zbj">
+                                        iOS: Firebase Crashlytics, owned by Google, and Apple. See
+                                        Apple's Privacy Policy and Firebase's Privacy and Security
+                                        documentation. You can disable Apple's crash reporting in
+                                        iOS settings as described here.
+                                    </li>
+                                    <li data-oid="cb5s0dp">
+                                        Android: Firebase Crashlytics, owned by Google. See
+                                        Firebase's Privacy and Security documentation.
+                                    </li>
+                                    <li data-oid=":aq1f4.">
+                                        Browser extensions: Firebase Analytics, owned by Google. See
+                                        Firebase's Privacy and Security documentation.
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                        <p data-oid="app-diagnostics-p3">
+                            Upon activation of any Ryn VPN App, you will be asked if you would like
+                            to share these data. You can start or stop sharing these diagnostic data
+                            at any time in the App's settings menu. On iOS, Apple's crash reporting
+                            can be turned off in iOS settings.
+                        </p>
+
+                        <h2
+                            className="text-2xl font-bold text-purple-900 mb-4 mt-8"
+                            data-oid="mediastreamer-title"
+                        >
+                            MediaStreamer
+                        </h2>
+                        <p data-oid="mediastreamer-p1">
+                            MediaStreamer is our service for consoles like Apple TV and other
+                            devices that don't support running a VPN. Because the service doesn't
+                            run on an app and doesn't have an option for username/password
+                            authorization, we rely on a system that authorizes specific IP addresses
+                            that you have chosen to register with us. You can register IP addresses
+                            by logging in to our website and using the "DNS Settings" page. Those IP
+                            addresses are then stored in our system in order to identify authorized
+                            devices for MediaStreamer, and are not used for any other purpose.
+                        </p>
+
+                        <p data-oid="mediastreamer-p2">
+                            If you do not wish to use this service but have devices like an Apple TV
+                            that cannot run a VPN, we suggest using the Ryn VPN App for routers.
+                            Like all of our Apps and VPN Service, the App for routers does not
+                            require IP address registration. Please contact us, and we'll guide you
+                            through the steps.
+                        </p>
+
+                        <h2
+                            className="text-2xl font-bold text-purple-900 mb-4 mt-8"
+                            data-oid="jurisdiction-title"
+                        >
+                            Jurisdiction and Applicable Law
+                        </h2>
+                        <p data-oid="jurisdiction-p1">
+                            Ryn VPN's core mission is to keep your information private. In service
+                            of this mission, Ryn VPN's headquarters and registered place of business
+                            is in the British Virgin Islands (BVI), which has stricter laws
+                            concerning information disclosure than most countries.
+                        </p>
+
+                        <p data-oid="jurisdiction-p2">
+                            The BVI has no data retention laws, and any legal order requiring a BVI
+                            company to disclose customer records must come from the BVI Supreme
+                            Court. Under BVI law, information requests from foreign courts or law
+                            enforcement are subject to a "dual criminality" provision, meaning that
+                            the request is upheld by the BVI Supreme Court only if the same crime is
+                            punishable by at least a one-year prison sentence under BVI law, had it
+                            taken place in the BVI. Should we receive a valid legal order from the
+                            BVI Supreme Court, it is important to note that Ryn VPN does not collect
+                            any IP addresses, browsing history, traffic data, or DNS queries that
+                            could be used to identify any specific user.
+                        </p>
+
+                        <h2
+                            className="text-2xl font-bold text-purple-900 mb-4 mt-8"
+                            data-oid="storing-info-title"
+                        >
+                            Storing of Information Related to Email, Live Chat, and Feedback Forms
+                        </h2>
+                        <p data-oid="storing-info-p1">
+                            Ryn VPN keeps records of any correspondence, questions, complaints, or
+                            compliments you submit to us through our Site or Services, along with
+                            our response. Depending on how you contact Ryn VPN, we may collect your
+                            email address and any additional information you provide to us. Having
+                            full correspondence records enables our staff to provide the best
+                            possible customer support experience.
+                        </p>
+
+                        <p data-oid="storing-info-p2">
+                            We use two different third-party platforms for support correspondence:
+                            Zoho CRM for emails and support tickets, and Zoho Desk for live chat.
+                            When you correspond with us using these platforms, they will store your
+                            correspondence records—including your email address, as well as user and
+                            device attributes that help with troubleshooting, such as the country
+                            you are contacting us from and your device's operating system. Both
+                            platforms utilize modern security practices and HTTPS encryption.
+                        </p>
+
+                        <h2
+                            className="text-2xl font-bold text-purple-900 mb-4 mt-8"
+                            data-oid="security-measures-title"
+                        >
+                            Security Measures to Protect Your Information
+                        </h2>
+                        <p data-oid="security-measures-p1">
+                            Ryn VPN uses best-in-class physical, procedural, and technical security
+                            with respect to our offices and information storage facilities so as to
+                            prevent any loss, misuse, unauthorized access, disclosure, or
+                            modification of information. Access to user information is restricted to
+                            staff who require such access to perform their job functions.
+                        </p>
+
+                        <p data-oid="security-measures-p2">
+                            While we believe these systems are robust, it is important to understand
+                            that no data security measures in the world can offer 100% protection.
+                        </p>
+
+                        <p data-oid="security-measures-p3">
+                            Servers are housed in data centers with strong security practices. None
+                            of these data centers require us to collect or store any traffic data or
+                            personal information related to your use of VPN Services. If any data
+                            center were to ask us to log such data, we would immediately cease
+                            operations with said data center and find alternative options.
+                        </p>
+
+                        <p data-oid="security-measures-p4">
+                            Even if a government were to physically seize one of our VPN servers and
+                            manage to break its disk encryption, there would be no logs or
+                            information that would tie any individual user to a particular event,
+                            website, or behavior.
+                        </p>
+
+                        <h2
+                            className="text-2xl font-bold text-purple-900 mb-4 mt-8"
+                            data-oid="cookies-title"
+                        >
+                            Cookies and Mobile Identifiers
+                        </h2>
+
+                        <h3
+                            className="text-xl font-bold text-purple-800 mt-6 mb-2"
+                            data-oid="what-is-cookie-title"
+                        >
+                            What is a cookie?
+                        </h3>
+                        <p data-oid="what-is-cookie-p">
+                            A cookie is a small text file used to store information about your visit
+                            to the Site. Cookies let Ryn VPN optimize and improve the user
+                            experience of the Site by helping us deliver certain functionalities,
+                            such as website login and language settings. The cookies we use may vary
+                            over time as we continuously update and improve our Site.
+                        </p>
+
+                        <h3
+                            className="text-xl font-bold text-purple-800 mt-6 mb-2"
+                            data-oid="disabling-cookies-title"
+                        >
+                            Disabling cookies
+                        </h3>
+                        <p data-oid="disabling-cookies-p">
+                            You are free to change your cookie preferences at any time. You can do
+                            this in the settings panel for your browser. Depending on which browser
+                            and device you use, you may be able to control which cookies you allow,
+                            which cookies you want to block in the future, and delete cookies. For
+                            more information about these settings, please refer to the "help"
+                            section of your browser. Note that Ryn VPN's Site may not work as
+                            intended if you choose to disable cookies.
+                        </p>
+
+                        <h3
+                            className="text-xl font-bold text-purple-800 mt-6 mb-2"
+                            data-oid="ryn-cookies-title"
+                        >
+                            Ryn VPN's cookies
+                        </h3>
+                        <p data-oid="ryn-cookies-p">
+                            The cookies set by Ryn VPN enable us to set your language preference,
+                            attribute visitors to a marketing channel, and, once you log in,
+                            securely show you information that is specific to your account. The
+                            cookies contain a user identifier, but no directly personally
+                            identifying information such as your name or email address, and do not
+                            track any activity outside of Ryn VPN's domains.
+                        </p>
+
+                        <h3
+                            className="text-xl font-bold text-purple-800 mt-6 mb-2"
+                            data-oid="third-party-cookies-title"
+                        >
+                            Third-party cookies
+                        </h3>
+                        <p data-oid="third-party-cookies-p1">
+                            Ryn VPN uses third-party services such as Google Analytics and Adwords.
+                            Cookies from such services are used to collect data for statistical
+                            reports. For example, we may generate reports regarding the amount of
+                            time users spend on the Site and the number of users who visit a
+                            particular page.
+                        </p>
+
+                        <p data-oid="third-party-cookies-p2">
+                            Ryn VPN uses Google AdWords remarketing to show advertisements on
+                            third-party websites (including Google) to users who have visited our
+                            Site. We may show such users advertisements on a Google search results
+                            page, or on a site in the Google Display Network.
+                        </p>
+
+                        <p data-oid="third-party-cookies-p3">
+                            Third-party vendors, including Google, use cookies to serve ads based on
+                            someone's past visits to the Site. Any data collected will be used in
+                            accordance with our Privacy Policy and Google's privacy policy. Users
+                            may opt out of Google's use of cookies by visiting the Google
+                            Advertising Opt-out Page. Users may opt out of Google Analytics by
+                            visiting the Google Analytics Opt-out Page. Users may opt out of
+                            third-party vendor use of cookies by visiting the Network Advertising
+                            Initiative Opt-out Page.
+                        </p>
+
+                        <h3
+                            className="text-xl font-bold text-purple-800 mt-6 mb-2"
+                            data-oid="mobile-identifiers-title"
+                        >
+                            Mobile identifiers
+                        </h3>
+                        <p data-oid="mobile-identifiers-p">
+                            A mobile identifier is an identifier provided by an Android or iOS
+                            device. It does not contain your name or email address. Ryn VPN uses
+                            mobile identifiers to generate statistics related to the marketing
+                            channels and advertising partners through which users learned about and
+                            signed up for Ryn VPN mobile apps.
+                        </p>
+
+                        <h3
+                            className="text-xl font-bold text-purple-800 mt-6 mb-2"
+                            data-oid="disabling-mobile-identifiers-title"
+                        >
+                            Disabling or resetting mobile identifiers
+                        </h3>
+                        <p data-oid="disabling-mobile-identifiers-p">
+                            Users may disable or reset the mobile identifiers associated with their
+                            devices at any time. For instructions, see Apple's page on Advertising &
+                            Privacy on iOS devices and Google's page on Managing your Google
+                            Settings on your Android device.
+                        </p>
+
+                        <h2
+                            className="text-2xl font-bold text-purple-900 mb-4 mt-8"
+                            data-oid="third-party-websites-title"
+                        >
+                            Third-Party Websites
+                        </h2>
+                        <p data-oid="third-party-websites-p">
+                            The Site may contain links to external websites that do not fall under
+                            Ryn VPN's domain. Ryn VPN is not responsible for the privacy practices
+                            or content of such external websites.
+                        </p>
+
+                        <h2
+                            className="text-2xl font-bold text-purple-900 mb-4 mt-8"
+                            data-oid="consent-age-title"
+                        >
+                            Consent and Age Restrictions
+                        </h2>
+                        <p data-oid="consent-age-p1">
+                            By using the Site, Content, Apps, Software, or Services, you agree to
+                            have your information handled as described in our Terms of Service and
+                            Privacy Policy.
+                        </p>
+
+                        <p data-oid="consent-age-p2">
+                            The Services are intended for adults aged 18 and above. If you believe
+                            your child has provided information to us, please let us know
+                            immediately.
+                        </p>
+
+                        <h2
+                            className="text-2xl font-bold text-purple-900 mb-4 mt-8"
+                            data-oid="eu-users-title"
+                        >
+                            Users in the European Union
+                        </h2>
+                        <p data-oid="eu-users-p1">
+                            Ryn VPN is committed to user privacy globally, and our existing
+                            practices reflect that through minimal collection of data and ensuring
+                            users have control over their personal information. The General Data
+                            Protection Regulation (GDPR) of the European Union (EU) requires us to
+                            outline those practices in a specific manner for users in the EU.
+                        </p>
+
+                        <p data-oid="eu-users-p2">
+                            In line with the GDPR, we collect and process the data outlined in this
+                            Privacy Policy on one of the following bases, depending on the
                             circumstances:
                         </p>
-                        <ul className="list-disc pl-6 mb-6" data-oid="-wweq:0">
-                            <li data-oid="wrsx11h">
-                                <strong data-oid="vcah3nj">Business Transfers:</strong> If we are
-                                involved in a merger, acquisition, or sale of all or a portion of
-                                our assets, your information may be transferred as part of that
-                                transaction.
+
+                        <ul className="list-disc pl-6 mb-6" data-oid="gdpr-bases-list">
+                            <li data-oid="gdpr-basis-1">
+                                For the purposes of fulfilling our contractual obligations to users,
+                                including:
+                                <ul className="list-disc pl-6 mt-2" data-oid=":xzlutl">
+                                    <li data-oid="xqy8ij8">
+                                        Providing users with the Services and Apps they have
+                                        requested.
+                                    </li>
+                                    <li data-oid="7..-yzc">
+                                        Managing user subscriptions and processing payments.
+                                    </li>
+                                    <li data-oid="lg_tq8c">Providing customer support.</li>
+                                </ul>
                             </li>
-                            <li data-oid="su6g19b">
-                                <strong data-oid="5on30-1">Compliance with Laws:</strong> We may
-                                disclose your information where required to do so by law or
-                                subpoena. However, since we do not collect logs of your online
-                                activities, we have minimal information that could be subject to
-                                such requests.
+                            <li data-oid="gdpr-basis-2">
+                                For a legitimate interest associated with the operation of our
+                                business, including:
+                                <ul className="list-disc pl-6 mt-2" data-oid="iokq:2t">
+                                    <li data-oid="hpa4nuq">
+                                        Enhancing the quality, reliability, and effectiveness of our
+                                        Site, Services, and Apps.
+                                    </li>
+                                    <li data-oid="lnqzdtf">
+                                        Communicating with customers to provide information and seek
+                                        feedback related to our Services and Apps.
+                                    </li>
+                                </ul>
                             </li>
-                            <li data-oid=".qc1c.d">
-                                <strong data-oid="0dnqld:">With Your Consent:</strong> We may
-                                disclose your information with your consent.
+                            <li data-oid="gdpr-basis-3">
+                                With the consent of users, which users can withdraw at any time.
                             </li>
                         </ul>
 
-                        <h2
-                            className="text-2xl font-bold text-purple-900 mb-4 mt-8"
-                            data-oid="m3lnktp"
-                        >
-                            Your Rights
-                        </h2>
-                        <p data-oid="-exoqcn">
-                            Depending on your location, you may have certain rights regarding your
-                            personal information, including:
-                        </p>
-                        <ul className="list-disc pl-6 mb-6" data-oid="asn23eg">
-                            <li data-oid="3ni5wjy">
-                                The right to access the personal information we have about you
-                            </li>
-                            <li data-oid="sa4gnwv">
-                                The right to request correction of inaccurate personal information
-                            </li>
-                            <li data-oid="65nw2f0">
-                                The right to request deletion of your personal information
-                            </li>
-                            <li data-oid=":0xsm2c">
-                                The right to object to processing of your personal information
-                            </li>
-                            <li data-oid="bqa_ufa">The right to data portability</li>
-                            <li data-oid="24ygl2z">The right to withdraw consent</li>
-                        </ul>
-                        <p data-oid="r0m:p3a">
-                            To exercise these rights, please contact us using the information
-                            provided in the "Contact Us" section below.
+                        <p data-oid="eu-users-p3">
+                            You can exercise your rights under the GDPR to access, transfer,
+                            correct, delete, or object to the processing of your personal
+                            information by contacting us at at bugs@rynvpn.com.
                         </p>
 
                         <h2
                             className="text-2xl font-bold text-purple-900 mb-4 mt-8"
-                            data-oid="vd_hj7g"
+                            data-oid="changes-policy-title"
                         >
-                            Children's Privacy
+                            Changes to the Privacy Policy
                         </h2>
-                        <p data-oid="0p4e0c0">
-                            Our Service is not directed to children under the age of 13. We do not
-                            knowingly collect personal information from children under 13. If you
-                            are a parent or guardian and you are aware that your child has provided
-                            us with personal information, please contact us so that we can take
-                            necessary actions.
+                        <p data-oid="changes-policy-p">
+                            We may change our Privacy Policy from time to time, without prior notice
+                            to you, consistent with applicable privacy laws and principles. Your
+                            continued use of the Site or Services constitutes your acceptance of our
+                            Privacy Policy.
                         </p>
 
                         <h2
                             className="text-2xl font-bold text-purple-900 mb-4 mt-8"
-                            data-oid="q65ov70"
-                        >
-                            Changes to This Privacy Policy
-                        </h2>
-                        <p data-oid="2rjckgy">
-                            We may update our Privacy Policy from time to time. We will notify you
-                            of any changes by posting the new Privacy Policy on this page and
-                            updating the "Last updated" date at the top of this Privacy Policy. You
-                            are advised to review this Privacy Policy periodically for any changes.
-                        </p>
-
-                        <h2
-                            className="text-2xl font-bold text-purple-900 mb-4 mt-8"
-                            data-oid="6_yov3e"
+                            data-oid="contact-us-title"
                         >
                             Contact Us
                         </h2>
-                        <p data-oid="snz3w6-">
+                        <p data-oid="contact-us-p">
                             If you have any questions about this Privacy Policy, please contact us
                             at:
                         </p>
-                        <div className="bg-gray-50 p-6 rounded-lg mt-4" data-oid="sgkxalb">
-                            <p data-oid="fnyt.st">
-                                <strong data-oid="tj0xv8j">
+                        <div className="bg-gray-50 p-6 rounded-lg mt-4" data-oid="contact-info-box">
+                            <p data-oid="company-name">
+                                <strong data-oid="w2kjw4d">
                                     Human Data Systems Private Limited
                                 </strong>
                             </p>
-                            <p data-oid="elx62qh">H NO.-8/9, BASEMENT ROAD-8,</p>
-                            <p data-oid="0uanl.c">SARVPRIYA VIHAR NEW DELHI South Delhi DL</p>
-                            <p data-oid=".uzwryy">110017 IN</p>
-                            <p className="mt-2" data-oid="c2wo00i">
+                            <p data-oid="address-1">H NO.-8/9, BASEMENT ROAD-8,</p>
+                            <p data-oid="address-2">SARVPRIYA VIHAR NEW DELHI South Delhi DL</p>
+                            <p data-oid="address-3">110017 IN</p>
+                            <p className="mt-2" data-oid="email-contact">
                                 <a
                                     href="mailto:bugs@rynvpn.com"
                                     className="text-purple-600 hover:text-purple-800"
-                                    data-oid="eu.9rgx"
+                                    data-oid="few-1b."
                                 >
                                     bugs@rynvpn.com
                                 </a>
@@ -322,7 +774,7 @@ export default function PrivacyPolicyPage() {
             >
                 <div className="container mx-auto max-w-6xl" data-oid="l1x3duy">
                     <div className="grid grid-cols-1 md:grid-cols-5 gap-8 mb-8" data-oid="05y3n6m">
-                        <div data-oid="93zxk07">
+                        <div data-oid="93zxk07" key="olk-MFgt">
                             <div className="flex items-center space-x-2 mb-4" data-oid="e24xnzw">
                                 <div className="h-10 w-10 overflow-hidden" data-oid="5ftw5du">
                                     <img
@@ -375,7 +827,7 @@ export default function PrivacyPolicyPage() {
                                 </a>
                             </div>
                         </div>
-                        <div data-oid="4wk.h9i">
+                        <div data-oid="4wk.h9i" key="olk-PzCR">
                             <h3
                                 className="text-lg font-bold mb-4 text-purple-800"
                                 data-oid="ocev4c2"
@@ -412,7 +864,7 @@ export default function PrivacyPolicyPage() {
                                 </li>
                             </ul>
                         </div>
-                        <div data-oid="rnltwp_">
+                        <div data-oid="rnltwp_" key="olk-Zhag">
                             <h3
                                 className="text-lg font-bold mb-4 text-purple-800"
                                 data-oid="m1j9cdd"
@@ -458,35 +910,8 @@ export default function PrivacyPolicyPage() {
                                 </li>
                             </ul>
                         </div>
-                        <div data-oid="otakpu9">
-                            <h3
-                                className="text-lg font-bold mb-4 text-purple-800"
-                                data-oid="clufwq1"
-                            >
-                                Legal
-                            </h3>
-                            <ul className="space-y-2" data-oid="t0h9d5a">
-                                <li data-oid="vzo_rez">
-                                    <a
-                                        href="#"
-                                        className="text-gray-600 hover:text-purple-700 transition-colors"
-                                        data-oid="b10xldk"
-                                    >
-                                        Terms of Service
-                                    </a>
-                                </li>
-                                <li data-oid="u_hxfq:">
-                                    <Link
-                                        href="/privacy-policy"
-                                        className="text-purple-700 font-bold transition-colors"
-                                        data-oid=":8nn-o7"
-                                    >
-                                        Privacy Policy
-                                    </Link>
-                                </li>
-                            </ul>
-                        </div>
-                        <div data-oid="60q0zhd">
+
+                        <div data-oid="60q0zhd" key="olk-MtuG">
                             <h3
                                 className="text-lg font-bold mb-4 text-purple-800"
                                 data-oid="u6wy-r7"
