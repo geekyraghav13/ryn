@@ -1011,7 +1011,7 @@ export default function Page() {
                                 <li data-oid="6-5on4y"></li>
                                 <li data-oid="91x2mze">
                                     <a
-                                        href="#"
+                                        href="/privacy-policy"
                                         className="text-gray-600 hover:text-purple-700 transition-colors"
                                         data-oid="os5rduy"
                                     >
