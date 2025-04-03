@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 
-export default function PrivacyPolicy() {
+export default function PrivacyPolicyPage() {
     return (
         <div className="min-h-screen bg-white">
             {/* Header */}
