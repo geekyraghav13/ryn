@@ -629,13 +629,13 @@ export default function FeaturesPage() {
                                 </li>
                                 <li data-oid="ez1ewzw"></li>
                                 <li data-oid="r.d3y--">
-                                    <a
-                                        href="#"
+                                    <Link
+                                        href="/privacy-policy"
                                         className="text-gray-600 hover:text-purple-700 transition-colors"
                                         data-oid=".i9tzf-"
                                     >
                                         Privacy Policy
-                                    </a>
+                                    </Link>
                                 </li>
                             </ul>
                         </div>
