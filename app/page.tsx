@@ -928,7 +928,7 @@ export default function Page() {
                 data-oid="_326z36"
             >
                 <div className="container mx-auto max-w-6xl" data-oid="-r:_kp5">
-                    <div className="grid grid-cols-1 md:grid-cols-5 gap-8 mb-8" data-oid="eyac3a9">
+                    <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8" data-oid="eyac3a9">
                         <div data-oid="rwz54b7">
                             <div className="flex items-center space-x-2 mb-4" data-oid="nhmxaas">
                                 <div className="h-10 w-10 overflow-hidden" data-oid="zppetaq">
@@ -1015,7 +1015,7 @@ export default function Page() {
                                         className="text-gray-600 hover:text-purple-700 transition-colors"
                                         data-oid="lah0r0n"
                                     >
-                                        Press
+                                        Privacy Policy
                                     </a>
                                 </li>
                             </ul>
@@ -1066,26 +1066,7 @@ export default function Page() {
                                 </li>
                             </ul>
                         </div>
-                        <div data-oid="iiahe6s">
-                            <h3
-                                className="text-lg font-bold mb-4 text-purple-800"
-                                data-oid="f:r1238"
-                            >
-                                Legal
-                            </h3>
-                            <ul className="space-y-2" data-oid="a62l-gu">
-                                <li data-oid="xxmewrm"></li>
-                                <li data-oid="32o_t:1">
-                                    <a
-                                        href="#"
-                                        className="text-gray-600 hover:text-purple-700 transition-colors"
-                                        data-oid="mwkjxwh"
-                                    >
-                                        Terms of Service
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
+
                         <div data-oid="8sakoj7">
                             <h3
                                 className="text-lg font-bold mb-4 text-purple-800"
