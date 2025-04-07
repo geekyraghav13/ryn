@@ -766,7 +766,7 @@ export default function Page() {
                 data-oid="suatlzs"
             >
                 <div className="container mx-auto max-w-6xl" data-oid="ntc-ic7">
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8" data-oid="yeiffpa">
+                    <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8" data-oid="yeiffpa">
                         <div data-oid="gs:13so">
                             <div className="flex items-center space-x-2 mb-4" data-oid="439d-3s">
                                 <div className="h-10 w-10 overflow-hidden" data-oid="uis4gti">
@@ -866,7 +866,54 @@ export default function Page() {
                                 </li>
                             </ul>
                         </div>
-                        =======
+
+                        <div data-oid="jwq4t7q">
+                            <h3
+                                className="text-lg font-bold mb-4 text-purple-800"
+                                data-oid="w30hfvr"
+                            >
+                                Support
+                            </h3>
+                            <ul className="space-y-2" data-oid="lgdqgl.">
+                                <li data-oid="8ubn4xp">
+                                    <a
+                                        href="/faq"
+                                        className="text-gray-600 hover:text-purple-700 transition-colors"
+                                        data-oid="6toc7bj"
+                                    >
+                                        FAQ
+                                    </a>
+                                </li>
+                                <li data-oid="4iln-cn">
+                                    <a
+                                        href="/help"
+                                        className="text-gray-600 hover:text-purple-700 transition-colors"
+                                        data-oid="sv8hgbv"
+                                    >
+                                        Help Center
+                                    </a>
+                                </li>
+                                <li data-oid="nv1v9-9">
+                                    <a
+                                        href="/tutorials"
+                                        className="text-gray-600 hover:text-purple-700 transition-colors"
+                                        data-oid=".t8cf.w"
+                                    >
+                                        Tutorials
+                                    </a>
+                                </li>
+                                <li data-oid="h2q8e58">
+                                    <a
+                                        href="/contact"
+                                        className="text-gray-600 hover:text-purple-700 transition-colors"
+                                        data-oid="yf9:joo"
+                                    >
+                                        Contact Support
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
                         <div data-oid="wzju-0e">
                             <h3
                                 className="text-lg font-bold mb-4 text-purple-800"
