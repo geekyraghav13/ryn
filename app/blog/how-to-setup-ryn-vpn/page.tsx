@@ -201,45 +201,45 @@ export default function BlogPostPage() {
                             </svg>
                             Back to Blog
                         </Link>
-                        <div className="flex items-center space-x-3" data-oid="xl-i6oj">
-                            <span className="text-gray-500 text-sm" data-oid="pljkwnm">
+                        <div className="flex items-center space-x-3" data-oid="ik.d8kc">
+                            <span className="text-gray-500 text-sm" data-oid="pn6j0pl">
                                 Share:
                             </span>
                             <a
                                 href="#"
                                 className="text-purple-600 hover:text-purple-800"
-                                data-oid="k86w_.8"
+                                data-oid="7zf32p0"
                             >
                                 <svg
                                     className="w-5 h-5"
                                     fill="currentColor"
                                     viewBox="0 0 24 24"
                                     aria-hidden="true"
-                                    data-oid="b7do1oi"
+                                    data-oid="qdjiz7r"
                                 >
                                     <path
                                         fillRule="evenodd"
                                         d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
                                         clipRule="evenodd"
-                                        data-oid="jcx-hf:"
+                                        data-oid="miucy8_"
                                     ></path>
                                 </svg>
                             </a>
                             <a
                                 href="#"
                                 className="text-purple-600 hover:text-purple-800"
-                                data-oid=".a322g9"
+                                data-oid="2jdwsrf"
                             >
                                 <svg
                                     className="w-5 h-5"
                                     fill="currentColor"
                                     viewBox="0 0 24 24"
                                     aria-hidden="true"
-                                    data-oid="sjixfnb"
+                                    data-oid="ww1ibor"
                                 >
                                     <path
                                         d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"
-                                        data-oid="9nujdb6"
+                                        data-oid="df-b6_8"
                                     ></path>
                                 </svg>
                             </a>
@@ -247,7 +247,7 @@ export default function BlogPostPage() {
                     </div>
 
                     <article data-oid="qfjg06y">
-                        <header className="mb-10" data-oid="gqdzaag">
+                        <header className="mb-10" data-oid="j-0:h0m">
                             <div
                                 className="flex items-center text-sm text-gray-500 mb-4 space-x-4"
                                 data-oid="g8oqbm1"
@@ -279,21 +279,14 @@ export default function BlogPostPage() {
 
                         <div
                             className="relative mb-12 overflow-hidden rounded-xl"
-                            data-oid="2if:x3n"
+                            data-oid="_8xmi9m"
                         >
                             <img
-                                src="/vpn-app-mockup.png"
-                                alt="Ryn VPN App Interface"
-                                className="w-full h-[500px] object-contain bg-gradient-to-r from-purple-50 to-white"
+                                src="/blog-vpn-setup.jpg"
+                                alt="How to Set Up and Use Ryn VPN"
+                                className="w-full h-[500px] object-cover"
                                 data-oid="zqs:efv"
                             />
-
-                            <div
-                                className="absolute bottom-4 right-4 bg-purple-600 text-white text-xs px-2 py-1 rounded-md opacity-80"
-                                data-oid="qguyy16"
-                            >
-                                Ryn VPN Interface
-                            </div>
                         </div>
 
                         <div className="prose prose-lg max-w-none" data-oid="a9oyaad">
@@ -618,7 +611,7 @@ export default function BlogPostPage() {
                                 <h3 className="text-2xl font-bold mb-4" data-oid="83sl3ve">
                                     Ready to Get Started?
                                 </h3>
-                                <p className="mb-6 text-purple-100" data-oid="b_bgkuv">
+                                <p className="mb-6 text-purple-100" data-oid="ucdhr0l">
                                     Download Ryn VPN now and take control of your online privacy
                                     with just a few taps.
                                 </p>
@@ -635,11 +628,11 @@ export default function BlogPostPage() {
                                             className="h-5 w-5"
                                             viewBox="0 0 20 20"
                                             fill="currentColor"
-                                            data-oid="j:p5xm9"
+                                            data-oid="mftij72"
                                         >
                                             <path
                                                 d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z"
-                                                data-oid="tc7.9iw"
+                                                data-oid="q.etd33"
                                             />
                                         </svg>
                                         Download for Android
@@ -656,13 +649,13 @@ export default function BlogPostPage() {
                                             className="h-5 w-5"
                                             viewBox="0 0 20 20"
                                             fill="currentColor"
-                                            data-oid="a6oo0o4"
+                                            data-oid="rskl15m"
                                         >
                                             <path
                                                 fillRule="evenodd"
                                                 d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z"
                                                 clipRule="evenodd"
-                                                data-oid="t_6ta5x"
+                                                data-oid="w3_6530"
                                             />
                                         </svg>
                                         Download for iOS
@@ -701,43 +694,43 @@ export default function BlogPostPage() {
                             </p>
                             <div
                                 className="flex justify-center md:justify-start space-x-4"
-                                data-oid="tieh_sg"
+                                data-oid="0hcw9.:"
                             >
                                 <a
                                     href="#"
                                     className="text-purple-600 hover:text-purple-800"
-                                    data-oid="tl2v5pi"
+                                    data-oid="cs7mwym"
                                 >
                                     <svg
                                         className="w-5 h-5"
                                         fill="currentColor"
                                         viewBox="0 0 24 24"
                                         aria-hidden="true"
-                                        data-oid="ndhl2vf"
+                                        data-oid="an6pc-l"
                                     >
                                         <path
                                             fillRule="evenodd"
                                             d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
                                             clipRule="evenodd"
-                                            data-oid="7.t:sde"
+                                            data-oid="r:qybo_"
                                         ></path>
                                     </svg>
                                 </a>
                                 <a
                                     href="#"
                                     className="text-purple-600 hover:text-purple-800"
-                                    data-oid="9lf.svs"
+                                    data-oid="85wh:an"
                                 >
                                     <svg
                                         className="w-5 h-5"
                                         fill="currentColor"
                                         viewBox="0 0 24 24"
                                         aria-hidden="true"
-                                        data-oid="u-g8nag"
+                                        data-oid=":bu3ptz"
                                     >
                                         <path
                                             d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"
-                                            data-oid="71ujxil"
+                                            data-oid="ple9g_r"
                                         ></path>
                                     </svg>
                                 </a>
@@ -757,19 +750,19 @@ export default function BlogPostPage() {
                             <div className="group" data-oid="siw0lyy">
                                 <div
                                     className="relative h-48 mb-4 overflow-hidden rounded-lg"
-                                    data-oid=":y-4-qw"
+                                    data-oid="c3-w8l1"
                                 >
                                     <img
                                         src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
                                         alt="VPN Security"
                                         className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                                        data-oid="8jztxtx"
+                                        data-oid="gk8cs_g"
                                     />
 
-                                    <div className="absolute top-3 left-3" data-oid="spii-qw">
+                                    <div className="absolute top-3 left-3" data-oid="kx9i4u0">
                                         <span
                                             className="bg-purple-600 text-white px-2 py-1 text-xs font-medium rounded"
-                                            data-oid="w5i4dr."
+                                            data-oid="88kxmzm"
                                         >
                                             Security
                                         </span>
@@ -777,21 +770,21 @@ export default function BlogPostPage() {
                                 </div>
                                 <div
                                     className="flex items-center text-sm text-gray-500 mb-2 space-x-3"
-                                    data-oid="1:yyf1:"
+                                    data-oid=":by43io"
                                 >
-                                    <span data-oid="8t5ayz8">June 12, 2023</span>
-                                    <span data-oid="ev2qhi8">•</span>
-                                    <span data-oid="n07pbbc">4 min read</span>
+                                    <span data-oid="nsbvy8o">June 12, 2023</span>
+                                    <span data-oid="1hmzuew">•</span>
+                                    <span data-oid="gqpzeu.">4 min read</span>
                                 </div>
                                 <h3
                                     className="text-xl font-bold mb-2 group-hover:text-purple-600 transition-colors"
-                                    data-oid="-49i83h"
+                                    data-oid=":_cd2yh"
                                 >
-                                    <Link href="#" data-oid="1i.-m-s">
+                                    <Link href="#" data-oid="orww9nk">
                                         5 Ways to Enhance Your Online Privacy
                                     </Link>
                                 </h3>
-                                <p className="text-gray-600" data-oid="185p0w7">
+                                <p className="text-gray-600" data-oid="upjg6mc">
                                     Discover essential strategies beyond VPNs to protect your
                                     digital footprint and maintain privacy in an increasingly
                                     connected world.
@@ -800,19 +793,19 @@ export default function BlogPostPage() {
                             <div className="group" data-oid="c5yj2ti">
                                 <div
                                     className="relative h-48 mb-4 overflow-hidden rounded-lg"
-                                    data-oid="5ye4cou"
+                                    data-oid="p1kzrjr"
                                 >
                                     <img
                                         src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1534&q=80"
                                         alt="VPN Protocols"
                                         className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                                        data-oid="wr5j2c-"
+                                        data-oid="6uevr6f"
                                     />
 
-                                    <div className="absolute top-3 left-3" data-oid="euu0g84">
+                                    <div className="absolute top-3 left-3" data-oid="u_xuyow">
                                         <span
                                             className="bg-purple-600 text-white px-2 py-1 text-xs font-medium rounded"
-                                            data-oid="zgu6hm."
+                                            data-oid="hhx_1ij"
                                         >
                                             Technology
                                         </span>
@@ -820,21 +813,21 @@ export default function BlogPostPage() {
                                 </div>
                                 <div
                                     className="flex items-center text-sm text-gray-500 mb-2 space-x-3"
-                                    data-oid="-co8-ms"
+                                    data-oid="blm96tm"
                                 >
-                                    <span data-oid="g_fblqi">July 23, 2023</span>
-                                    <span data-oid="pycfx2a">•</span>
-                                    <span data-oid="_sagqw0">6 min read</span>
+                                    <span data-oid="si5.luw">July 23, 2023</span>
+                                    <span data-oid="ajmfhtf">•</span>
+                                    <span data-oid="5as0d31">6 min read</span>
                                 </div>
                                 <h3
                                     className="text-xl font-bold mb-2 group-hover:text-purple-600 transition-colors"
-                                    data-oid="fducbvy"
+                                    data-oid="fbbaqit"
                                 >
-                                    <Link href="#" data-oid="aehr_:3">
+                                    <Link href="#" data-oid="f_bgop0">
                                         Understanding VPN Protocols
                                     </Link>
                                 </h3>
-                                <p className="text-gray-600" data-oid="8c-l3lu">
+                                <p className="text-gray-600" data-oid="xbhvo9b">
                                     A comprehensive guide to different VPN protocols, their
                                     strengths, weaknesses, and which ones are best for your specific
                                     needs.
