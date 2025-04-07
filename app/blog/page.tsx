@@ -198,9 +198,9 @@ export default function BlogPage() {
                         data-oid="zp-8_8c"
                     >
                         <img
-                            src="/blog-vpn-setup.jpg"
+                            src="/set%20up.png"
                             alt="How to Set Up and Use Ryn VPN"
-                            className="w-full h-80 object-cover"
+                            className="w-full h-80 object-contain bg-gradient-to-r from-purple-50 to-white"
                             data-oid="22.smu4"
                         />
 
