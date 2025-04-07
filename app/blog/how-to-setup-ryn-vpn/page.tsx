@@ -282,11 +282,18 @@ export default function BlogPostPage() {
                             data-oid="2if:x3n"
                         >
                             <img
-                                src="/blog-vpn-setup.jpg"
-                                alt="How to Set Up and Use Ryn VPN"
-                                className="w-full h-[500px] object-cover"
+                                src="/vpn-app-mockup.png"
+                                alt="Ryn VPN App Interface"
+                                className="w-full h-[500px] object-contain bg-gradient-to-r from-purple-50 to-white"
                                 data-oid="zqs:efv"
                             />
+
+                            <div
+                                className="absolute bottom-4 right-4 bg-purple-600 text-white text-xs px-2 py-1 rounded-md opacity-80"
+                                data-oid="qguyy16"
+                            >
+                                Ryn VPN Interface
+                            </div>
                         </div>
 
                         <div className="prose prose-lg max-w-none" data-oid="a9oyaad">
