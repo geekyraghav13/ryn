@@ -822,7 +822,7 @@ export default function Page() {
                                 </li>
                                 <li data-oid="3u6npae">
                                     <a
-                                        href="#"
+                                        href="/blog"
                                         className="text-gray-600 hover:text-purple-700 transition-colors"
                                         data-oid="viy8smb"
                                     >
