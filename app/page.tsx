@@ -478,204 +478,23 @@ export default function Page() {
                 className="py-20 px-4 bg-white text-gray-900 relative"
                 data-oid="wr:7qwb"
             >
-                <div
-                    className="absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(168,85,247,0.1)_0%,_transparent_70%)]"
-                    data-oid="hxlsteh"
-                ></div>
-                <div className="container mx-auto max-w-6xl relative z-10" data-oid="mf_3ek6">
-                    <div className="text-center mb-16" data-oid="r8i.__0">
-                        <h2
-                            className="text-3xl md:text-4xl font-bold mb-4 text-purple-900"
-                            data-oid="7.j2f4v"
+                <div className="container mx-auto max-w-6xl relative z-10 py-16" data-oid="ys03yk-">
+                    <div className="text-center" data-oid="7oxoniq">
+                        <p
+                            className="text-2xl md:text-3xl font-bold text-purple-900 mb-8"
+                            data-oid="h0rmb1y"
                         >
-                            Simple, Transparent Pricing
-                        </h2>
-                        <p className="text-xl text-gray-600 max-w-3xl mx-auto" data-oid="vwhnkhu">
-                            Choose the plan that works best for you. All plans include our core
-                            features.
+                            Want to know more about pricing?{' '}
+                            <a
+                                href="https://rynvpn.superwall.app/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="text-purple-600 hover:text-purple-800 underline transition-colors"
+                                data-oid="hiwx13h"
+                            >
+                                Click here
+                            </a>
                         </p>
-                    </div>
-
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-8" data-oid="ftj.hse">
-                        <div
-                            className="bg-white rounded-xl p-6 border border-gray-200 shadow-lg hover:shadow-xl transition-all"
-                            data-oid=":nmb-w:"
-                        >
-                            <div className="text-center mb-6" data-oid="db2loof">
-                                <h3
-                                    className="text-xl font-bold mb-2 text-gray-800"
-                                    data-oid="o0zclpr"
-                                >
-                                    Free
-                                </h3>
-                                <div
-                                    className="text-4xl font-bold mb-2 text-purple-900"
-                                    data-oid="36idxhz"
-                                >
-                                    $0
-                                </div>
-                                <p className="text-gray-500" data-oid="_wpfrdy">
-                                    Limited features
-                                </p>
-                            </div>
-                            <div
-                                className="bg-gray-100 text-gray-800 rounded-lg p-4 mb-6"
-                                data-oid="90m4y11"
-                            >
-                                <h4
-                                    className="font-bold text-lg mb-3 text-center"
-                                    data-oid="7wxc654"
-                                >
-                                    Free Features:
-                                </h4>
-                                <ul className="space-y-3 list-disc pl-5" data-oid="7cyl9.-">
-                                    <li className="font-medium" data-oid="rt2ei_h">
-                                        Basic encryption protection
-                                    </li>
-                                    <li className="font-medium" data-oid="f_gv2-0">
-                                        Limited server locations
-                                    </li>
-                                    <li className="font-medium" data-oid="v43_4m4">
-                                        Standard connection speed
-                                    </li>
-                                    <li className="font-medium text-gray-500" data-oid="z7_zf8z">
-                                        Includes advertisements
-                                    </li>
-                                </ul>
-                            </div>
-                            <a
-                                href="https://play.google.com/store/apps/details?id=com.secure.cryptovpn&hl=en_IN"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="block text-center bg-purple-100 hover:bg-purple-200 text-purple-900 font-medium py-2 px-4 rounded-lg transition-colors border border-purple-200"
-                                data-oid="rzo2fm1"
-                            >
-                                Download Free
-                            </a>
-                        </div>
-
-                        <div
-                            className="bg-purple-900 rounded-xl p-6 border-2 border-purple-600 transform md:scale-105 z-10 shadow-2xl text-white ring-4 ring-purple-200"
-                            data-oid="bd5i3sn"
-                        >
-                            <div className="text-center mb-6" data-oid=".-qpck2">
-                                <div
-                                    className="bg-white text-purple-900 text-sm font-bold py-1 px-3 rounded-full inline-block mb-2 shadow-md"
-                                    data-oid="qk39mx-"
-                                >
-                                    MOST POPULAR
-                                </div>
-                                <h3
-                                    className="text-xl font-bold mb-2 text-white"
-                                    data-oid="rrlh7an"
-                                >
-                                    Premium
-                                </h3>
-                                <div
-                                    className="text-4xl font-bold mb-2 text-white"
-                                    data-oid="pfwtfym"
-                                >
-                                    ₹999.00/mo
-                                </div>
-                                <p className="text-purple-200" data-oid="4y0kntf">
-                                    per month
-                                </p>
-                            </div>
-                            <div
-                                className="bg-white text-purple-900 rounded-lg p-4 mb-6 shadow-inner"
-                                data-oid="eug0x0v"
-                            >
-                                <h4
-                                    className="font-bold text-lg mb-3 text-center"
-                                    data-oid=":c8j-tr"
-                                >
-                                    Premium Features:
-                                </h4>
-                                <ul className="space-y-3 list-disc pl-5" data-oid="7e2790h">
-                                    <li className="font-medium" data-oid=".8j.qf5">
-                                        Military-grade encryption
-                                    </li>
-                                    <li className="font-medium" data-oid="gulkd23">
-                                        1000+ server locations worldwide
-                                    </li>
-                                    <li className="font-medium" data-oid="h1pdt-0">
-                                        High-speed servers for streaming
-                                    </li>
-                                    <li className="font-medium" data-oid="gmoz1:n">
-                                        Ad-free experience guaranteed
-                                    </li>
-                                </ul>
-                            </div>
-                            <a
-                                href="https://play.google.com/store/apps/details?id=com.secure.cryptovpn&hl=en_IN"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="block text-center bg-purple-600 hover:bg-purple-700 text-white font-medium py-2 px-4 rounded-lg transition-colors"
-                                data-oid="sk7flau"
-                            >
-                                Get Premium
-                            </a>
-                        </div>
-
-                        <div
-                            className="bg-white rounded-xl p-6 border border-gray-200 shadow-lg hover:shadow-xl transition-all"
-                            data-oid="ejn_5ev"
-                        >
-                            <div className="text-center mb-6" data-oid=".hed7q4">
-                                <h3
-                                    className="text-xl font-bold mb-2 text-gray-800"
-                                    data-oid="gzlh6nw"
-                                >
-                                    Yearly Plan
-                                </h3>
-                                <div
-                                    className="text-4xl font-bold mb-2 text-purple-900"
-                                    data-oid="3f_vp_v"
-                                >
-                                    ₹4450.00/mo
-                                </div>
-                                <p className="text-gray-500" data-oid="465:ape">
-                                    12 Months
-                                </p>
-                            </div>
-                            <div
-                                className="bg-gray-100 text-gray-800 rounded-lg p-4 mb-6"
-                                data-oid="xeirb9s"
-                            >
-                                <h4
-                                    className="font-bold text-lg mb-3 text-center"
-                                    data-oid="sccrl2i"
-                                >
-                                    Yearly Plan Features:
-                                </h4>
-                                <ul className="space-y-3 list-disc pl-5" data-oid="t1gwfg0">
-                                    <li className="font-medium" data-oid="_k1ql1z">
-                                        All Premium features included
-                                    </li>
-                                    <li className="font-medium" data-oid="3kuis3s">
-                                        Dedicated IP address option
-                                    </li>
-                                    <li className="font-medium" data-oid="74rz6v0">
-                                        Priority customer support
-                                    </li>
-                                    <li className="font-medium" data-oid="m0:s.ve">
-                                        Connect up to 10 devices simultaneously
-                                    </li>
-                                    <li className="font-medium" data-oid="g3q04zp">
-                                        Team management console access
-                                    </li>
-                                </ul>
-                            </div>
-                            <a
-                                href="https://play.google.com/store/apps/details?id=com.secure.cryptovpn&hl=en_IN"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="block text-center bg-purple-600 hover:bg-purple-700 text-white font-medium py-2 px-4 rounded-lg transition-colors"
-                                data-oid="c9p8lsv"
-                            >
-                                Get Premium
-                            </a>
-                        </div>
                     </div>
                 </div>
             </section>
