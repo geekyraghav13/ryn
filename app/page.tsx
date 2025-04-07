@@ -846,7 +846,6 @@ export default function Page() {
                                         Blog
                                     </a>
                                 </li>
-                                <li data-oid="w89-5l1"></li>
                                 <li data-oid="2p30:ht">
                                     <a
                                         href="/privacy-policy"
@@ -856,6 +855,15 @@ export default function Page() {
                                         Privacy Policy
                                     </a>
                                 </li>
+                                <li data-oid="x__n15z">
+                                    <a
+                                        href="/terms"
+                                        className="text-gray-600 hover:text-purple-700 transition-colors"
+                                        data-oid="67fy.lj"
+                                    >
+                                        Terms of Service
+                                    </a>
+                                </li>
                             </ul>
                         </div>
 
@@ -863,6 +871,53 @@ export default function Page() {
                             <h3
                                 className="text-lg font-bold mb-4 text-purple-800"
                                 data-oid="w30hfvr"
+                            >
+                                Support
+                            </h3>
+                            <ul className="space-y-2" data-oid="lgdqgl.">
+                                <li data-oid="8ubn4xp">
+                                    <a
+                                        href="/faq"
+                                        className="text-gray-600 hover:text-purple-700 transition-colors"
+                                        data-oid="6toc7bj"
+                                    >
+                                        FAQ
+                                    </a>
+                                </li>
+                                <li data-oid="4iln-cn">
+                                    <a
+                                        href="/help"
+                                        className="text-gray-600 hover:text-purple-700 transition-colors"
+                                        data-oid="sv8hgbv"
+                                    >
+                                        Help Center
+                                    </a>
+                                </li>
+                                <li data-oid="nv1v9-9">
+                                    <a
+                                        href="/tutorials"
+                                        className="text-gray-600 hover:text-purple-700 transition-colors"
+                                        data-oid=".t8cf.w"
+                                    >
+                                        Tutorials
+                                    </a>
+                                </li>
+                                <li data-oid="h2q8e58">
+                                    <a
+                                        href="/contact"
+                                        className="text-gray-600 hover:text-purple-700 transition-colors"
+                                        data-oid="yf9:joo"
+                                    >
+                                        Contact Support
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div data-oid="wzju-0e">
+                            <h3
+                                className="text-lg font-bold mb-4 text-purple-800"
+                                data-oid="o15v63l"
                             >
                                 Contact Us
                             </h3>
@@ -874,7 +929,7 @@ export default function Page() {
                                 <p className="pt-2" data-oid="p-35-3z">
                                     <a
                                         href="mailto:bugs@rynvpn.com"
-                                        className="text-purple-400 hover:text-purple-300 transition-colors"
+                                        className="text-purple-400 hover:text-purple-700 transition-colors"
                                         data-oid="b_ekkik"
                                     >
                                         bugs@rynvpn.com
@@ -888,11 +943,13 @@ export default function Page() {
                         data-oid="-7q7wva"
                     >
                         <div className="text-gray-600 mb-4 md:mb-0" data-oid="eoxp46m">
-                            © 2025 Ryn VPN - All Rights Reserved.
+                            © 2024 Ryn VPN - All Rights Reserved. Secure your digital life.
                         </div>
                         <div className="flex space-x-4" data-oid="0k9ve6-">
                             <a
-                                href="#"
+                                href="https://www.facebook.com/rynvpn"
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 className="text-purple-600 hover:text-purple-800 transition-colors"
                                 data-oid="h6g3dua"
                             >
@@ -930,7 +987,9 @@ export default function Page() {
                                 </svg>
                             </a>
                             <a
-                                href="#"
+                                href="https://www.instagram.com/rynvpn"
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 className="text-purple-600 hover:text-purple-800 transition-colors"
                                 data-oid="9auh9zg"
                             >
