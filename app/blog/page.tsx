@@ -183,8 +183,16 @@ export default function BlogPage() {
                         Ryn VPN Blog
                     </h1>
                     <p className="text-xl text-purple-200 max-w-3xl mx-auto" data-oid="9es:ndh">
-                        Stay updated with the latest news, tips, and guides on online privacy and
-                        security
+                        Stay informed with the latest online privacy news, cybersecurity tips, and
+                        comprehensive VPN guides right here on the Ryn VPN Blog. We're dedicated to
+                        making complex security topics easy to understand for users in India and
+                        across the globe in 2025. Keep checking back for timely updates on data
+                        breach news, evolving data protection laws like the DPDPA, and practical
+                        advice on how to secure your digital life. Learn how to navigate the
+                        increasing cyber threats in India, including brand impersonation and digital
+                        payment scams, all while understanding how Ryn VPN can be your trusted
+                        partner in maintaining a safe and private online experience. Don't miss out
+                        – make Ryn VPN Blog your regular source for staying secure online.
                     </p>
                 </div>
             </div>
@@ -251,65 +259,8 @@ export default function BlogPage() {
                         </div>
                     </div>
 
-                    {/* More Articles Placeholder */}
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12" data-oid="97l3r3m">
-                        <div
-                            className="bg-white rounded-xl shadow-md overflow-hidden opacity-50"
-                            data-oid="0-7sm5s"
-                        >
-                            <div className="h-48 bg-gray-200" data-oid="co5ua:z"></div>
-                            <div className="p-6" data-oid="mccnh.1">
-                                <div
-                                    className="flex items-center text-sm text-gray-500 mb-4"
-                                    data-oid="r0.0c_1"
-                                >
-                                    <span
-                                        className="bg-gray-100 text-gray-800 px-3 py-1 rounded-full"
-                                        data-oid=":bvu-15"
-                                    >
-                                        Coming Soon
-                                    </span>
-                                </div>
-                                <h3
-                                    className="text-xl font-bold text-gray-900 mb-2"
-                                    data-oid="qd8sl__"
-                                >
-                                    Top 5 Reasons Why You Need a VPN in 2023
-                                </h3>
-                                <p className="text-gray-600" data-oid="de:jvd-">
-                                    More articles coming soon...
-                                </p>
-                            </div>
-                        </div>
-                        <div
-                            className="bg-white rounded-xl shadow-md overflow-hidden opacity-50"
-                            data-oid=".5.k:_x"
-                        >
-                            <div className="h-48 bg-gray-200" data-oid="xyk6wm5"></div>
-                            <div className="p-6" data-oid="owqsi2e">
-                                <div
-                                    className="flex items-center text-sm text-gray-500 mb-4"
-                                    data-oid="w:ja7h6"
-                                >
-                                    <span
-                                        className="bg-gray-100 text-gray-800 px-3 py-1 rounded-full"
-                                        data-oid="g8bb-6e"
-                                    >
-                                        Coming Soon
-                                    </span>
-                                </div>
-                                <h3
-                                    className="text-xl font-bold text-gray-900 mb-2"
-                                    data-oid="a3w:cxw"
-                                >
-                                    How to Stay Safe on Public Wi-Fi Networks
-                                </h3>
-                                <p className="text-gray-600" data-oid="9qahx3t">
-                                    More articles coming soon...
-                                </p>
-                            </div>
-                        </div>
-                    </div>
+                    {/* Space for future articles */}
+                    <div className="mb-12" data-oid="leoir2v"></div>
 
                     {/* Newsletter Signup */}
                     <div className="bg-purple-100 rounded-xl p-8 text-center" data-oid="p9:5fj4">

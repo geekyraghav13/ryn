@@ -255,7 +255,7 @@ export default function BlogPostPage() {
                                 <span className="text-purple-600 font-medium" data-oid="nze454q">
                                     Tutorial
                                 </span>
-                                <span data-oid="vi3:bdc">May 15, 2023</span>
+                                <span data-oid="vi3:bdc">May 15, 2025</span>
                                 <span data-oid="35pt2ji">5 min read</span>
                             </div>
 
@@ -743,97 +743,10 @@ export default function BlogPostPage() {
                         <h3
                             className="text-2xl font-bold text-gray-900 mb-8 pb-4 border-b border-gray-200"
                             data-oid="_--ilsw"
+                            key="olk-exPR"
                         >
                             Related Articles
                         </h3>
-                        <div className="grid grid-cols-1 md:grid-cols-2 gap-8" data-oid=":fp3n8z">
-                            <div className="group" data-oid="siw0lyy">
-                                <div
-                                    className="relative h-48 mb-4 overflow-hidden rounded-lg"
-                                    data-oid="c3-w8l1"
-                                >
-                                    <img
-                                        src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
-                                        alt="VPN Security"
-                                        className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                                        data-oid="gk8cs_g"
-                                    />
-
-                                    <div className="absolute top-3 left-3" data-oid="kx9i4u0">
-                                        <span
-                                            className="bg-purple-600 text-white px-2 py-1 text-xs font-medium rounded"
-                                            data-oid="88kxmzm"
-                                        >
-                                            Security
-                                        </span>
-                                    </div>
-                                </div>
-                                <div
-                                    className="flex items-center text-sm text-gray-500 mb-2 space-x-3"
-                                    data-oid=":by43io"
-                                >
-                                    <span data-oid="nsbvy8o">June 12, 2023</span>
-                                    <span data-oid="1hmzuew">•</span>
-                                    <span data-oid="gqpzeu.">4 min read</span>
-                                </div>
-                                <h3
-                                    className="text-xl font-bold mb-2 group-hover:text-purple-600 transition-colors"
-                                    data-oid=":_cd2yh"
-                                >
-                                    <Link href="#" data-oid="orww9nk">
-                                        5 Ways to Enhance Your Online Privacy
-                                    </Link>
-                                </h3>
-                                <p className="text-gray-600" data-oid="upjg6mc">
-                                    Discover essential strategies beyond VPNs to protect your
-                                    digital footprint and maintain privacy in an increasingly
-                                    connected world.
-                                </p>
-                            </div>
-                            <div className="group" data-oid="c5yj2ti">
-                                <div
-                                    className="relative h-48 mb-4 overflow-hidden rounded-lg"
-                                    data-oid="p1kzrjr"
-                                >
-                                    <img
-                                        src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1534&q=80"
-                                        alt="VPN Protocols"
-                                        className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                                        data-oid="6uevr6f"
-                                    />
-
-                                    <div className="absolute top-3 left-3" data-oid="u_xuyow">
-                                        <span
-                                            className="bg-purple-600 text-white px-2 py-1 text-xs font-medium rounded"
-                                            data-oid="hhx_1ij"
-                                        >
-                                            Technology
-                                        </span>
-                                    </div>
-                                </div>
-                                <div
-                                    className="flex items-center text-sm text-gray-500 mb-2 space-x-3"
-                                    data-oid="blm96tm"
-                                >
-                                    <span data-oid="si5.luw">July 23, 2023</span>
-                                    <span data-oid="ajmfhtf">•</span>
-                                    <span data-oid="5as0d31">6 min read</span>
-                                </div>
-                                <h3
-                                    className="text-xl font-bold mb-2 group-hover:text-purple-600 transition-colors"
-                                    data-oid="fbbaqit"
-                                >
-                                    <Link href="#" data-oid="f_bgop0">
-                                        Understanding VPN Protocols
-                                    </Link>
-                                </h3>
-                                <p className="text-gray-600" data-oid="xbhvo9b">
-                                    A comprehensive guide to different VPN protocols, their
-                                    strengths, weaknesses, and which ones are best for your specific
-                                    needs.
-                                </p>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
