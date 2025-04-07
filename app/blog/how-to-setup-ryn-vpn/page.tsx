@@ -176,13 +176,13 @@ export default function BlogPostPage() {
                 </div>
             </header>
 
-            {/* Blog Post Content */}
-            <div className="container mx-auto px-4 py-12" data-oid="gena2ep">
-                <div className="max-w-3xl mx-auto" data-oid="byh.gd.">
-                    <div className="mb-8" data-oid="l7svekt">
+            {/* Blog Post Content - Timestream Inspired */}
+            <div className="container mx-auto px-4 py-16" data-oid="gena2ep">
+                <div className="max-w-4xl mx-auto" data-oid="byh.gd.">
+                    <div className="mb-8 flex justify-between items-center" data-oid="l7svekt">
                         <Link
                             href="/blog"
-                            className="text-purple-600 hover:text-purple-800 flex items-center gap-2"
+                            className="text-purple-600 hover:text-purple-800 flex items-center gap-2 font-medium"
                             data-oid="pg_jm3i"
                         >
                             <svg
@@ -201,412 +201,465 @@ export default function BlogPostPage() {
                             </svg>
                             Back to Blog
                         </Link>
+                        <div className="flex items-center space-x-3" data-oid="xl-i6oj">
+                            <span className="text-gray-500 text-sm" data-oid="pljkwnm">
+                                Share:
+                            </span>
+                            <a
+                                href="#"
+                                className="text-purple-600 hover:text-purple-800"
+                                data-oid="k86w_.8"
+                            >
+                                <svg
+                                    className="w-5 h-5"
+                                    fill="currentColor"
+                                    viewBox="0 0 24 24"
+                                    aria-hidden="true"
+                                    data-oid="b7do1oi"
+                                >
+                                    <path
+                                        fillRule="evenodd"
+                                        d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
+                                        clipRule="evenodd"
+                                        data-oid="jcx-hf:"
+                                    ></path>
+                                </svg>
+                            </a>
+                            <a
+                                href="#"
+                                className="text-purple-600 hover:text-purple-800"
+                                data-oid=".a322g9"
+                            >
+                                <svg
+                                    className="w-5 h-5"
+                                    fill="currentColor"
+                                    viewBox="0 0 24 24"
+                                    aria-hidden="true"
+                                    data-oid="sjixfnb"
+                                >
+                                    <path
+                                        d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"
+                                        data-oid="9nujdb6"
+                                    ></path>
+                                </svg>
+                            </a>
+                        </div>
                     </div>
 
-                    <article
-                        className="bg-white rounded-xl shadow-lg overflow-hidden"
-                        data-oid="qfjg06y"
-                    >
-                        <img
-                            src="/blog-vpn-setup.jpg"
-                            alt="How to Set Up and Use Ryn VPN"
-                            className="w-full h-80 object-cover"
-                            data-oid="zqs:efv"
-                        />
-
-                        <div className="p-8" data-oid="m88p7y2">
+                    <article data-oid="qfjg06y">
+                        <header className="mb-10" data-oid="gqdzaag">
                             <div
-                                className="flex items-center text-sm text-gray-500 mb-4"
+                                className="flex items-center text-sm text-gray-500 mb-4 space-x-4"
                                 data-oid="g8oqbm1"
                             >
-                                <span
-                                    className="bg-purple-100 text-purple-800 px-3 py-1 rounded-full"
-                                    data-oid="nze454q"
-                                >
+                                <span className="text-purple-600 font-medium" data-oid="nze454q">
                                     Tutorial
                                 </span>
-                                <span className="mx-3" data-oid="v8juz9j">
-                                    •
-                                </span>
                                 <span data-oid="vi3:bdc">May 15, 2023</span>
-                                <span className="mx-3" data-oid="fwlb1_0">
-                                    •
-                                </span>
                                 <span data-oid="35pt2ji">5 min read</span>
                             </div>
 
                             <h1
-                                className="text-3xl md:text-4xl font-bold text-gray-900 mb-6"
+                                className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight"
                                 data-oid="_kf-kqu"
                             >
                                 How to Set Up and Use Ryn VPN for Maximum Privacy
                             </h1>
 
-                            <div className="prose prose-lg max-w-none" data-oid="a9oyaad">
-                                <p className="lead text-xl text-gray-600 mb-8" data-oid="nmrif0s">
-                                    In today's digital world, protecting your online privacy has
-                                    never been more important. Ryn VPN provides a simple yet
-                                    powerful solution to secure your internet connection, protect
-                                    your personal data, and access content from anywhere in the
-                                    world.
-                                </p>
+                            <p
+                                className="text-xl text-gray-600 mb-8 leading-relaxed"
+                                data-oid="nmrif0s"
+                            >
+                                In today's digital world, protecting your online privacy has never
+                                been more important. Ryn VPN provides a simple yet powerful solution
+                                to secure your internet connection, protect your personal data, and
+                                access content from anywhere in the world.
+                            </p>
+                        </header>
 
-                                <h2
-                                    className="text-2xl font-bold text-gray-800 mt-10 mb-4"
-                                    data-oid="897iaea"
+                        <div
+                            className="relative mb-12 overflow-hidden rounded-xl"
+                            data-oid="2if:x3n"
+                        >
+                            <img
+                                src="/blog-vpn-setup.jpg"
+                                alt="How to Set Up and Use Ryn VPN"
+                                className="w-full h-[500px] object-cover"
+                                data-oid="zqs:efv"
+                            />
+                        </div>
+
+                        <div className="prose prose-lg max-w-none" data-oid="a9oyaad">
+                            <h2
+                                className="text-2xl font-bold text-gray-800 mt-10 mb-4"
+                                data-oid="897iaea"
+                            >
+                                Why You Need Ryn VPN
+                            </h2>
+                            <p data-oid="o7:2997">
+                                Before diving into the setup process, let's quickly review why using
+                                a VPN like Ryn VPN is essential:
+                            </p>
+                            <ul className="list-disc pl-6 mb-6 space-y-2" data-oid="jdaijk.">
+                                <li data-oid="s.mgbai">
+                                    <strong data-oid="x3klau7">Privacy Protection:</strong> Prevents
+                                    ISPs, websites, and hackers from tracking your online activities
+                                </li>
+                                <li data-oid="gnbsf60">
+                                    <strong data-oid="ue:hctb">Security on Public Wi-Fi:</strong>{' '}
+                                    Encrypts your connection on unsecured networks
+                                </li>
+                                <li data-oid="9yvdj:3">
+                                    <strong data-oid="4rfoqdc">
+                                        Access to Geo-restricted Content:
+                                    </strong>{' '}
+                                    Bypasses regional restrictions on streaming services and
+                                    websites
+                                </li>
+                                <li data-oid="7kmpoa2">
+                                    <strong data-oid="6eu65pr">
+                                        Protection from Data Throttling:
+                                    </strong>{' '}
+                                    Prevents your ISP from slowing down your connection based on
+                                    your activities
+                                </li>
+                                <li data-oid=".wl4s9o">
+                                    <strong data-oid="t:cles5">Anonymous Browsing:</strong> Masks
+                                    your IP address to keep your identity private
+                                </li>
+                            </ul>
+
+                            <h2
+                                className="text-2xl font-bold text-gray-800 mt-10 mb-4"
+                                data-oid="w.vk:q9"
+                            >
+                                Step 1: Download and Install Ryn VPN
+                            </h2>
+                            <p data-oid="u4:t4uu">
+                                Getting started with Ryn VPN is straightforward. Follow these steps
+                                to download and install the app:
+                            </p>
+                            <ol className="list-decimal pl-6 mb-6 space-y-2" data-oid="4_a38em">
+                                <li data-oid="cuii1q8">
+                                    Visit the{' '}
+                                    <a
+                                        href="https://play.google.com/store/apps/details?id=com.secure.cryptovpn&hl=en_IN"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="text-purple-600 hover:text-purple-800"
+                                        data-oid="3fv:-:d"
+                                    >
+                                        Google Play Store
+                                    </a>{' '}
+                                    (for Android) or the{' '}
+                                    <a
+                                        href="https://apps.apple.com/in/app/ryn-vpn-secure-vpn-master/id1493328027"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="text-purple-600 hover:text-purple-800"
+                                        data-oid="v2ekdco"
+                                    >
+                                        App Store
+                                    </a>{' '}
+                                    (for iOS)
+                                </li>
+                                <li data-oid="6uo08k7">
+                                    Search for "Ryn VPN" or click on the direct links above
+                                </li>
+                                <li data-oid="ob67zjp">
+                                    Tap "Install" or "Get" to download the app
+                                </li>
+                                <li data-oid="k5dhh0i">
+                                    Once installed, open the app from your device's home screen
+                                </li>
+                            </ol>
+
+                            <div className="bg-purple-50 p-6 rounded-lg mb-8" data-oid="le168by">
+                                <h3
+                                    className="text-lg font-bold text-purple-800 mb-2"
+                                    data-oid="j130m_n"
                                 >
-                                    Why You Need Ryn VPN
-                                </h2>
-                                <p data-oid="o7:2997">
-                                    Before diving into the setup process, let's quickly review why
-                                    using a VPN like Ryn VPN is essential:
+                                    Pro Tip
+                                </h3>
+                                <p className="text-purple-900" data-oid="_y:eavp">
+                                    Make sure you're downloading the official Ryn VPN app. Look for
+                                    "Human Data Systems Private Limited" as the developer to ensure
+                                    you're getting the genuine application.
                                 </p>
-                                <ul className="list-disc pl-6 mb-6 space-y-2" data-oid="jdaijk.">
-                                    <li data-oid="s.mgbai">
-                                        <strong data-oid="x3klau7">Privacy Protection:</strong>{' '}
-                                        Prevents ISPs, websites, and hackers from tracking your
-                                        online activities
+                            </div>
+
+                            <h2
+                                className="text-2xl font-bold text-gray-800 mt-10 mb-4"
+                                data-oid="baut80t"
+                            >
+                                Step 2: Create an Account or Sign In
+                            </h2>
+                            <p data-oid="57g3.mg">
+                                After installing the app, you'll need to create an account or sign
+                                in:
+                            </p>
+                            <ol className="list-decimal pl-6 mb-6 space-y-2" data-oid="wc8f93a">
+                                <li data-oid="5y5as--">Open the Ryn VPN app</li>
+                                <li data-oid="hgudaxx">Tap "Sign Up" if you're a new user</li>
+                                <li data-oid="oyqxq-c">
+                                    Enter your email address and create a strong password
+                                </li>
+                                <li data-oid="88_dqh1">
+                                    Alternatively, you can sign up using your Google or Apple
+                                    account for faster access
+                                </li>
+                                <li data-oid="l_96nku">Verify your email address if prompted</li>
+                            </ol>
+
+                            <h2
+                                className="text-2xl font-bold text-gray-800 mt-10 mb-4"
+                                data-oid="e-2k_k8"
+                            >
+                                Step 3: Connect to a VPN Server
+                            </h2>
+                            <p data-oid="32v4:ss">
+                                Now that you're signed in, you can connect to a VPN server:
+                            </p>
+                            <ol className="list-decimal pl-6 mb-6 space-y-2" data-oid="wwy7rj.">
+                                <li data-oid="w:0:n18">
+                                    On the main screen, you'll see a large "Connect" button
+                                </li>
+                                <li data-oid="fw.xr1j">
+                                    For the fastest connection, tap "Connect" to automatically
+                                    connect to the optimal server
+                                </li>
+                                <li data-oid="10ahqgq">
+                                    To select a specific location, tap on the server location
+                                    indicator (usually shows a country name or "Best Location")
+                                </li>
+                                <li data-oid="9wl1soi">
+                                    Browse the list of available servers and select your preferred
+                                    location
+                                </li>
+                                <li data-oid="ix-d27d">
+                                    Tap "Connect" to establish a secure VPN connection
+                                </li>
+                            </ol>
+
+                            <div className="bg-blue-50 p-6 rounded-lg mb-8" data-oid=".8a:7ov">
+                                <h3
+                                    className="text-lg font-bold text-blue-800 mb-2"
+                                    data-oid="szzhsn3"
+                                >
+                                    Server Selection Tips
+                                </h3>
+                                <ul
+                                    className="list-disc pl-6 space-y-1 text-blue-900"
+                                    data-oid="3o1xi74"
+                                >
+                                    <li data-oid=".p-b1:c">
+                                        For general browsing and privacy, use the "Best Location"
+                                        option
                                     </li>
-                                    <li data-oid="gnbsf60">
-                                        <strong data-oid="ue:hctb">
-                                            Security on Public Wi-Fi:
-                                        </strong>{' '}
-                                        Encrypts your connection on unsecured networks
+                                    <li data-oid="4q9pe:f">
+                                        For streaming, select a server in the country where the
+                                        content is available
                                     </li>
-                                    <li data-oid="9yvdj:3">
-                                        <strong data-oid="4rfoqdc">
-                                            Access to Geo-restricted Content:
-                                        </strong>{' '}
-                                        Bypasses regional restrictions on streaming services and
-                                        websites
+                                    <li data-oid="..ucbh7">
+                                        For gaming, choose a server closest to the game's servers to
+                                        reduce latency
                                     </li>
-                                    <li data-oid="7kmpoa2">
-                                        <strong data-oid="6eu65pr">
-                                            Protection from Data Throttling:
-                                        </strong>{' '}
-                                        Prevents your ISP from slowing down your connection based on
-                                        your activities
-                                    </li>
-                                    <li data-oid=".wl4s9o">
-                                        <strong data-oid="t:cles5">Anonymous Browsing:</strong>{' '}
-                                        Masks your IP address to keep your identity private
+                                    <li data-oid=":_xtz.k">
+                                        Premium users have access to specialized streaming and
+                                        gaming servers
                                     </li>
                                 </ul>
+                            </div>
 
-                                <h2
-                                    className="text-2xl font-bold text-gray-800 mt-10 mb-4"
-                                    data-oid="w.vk:q9"
-                                >
-                                    Step 1: Download and Install Ryn VPN
-                                </h2>
-                                <p data-oid="u4:t4uu">
-                                    Getting started with Ryn VPN is straightforward. Follow these
-                                    steps to download and install the app:
-                                </p>
-                                <ol className="list-decimal pl-6 mb-6 space-y-2" data-oid="4_a38em">
-                                    <li data-oid="cuii1q8">
-                                        Visit the{' '}
-                                        <a
-                                            href="https://play.google.com/store/apps/details?id=com.secure.cryptovpn&hl=en_IN"
-                                            target="_blank"
-                                            rel="noopener noreferrer"
-                                            className="text-purple-600 hover:text-purple-800"
-                                            data-oid="3fv:-:d"
-                                        >
-                                            Google Play Store
-                                        </a>{' '}
-                                        (for Android) or the{' '}
-                                        <a
-                                            href="https://apps.apple.com/in/app/ryn-vpn-secure-vpn-master/id1493328027"
-                                            target="_blank"
-                                            rel="noopener noreferrer"
-                                            className="text-purple-600 hover:text-purple-800"
-                                            data-oid="v2ekdco"
-                                        >
-                                            App Store
-                                        </a>{' '}
-                                        (for iOS)
-                                    </li>
-                                    <li data-oid="6uo08k7">
-                                        Search for "Ryn VPN" or click on the direct links above
-                                    </li>
-                                    <li data-oid="ob67zjp">
-                                        Tap "Install" or "Get" to download the app
-                                    </li>
-                                    <li data-oid="k5dhh0i">
-                                        Once installed, open the app from your device's home screen
-                                    </li>
-                                </ol>
+                            <h2
+                                className="text-2xl font-bold text-gray-800 mt-10 mb-4"
+                                data-oid="2346.8j"
+                            >
+                                Step 4: Customize Your VPN Settings
+                            </h2>
+                            <p data-oid="299buaz">
+                                Ryn VPN offers several customization options to enhance your
+                                experience:
+                            </p>
+                            <ul className="list-disc pl-6 mb-6 space-y-2" data-oid="wy0fizw">
+                                <li data-oid="g0-u0qc">
+                                    <strong data-oid="qw4amux">Auto-Connect:</strong> Configure Ryn
+                                    VPN to automatically connect when you join untrusted Wi-Fi
+                                    networks
+                                </li>
+                                <li data-oid="_tak.-b">
+                                    <strong data-oid="5lyyrpl">Split Tunneling:</strong> Choose
+                                    which apps use the VPN connection and which ones use your
+                                    regular connection
+                                </li>
+                                <li data-oid="4qbtv4-">
+                                    <strong data-oid="i5lbp3z">Kill Switch:</strong> Enable this
+                                    feature to automatically disconnect your internet if the VPN
+                                    connection drops, preventing data leaks
+                                </li>
+                                <li data-oid="rxdcmk3">
+                                    <strong data-oid="r6a0-04">Protocol Selection:</strong> Advanced
+                                    users can select different VPN protocols based on their needs
+                                </li>
+                            </ul>
 
-                                <div
-                                    className="bg-purple-50 p-6 rounded-lg mb-8"
-                                    data-oid="le168by"
-                                >
-                                    <h3
-                                        className="text-lg font-bold text-purple-800 mb-2"
-                                        data-oid="j130m_n"
+                            <p data-oid="_rovt_x">To access these settings:</p>
+                            <ol className="list-decimal pl-6 mb-6 space-y-2" data-oid="i_iq71-">
+                                <li data-oid="duj63i6">
+                                    Tap the settings icon (usually in the top-right or bottom-right
+                                    corner)
+                                </li>
+                                <li data-oid="9inm6um">Browse through the available options</li>
+                                <li data-oid="6x:hy:c">
+                                    Adjust settings according to your preferences
+                                </li>
+                            </ol>
+
+                            <h2
+                                className="text-2xl font-bold text-gray-800 mt-10 mb-4"
+                                data-oid="akk5sxo"
+                            >
+                                Step 5: Verify Your VPN Connection
+                            </h2>
+                            <p data-oid="y9:oz7s">
+                                After connecting to a Ryn VPN server, it's a good idea to verify
+                                that your connection is secure:
+                            </p>
+                            <ol className="list-decimal pl-6 mb-6 space-y-2" data-oid="ed1usez">
+                                <li data-oid="hq4wycl">
+                                    Check the app's main screen for a "Connected" status
+                                </li>
+                                <li data-oid="ofsla1w">
+                                    Visit{' '}
+                                    <a
+                                        href="https://whatismyipaddress.com/"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="text-purple-600 hover:text-purple-800"
+                                        data-oid="6f5pmyz"
                                     >
-                                        Pro Tip
-                                    </h3>
-                                    <p className="text-purple-900" data-oid="_y:eavp">
-                                        Make sure you're downloading the official Ryn VPN app. Look
-                                        for "Human Data Systems Private Limited" as the developer to
-                                        ensure you're getting the genuine application.
-                                    </p>
-                                </div>
+                                        whatismyipaddress.com
+                                    </a>{' '}
+                                    to confirm your IP address has changed
+                                </li>
+                                <li data-oid="c9c6:jx">
+                                    The website should show your location as the country you
+                                    selected in the VPN
+                                </li>
+                                <li data-oid=".hhe3pd">
+                                    You can also perform a DNS leak test to ensure your DNS requests
+                                    are properly protected
+                                </li>
+                            </ol>
 
-                                <h2
-                                    className="text-2xl font-bold text-gray-800 mt-10 mb-4"
-                                    data-oid="baut80t"
-                                >
-                                    Step 2: Create an Account or Sign In
-                                </h2>
-                                <p data-oid="57g3.mg">
-                                    After installing the app, you'll need to create an account or
-                                    sign in:
+                            <h2
+                                className="text-2xl font-bold text-gray-800 mt-10 mb-4"
+                                data-oid="_se3tc3"
+                            >
+                                Troubleshooting Common Issues
+                            </h2>
+                            <p data-oid="ydpmivp">
+                                If you encounter any problems with Ryn VPN, try these solutions:
+                            </p>
+                            <ul className="list-disc pl-6 mb-6 space-y-2" data-oid="r5l_01v">
+                                <li data-oid="-wzncrl">
+                                    <strong data-oid="f-d7i_g">Connection Issues:</strong> Try
+                                    switching to a different server or VPN protocol
+                                </li>
+                                <li data-oid="9.hrlbd">
+                                    <strong data-oid="vb4jthp">Slow Speeds:</strong> Connect to a
+                                    server closer to your actual location
+                                </li>
+                                <li data-oid="0vx7csp">
+                                    <strong data-oid="k-l6nnn">App Crashes:</strong> Ensure your app
+                                    is updated to the latest version
+                                </li>
+                                <li data-oid="ya5n81h">
+                                    <strong data-oid="gfmdkn-">
+                                        Streaming Services Not Working:
+                                    </strong>{' '}
+                                    Try specialized streaming servers (Premium feature)
+                                </li>
+                            </ul>
+
+                            <h2
+                                className="text-2xl font-bold text-gray-800 mt-10 mb-4"
+                                data-oid=".ye.2xc"
+                            >
+                                Conclusion
+                            </h2>
+                            <p data-oid="2:bji7a">
+                                Ryn VPN provides a user-friendly yet powerful solution for
+                                protecting your online privacy and security. By following these
+                                simple steps, you can enjoy secure, private browsing on any network
+                                and access content from around the world.
+                            </p>
+                            <p data-oid="2-z2pyt">
+                                Remember that while the free version offers basic protection,
+                                upgrading to Premium unlocks additional features like specialized
+                                servers, faster speeds, and the ability to connect multiple devices
+                                simultaneously.
+                            </p>
+                            <p className="mt-4" data-oid="_dlr1z.">
+                                Start protecting your online privacy today with Ryn VPN!
+                            </p>
+
+                            <div
+                                className="bg-gradient-to-r from-purple-700 to-purple-900 p-8 rounded-lg mt-10 text-white shadow-lg"
+                                data-oid="_6p8ou9"
+                            >
+                                <h3 className="text-2xl font-bold mb-4" data-oid="83sl3ve">
+                                    Ready to Get Started?
+                                </h3>
+                                <p className="mb-6 text-purple-100" data-oid="b_bgkuv">
+                                    Download Ryn VPN now and take control of your online privacy
+                                    with just a few taps.
                                 </p>
-                                <ol className="list-decimal pl-6 mb-6 space-y-2" data-oid="wc8f93a">
-                                    <li data-oid="5y5as--">Open the Ryn VPN app</li>
-                                    <li data-oid="hgudaxx">Tap "Sign Up" if you're a new user</li>
-                                    <li data-oid="oyqxq-c">
-                                        Enter your email address and create a strong password
-                                    </li>
-                                    <li data-oid="88_dqh1">
-                                        Alternatively, you can sign up using your Google or Apple
-                                        account for faster access
-                                    </li>
-                                    <li data-oid="l_96nku">
-                                        Verify your email address if prompted
-                                    </li>
-                                </ol>
-
-                                <h2
-                                    className="text-2xl font-bold text-gray-800 mt-10 mb-4"
-                                    data-oid="e-2k_k8"
-                                >
-                                    Step 3: Connect to a VPN Server
-                                </h2>
-                                <p data-oid="32v4:ss">
-                                    Now that you're signed in, you can connect to a VPN server:
-                                </p>
-                                <ol className="list-decimal pl-6 mb-6 space-y-2" data-oid="wwy7rj.">
-                                    <li data-oid="w:0:n18">
-                                        On the main screen, you'll see a large "Connect" button
-                                    </li>
-                                    <li data-oid="fw.xr1j">
-                                        For the fastest connection, tap "Connect" to automatically
-                                        connect to the optimal server
-                                    </li>
-                                    <li data-oid="10ahqgq">
-                                        To select a specific location, tap on the server location
-                                        indicator (usually shows a country name or "Best Location")
-                                    </li>
-                                    <li data-oid="9wl1soi">
-                                        Browse the list of available servers and select your
-                                        preferred location
-                                    </li>
-                                    <li data-oid="ix-d27d">
-                                        Tap "Connect" to establish a secure VPN connection
-                                    </li>
-                                </ol>
-
-                                <div className="bg-blue-50 p-6 rounded-lg mb-8" data-oid=".8a:7ov">
-                                    <h3
-                                        className="text-lg font-bold text-blue-800 mb-2"
-                                        data-oid="szzhsn3"
+                                <div className="flex flex-col sm:flex-row gap-4" data-oid="uqqbhgg">
+                                    <a
+                                        href="https://play.google.com/store/apps/details?id=com.secure.cryptovpn&hl=en_IN"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="bg-white text-purple-800 hover:bg-purple-100 font-medium py-3 px-6 rounded-lg transition-colors text-center flex-1 flex items-center justify-center gap-2"
+                                        data-oid="wb-pxn7"
                                     >
-                                        Server Selection Tips
-                                    </h3>
-                                    <ul
-                                        className="list-disc pl-6 space-y-1 text-blue-900"
-                                        data-oid="3o1xi74"
-                                    >
-                                        <li data-oid=".p-b1:c">
-                                            For general browsing and privacy, use the "Best
-                                            Location" option
-                                        </li>
-                                        <li data-oid="4q9pe:f">
-                                            For streaming, select a server in the country where the
-                                            content is available
-                                        </li>
-                                        <li data-oid="..ucbh7">
-                                            For gaming, choose a server closest to the game's
-                                            servers to reduce latency
-                                        </li>
-                                        <li data-oid=":_xtz.k">
-                                            Premium users have access to specialized streaming and
-                                            gaming servers
-                                        </li>
-                                    </ul>
-                                </div>
-
-                                <h2
-                                    className="text-2xl font-bold text-gray-800 mt-10 mb-4"
-                                    data-oid="2346.8j"
-                                >
-                                    Step 4: Customize Your VPN Settings
-                                </h2>
-                                <p data-oid="299buaz">
-                                    Ryn VPN offers several customization options to enhance your
-                                    experience:
-                                </p>
-                                <ul className="list-disc pl-6 mb-6 space-y-2" data-oid="wy0fizw">
-                                    <li data-oid="g0-u0qc">
-                                        <strong data-oid="qw4amux">Auto-Connect:</strong> Configure
-                                        Ryn VPN to automatically connect when you join untrusted
-                                        Wi-Fi networks
-                                    </li>
-                                    <li data-oid="_tak.-b">
-                                        <strong data-oid="5lyyrpl">Split Tunneling:</strong> Choose
-                                        which apps use the VPN connection and which ones use your
-                                        regular connection
-                                    </li>
-                                    <li data-oid="4qbtv4-">
-                                        <strong data-oid="i5lbp3z">Kill Switch:</strong> Enable this
-                                        feature to automatically disconnect your internet if the VPN
-                                        connection drops, preventing data leaks
-                                    </li>
-                                    <li data-oid="rxdcmk3">
-                                        <strong data-oid="r6a0-04">Protocol Selection:</strong>{' '}
-                                        Advanced users can select different VPN protocols based on
-                                        their needs
-                                    </li>
-                                </ul>
-
-                                <p data-oid="_rovt_x">To access these settings:</p>
-                                <ol className="list-decimal pl-6 mb-6 space-y-2" data-oid="i_iq71-">
-                                    <li data-oid="duj63i6">
-                                        Tap the settings icon (usually in the top-right or
-                                        bottom-right corner)
-                                    </li>
-                                    <li data-oid="9inm6um">Browse through the available options</li>
-                                    <li data-oid="6x:hy:c">
-                                        Adjust settings according to your preferences
-                                    </li>
-                                </ol>
-
-                                <h2
-                                    className="text-2xl font-bold text-gray-800 mt-10 mb-4"
-                                    data-oid="akk5sxo"
-                                >
-                                    Step 5: Verify Your VPN Connection
-                                </h2>
-                                <p data-oid="y9:oz7s">
-                                    After connecting to a Ryn VPN server, it's a good idea to verify
-                                    that your connection is secure:
-                                </p>
-                                <ol className="list-decimal pl-6 mb-6 space-y-2" data-oid="ed1usez">
-                                    <li data-oid="hq4wycl">
-                                        Check the app's main screen for a "Connected" status
-                                    </li>
-                                    <li data-oid="ofsla1w">
-                                        Visit{' '}
-                                        <a
-                                            href="https://whatismyipaddress.com/"
-                                            target="_blank"
-                                            rel="noopener noreferrer"
-                                            className="text-purple-600 hover:text-purple-800"
-                                            data-oid="6f5pmyz"
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            className="h-5 w-5"
+                                            viewBox="0 0 20 20"
+                                            fill="currentColor"
+                                            data-oid="j:p5xm9"
                                         >
-                                            whatismyipaddress.com
-                                        </a>{' '}
-                                        to confirm your IP address has changed
-                                    </li>
-                                    <li data-oid="c9c6:jx">
-                                        The website should show your location as the country you
-                                        selected in the VPN
-                                    </li>
-                                    <li data-oid=".hhe3pd">
-                                        You can also perform a DNS leak test to ensure your DNS
-                                        requests are properly protected
-                                    </li>
-                                </ol>
-
-                                <h2
-                                    className="text-2xl font-bold text-gray-800 mt-10 mb-4"
-                                    data-oid="_se3tc3"
-                                >
-                                    Troubleshooting Common Issues
-                                </h2>
-                                <p data-oid="ydpmivp">
-                                    If you encounter any problems with Ryn VPN, try these solutions:
-                                </p>
-                                <ul className="list-disc pl-6 mb-6 space-y-2" data-oid="r5l_01v">
-                                    <li data-oid="-wzncrl">
-                                        <strong data-oid="f-d7i_g">Connection Issues:</strong> Try
-                                        switching to a different server or VPN protocol
-                                    </li>
-                                    <li data-oid="9.hrlbd">
-                                        <strong data-oid="vb4jthp">Slow Speeds:</strong> Connect to
-                                        a server closer to your actual location
-                                    </li>
-                                    <li data-oid="0vx7csp">
-                                        <strong data-oid="k-l6nnn">App Crashes:</strong> Ensure your
-                                        app is updated to the latest version
-                                    </li>
-                                    <li data-oid="ya5n81h">
-                                        <strong data-oid="gfmdkn-">
-                                            Streaming Services Not Working:
-                                        </strong>{' '}
-                                        Try specialized streaming servers (Premium feature)
-                                    </li>
-                                </ul>
-
-                                <h2
-                                    className="text-2xl font-bold text-gray-800 mt-10 mb-4"
-                                    data-oid=".ye.2xc"
-                                >
-                                    Conclusion
-                                </h2>
-                                <p data-oid="2:bji7a">
-                                    Ryn VPN provides a user-friendly yet powerful solution for
-                                    protecting your online privacy and security. By following these
-                                    simple steps, you can enjoy secure, private browsing on any
-                                    network and access content from around the world.
-                                </p>
-                                <p data-oid="2-z2pyt">
-                                    Remember that while the free version offers basic protection,
-                                    upgrading to Premium unlocks additional features like
-                                    specialized servers, faster speeds, and the ability to connect
-                                    multiple devices simultaneously.
-                                </p>
-                                <p className="mt-4" data-oid="_dlr1z.">
-                                    Start protecting your online privacy today with Ryn VPN!
-                                </p>
-
-                                <div
-                                    className="bg-purple-100 p-6 rounded-lg mt-10"
-                                    data-oid="_6p8ou9"
-                                >
-                                    <h3
-                                        className="text-xl font-bold text-purple-900 mb-4"
-                                        data-oid="83sl3ve"
+                                            <path
+                                                d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z"
+                                                data-oid="tc7.9iw"
+                                            />
+                                        </svg>
+                                        Download for Android
+                                    </a>
+                                    <a
+                                        href="https://apps.apple.com/in/app/ryn-vpn-secure-vpn-master/id1493328027"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="bg-white text-purple-800 hover:bg-purple-100 font-medium py-3 px-6 rounded-lg transition-colors text-center flex-1 flex items-center justify-center gap-2"
+                                        data-oid=".kfvy69"
                                     >
-                                        Ready to Get Started?
-                                    </h3>
-                                    <div
-                                        className="flex flex-col sm:flex-row gap-4"
-                                        data-oid="uqqbhgg"
-                                    >
-                                        <a
-                                            href="https://play.google.com/store/apps/details?id=com.secure.cryptovpn&hl=en_IN"
-                                            target="_blank"
-                                            rel="noopener noreferrer"
-                                            className="bg-purple-600 hover:bg-purple-700 text-white font-medium py-3 px-6 rounded-lg transition-colors text-center"
-                                            data-oid="wb-pxn7"
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            className="h-5 w-5"
+                                            viewBox="0 0 20 20"
+                                            fill="currentColor"
+                                            data-oid="a6oo0o4"
                                         >
-                                            Download for Android
-                                        </a>
-                                        <a
-                                            href="https://apps.apple.com/in/app/ryn-vpn-secure-vpn-master/id1493328027"
-                                            target="_blank"
-                                            rel="noopener noreferrer"
-                                            className="bg-purple-600 hover:bg-purple-700 text-white font-medium py-3 px-6 rounded-lg transition-colors text-center"
-                                            data-oid=".kfvy69"
-                                        >
-                                            Download for iOS
-                                        </a>
-                                    </div>
+                                            <path
+                                                fillRule="evenodd"
+                                                d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z"
+                                                clipRule="evenodd"
+                                                data-oid="t_6ta5x"
+                                            />
+                                        </svg>
+                                        Download for iOS
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -614,89 +667,171 @@ export default function BlogPostPage() {
 
                     {/* Author Bio */}
                     <div
-                        className="bg-white rounded-xl shadow-lg p-6 mt-8 flex items-center gap-4"
+                        className="bg-white border border-gray-100 rounded-xl p-8 mt-12 flex flex-col md:flex-row items-center md:items-start gap-6 shadow-sm"
                         data-oid="0.hwhr0"
                     >
                         <div
-                            className="w-16 h-16 rounded-full bg-purple-200 flex items-center justify-center"
+                            className="w-20 h-20 rounded-full bg-purple-600 flex items-center justify-center flex-shrink-0"
                             data-oid=":_doha8"
                         >
-                            <span className="text-2xl font-bold text-purple-700" data-oid="7cu.r9d">
+                            <span className="text-2xl font-bold text-white" data-oid="7cu.r9d">
                                 RV
                             </span>
                         </div>
                         <div data-oid="ntpsbc6">
-                            <h3 className="font-bold text-gray-900" data-oid="2aknyj6">
+                            <h3
+                                className="text-xl font-bold text-gray-900 mb-2 text-center md:text-left"
+                                data-oid="2aknyj6"
+                            >
                                 Ryn VPN Team
                             </h3>
-                            <p className="text-gray-600" data-oid="55z5j4r">
+                            <p
+                                className="text-gray-600 mb-4 text-center md:text-left"
+                                data-oid="55z5j4r"
+                            >
                                 Privacy experts dedicated to helping you stay secure online. Follow
                                 us for the latest tips and updates on cybersecurity.
                             </p>
+                            <div
+                                className="flex justify-center md:justify-start space-x-4"
+                                data-oid="tieh_sg"
+                            >
+                                <a
+                                    href="#"
+                                    className="text-purple-600 hover:text-purple-800"
+                                    data-oid="tl2v5pi"
+                                >
+                                    <svg
+                                        className="w-5 h-5"
+                                        fill="currentColor"
+                                        viewBox="0 0 24 24"
+                                        aria-hidden="true"
+                                        data-oid="ndhl2vf"
+                                    >
+                                        <path
+                                            fillRule="evenodd"
+                                            d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
+                                            clipRule="evenodd"
+                                            data-oid="7.t:sde"
+                                        ></path>
+                                    </svg>
+                                </a>
+                                <a
+                                    href="#"
+                                    className="text-purple-600 hover:text-purple-800"
+                                    data-oid="9lf.svs"
+                                >
+                                    <svg
+                                        className="w-5 h-5"
+                                        fill="currentColor"
+                                        viewBox="0 0 24 24"
+                                        aria-hidden="true"
+                                        data-oid="u-g8nag"
+                                    >
+                                        <path
+                                            d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"
+                                            data-oid="71ujxil"
+                                        ></path>
+                                    </svg>
+                                </a>
+                            </div>
                         </div>
                     </div>
 
-                    {/* Related Posts */}
-                    <div className="mt-12" data-oid="w6xqpag">
-                        <h3 className="text-2xl font-bold text-gray-900 mb-6" data-oid="_--ilsw">
+                    {/* Related Posts - Replaced Coming Soon with Actual Articles */}
+                    <div className="mt-16" data-oid="w6xqpag">
+                        <h3
+                            className="text-2xl font-bold text-gray-900 mb-8 pb-4 border-b border-gray-200"
+                            data-oid="_--ilsw"
+                        >
                             Related Articles
                         </h3>
-                        <div className="grid grid-cols-1 md:grid-cols-2 gap-6" data-oid=":fp3n8z">
-                            <div
-                                className="bg-white rounded-xl shadow-md overflow-hidden opacity-50"
-                                data-oid="siw0lyy"
-                            >
-                                <div className="h-48 bg-gray-200" data-oid="l24_r47"></div>
-                                <div className="p-6" data-oid="rb1mbad">
-                                    <div
-                                        className="flex items-center text-sm text-gray-500 mb-4"
-                                        data-oid="3bnq.oe"
-                                    >
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-8" data-oid=":fp3n8z">
+                            <div className="group" data-oid="siw0lyy">
+                                <div
+                                    className="relative h-48 mb-4 overflow-hidden rounded-lg"
+                                    data-oid=":y-4-qw"
+                                >
+                                    <img
+                                        src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+                                        alt="VPN Security"
+                                        className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                                        data-oid="8jztxtx"
+                                    />
+
+                                    <div className="absolute top-3 left-3" data-oid="spii-qw">
                                         <span
-                                            className="bg-gray-100 text-gray-800 px-3 py-1 rounded-full"
-                                            data-oid="fbttby9"
+                                            className="bg-purple-600 text-white px-2 py-1 text-xs font-medium rounded"
+                                            data-oid="w5i4dr."
                                         >
-                                            Coming Soon
+                                            Security
                                         </span>
                                     </div>
-                                    <h3
-                                        className="text-xl font-bold text-gray-900 mb-2"
-                                        data-oid="oa:aqvz"
-                                    >
+                                </div>
+                                <div
+                                    className="flex items-center text-sm text-gray-500 mb-2 space-x-3"
+                                    data-oid="1:yyf1:"
+                                >
+                                    <span data-oid="8t5ayz8">June 12, 2023</span>
+                                    <span data-oid="ev2qhi8">•</span>
+                                    <span data-oid="n07pbbc">4 min read</span>
+                                </div>
+                                <h3
+                                    className="text-xl font-bold mb-2 group-hover:text-purple-600 transition-colors"
+                                    data-oid="-49i83h"
+                                >
+                                    <Link href="#" data-oid="1i.-m-s">
                                         5 Ways to Enhance Your Online Privacy
-                                    </h3>
-                                    <p className="text-gray-600" data-oid="7lnkghr">
-                                        More articles coming soon...
-                                    </p>
-                                </div>
+                                    </Link>
+                                </h3>
+                                <p className="text-gray-600" data-oid="185p0w7">
+                                    Discover essential strategies beyond VPNs to protect your
+                                    digital footprint and maintain privacy in an increasingly
+                                    connected world.
+                                </p>
                             </div>
-                            <div
-                                className="bg-white rounded-xl shadow-md overflow-hidden opacity-50"
-                                data-oid="c5yj2ti"
-                            >
-                                <div className="h-48 bg-gray-200" data-oid="rn2b0f6"></div>
-                                <div className="p-6" data-oid=":iz7w3b">
-                                    <div
-                                        className="flex items-center text-sm text-gray-500 mb-4"
-                                        data-oid="wa9b8op"
-                                    >
+                            <div className="group" data-oid="c5yj2ti">
+                                <div
+                                    className="relative h-48 mb-4 overflow-hidden rounded-lg"
+                                    data-oid="5ye4cou"
+                                >
+                                    <img
+                                        src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1534&q=80"
+                                        alt="VPN Protocols"
+                                        className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                                        data-oid="wr5j2c-"
+                                    />
+
+                                    <div className="absolute top-3 left-3" data-oid="euu0g84">
                                         <span
-                                            className="bg-gray-100 text-gray-800 px-3 py-1 rounded-full"
-                                            data-oid="5.bm783"
+                                            className="bg-purple-600 text-white px-2 py-1 text-xs font-medium rounded"
+                                            data-oid="zgu6hm."
                                         >
-                                            Coming Soon
+                                            Technology
                                         </span>
                                     </div>
-                                    <h3
-                                        className="text-xl font-bold text-gray-900 mb-2"
-                                        data-oid="a02hbc6"
-                                    >
-                                        Understanding VPN Protocols
-                                    </h3>
-                                    <p className="text-gray-600" data-oid="c7l_84t">
-                                        More articles coming soon...
-                                    </p>
                                 </div>
+                                <div
+                                    className="flex items-center text-sm text-gray-500 mb-2 space-x-3"
+                                    data-oid="-co8-ms"
+                                >
+                                    <span data-oid="g_fblqi">July 23, 2023</span>
+                                    <span data-oid="pycfx2a">•</span>
+                                    <span data-oid="_sagqw0">6 min read</span>
+                                </div>
+                                <h3
+                                    className="text-xl font-bold mb-2 group-hover:text-purple-600 transition-colors"
+                                    data-oid="fducbvy"
+                                >
+                                    <Link href="#" data-oid="aehr_:3">
+                                        Understanding VPN Protocols
+                                    </Link>
+                                </h3>
+                                <p className="text-gray-600" data-oid="8c-l3lu">
+                                    A comprehensive guide to different VPN protocols, their
+                                    strengths, weaknesses, and which ones are best for your specific
+                                    needs.
+                                </p>
                             </div>
                         </div>
                     </div>
