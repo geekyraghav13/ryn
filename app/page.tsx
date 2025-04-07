@@ -168,9 +168,10 @@ export default function Page() {
                                 How It Works
                             </a>
                             <a
-                                href="#pricing"
+                                href="https://rynvpn.superwall.app/"
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 className="text-gray-700 hover:text-purple-700 transition-colors font-bold"
-                                onClick={() => setActiveSection('pricing')}
                                 data-oid="8b0bb7z"
                             >
                                 Pricing
@@ -253,10 +254,11 @@ export default function Page() {
                                 How It Works
                             </a>
                             <a
-                                href="#pricing"
+                                href="https://rynvpn.superwall.app/"
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 className="block text-gray-700 hover:text-purple-700 transition-colors font-bold"
                                 onClick={() => {
-                                    setActiveSection('pricing');
                                     toggleMenu();
                                 }}
                                 data-oid="2r9yukr"
