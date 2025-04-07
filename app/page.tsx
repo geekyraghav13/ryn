@@ -27,14 +27,14 @@ export default function Page() {
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
-                    data-oid="iwweur."
+                    data-oid="0qs-bjz"
                 >
                     <path
                         strokeLinecap="round"
                         strokeLinejoin="round"
                         strokeWidth={2}
                         d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"
-                        data-oid=".v22mw_"
+                        data-oid="xqrgg4x"
                     />
                 </svg>
             ),
@@ -50,14 +50,14 @@ export default function Page() {
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
-                    data-oid="-l.eerl"
+                    data-oid="0axo2q_"
                 >
                     <path
                         strokeLinecap="round"
                         strokeLinejoin="round"
                         strokeWidth={2}
                         d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-                        data-oid="a4bs83o"
+                        data-oid="j2448fx"
                     />
                 </svg>
             ),
@@ -73,14 +73,14 @@ export default function Page() {
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
-                    data-oid="phxi-hd"
+                    data-oid="0f0bu4e"
                 >
                     <path
                         strokeLinecap="round"
                         strokeLinejoin="round"
                         strokeWidth={2}
                         d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
-                        data-oid="8:f04t6"
+                        data-oid="q7r002o"
                     />
                 </svg>
             ),
@@ -95,14 +95,14 @@ export default function Page() {
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
-                    data-oid="wai:58n"
+                    data-oid="19tnsac"
                 >
                     <path
                         strokeLinecap="round"
                         strokeLinejoin="round"
                         strokeWidth={2}
                         d="M13 10V3L4 14h7v7l9-11h-7z"
-                        data-oid="iqa412:"
+                        data-oid="gpfj.ct"
                     />
                 </svg>
             ),
@@ -117,45 +117,45 @@ export default function Page() {
     return (
         <div
             className="min-h-screen bg-gradient-to-b from-gray-900 to-purple-900 text-white"
-            data-oid="0bg0jm:"
+            data-oid="itmuscb"
         >
             {/* Header */}
             <header
                 className="sticky top-0 z-50 bg-white shadow-md border-b border-purple-100"
-                data-oid="q2n48zr"
+                data-oid=".8qmzth"
             >
-                <div className="container mx-auto px-4 py-4" data-oid="stimx_3">
-                    <div className="flex justify-between items-center" data-oid="5.k5row">
+                <div className="container mx-auto px-4 py-4" data-oid="4mun40-">
+                    <div className="flex justify-between items-center" data-oid="3mcus8r">
                         {/* Logo */}
-                        <div className="flex items-center space-x-2" data-oid="93k52.-">
+                        <div className="flex items-center space-x-2" data-oid=".5:i-7d">
                             {/* VPN Logo */}
-                            <div className="h-10 w-10 overflow-hidden" data-oid="2yslq96">
+                            <div className="h-10 w-10 overflow-hidden" data-oid=":bx96bo">
                                 <img
                                     src="/ryn-vpn-logo.png"
                                     alt="Ryn VPN Logo"
                                     className="h-full w-full object-contain"
-                                    data-oid="v:e0b2n"
+                                    data-oid="bvkin1k"
                                 />
                             </div>
-                            <span className="text-xl font-bold text-purple-800" data-oid="72suwi8">
+                            <span className="text-xl font-bold text-purple-800" data-oid="9ig_7_v">
                                 Ryn VPN
                             </span>
                         </div>
 
                         {/* Desktop Navigation */}
-                        <nav className="hidden md:flex space-x-8" data-oid="t3nako6">
+                        <nav className="hidden md:flex space-x-8" data-oid="wrfrw_z">
                             <a
                                 href="#home"
                                 className="text-gray-700 hover:text-purple-700 transition-colors font-bold"
                                 onClick={() => setActiveSection('home')}
-                                data-oid="8s-9sdj"
+                                data-oid="46rd8-w"
                             >
                                 Home
                             </a>
                             <a
                                 href="/features"
                                 className="text-gray-700 hover:text-purple-700 transition-colors font-bold"
-                                data-oid="h_s9uw_"
+                                data-oid="j8hpke4"
                             >
                                 Features
                             </a>
@@ -163,7 +163,7 @@ export default function Page() {
                                 href="#how-it-works"
                                 className="text-gray-700 hover:text-purple-700 transition-colors font-bold"
                                 onClick={() => setActiveSection('how-it-works')}
-                                data-oid="iaptfda"
+                                data-oid="yzuky-k"
                             >
                                 How It Works
                             </a>
@@ -171,7 +171,7 @@ export default function Page() {
                                 href="#pricing"
                                 className="text-gray-700 hover:text-purple-700 transition-colors font-bold"
                                 onClick={() => setActiveSection('pricing')}
-                                data-oid="j_3lob1"
+                                data-oid="8b0bb7z"
                             >
                                 Pricing
                             </a>
@@ -181,7 +181,7 @@ export default function Page() {
                         <button
                             className="md:hidden text-purple-800"
                             onClick={toggleMenu}
-                            data-oid="5h9ivpe"
+                            data-oid="-oe7v8i"
                         >
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
@@ -189,7 +189,7 @@ export default function Page() {
                                 fill="none"
                                 viewBox="0 0 24 24"
                                 stroke="currentColor"
-                                data-oid="55yv.rr"
+                                data-oid="g4p0o-m"
                             >
                                 <path
                                     strokeLinecap="round"
@@ -200,7 +200,7 @@ export default function Page() {
                                             ? 'M6 18L18 6M6 6l12 12'
                                             : 'M4 6h16M4 12h16M4 18h16'
                                     }
-                                    data-oid="lb9.ikm"
+                                    data-oid=".ph9251"
                                 />
                             </svg>
                         </button>
@@ -211,7 +211,7 @@ export default function Page() {
                             target="_blank"
                             rel="noopener noreferrer"
                             className="hidden md:block bg-purple-600 hover:bg-purple-700 text-white font-medium py-2 px-4 rounded-lg transition-colors"
-                            data-oid="33rw9ev"
+                            data-oid="0_4d7eg"
                         >
                             Download Now
                         </a>
@@ -219,7 +219,7 @@ export default function Page() {
 
                     {/* Mobile Navigation */}
                     {isMenuOpen && (
-                        <nav className="md:hidden mt-4 space-y-3 pb-3" data-oid="8n2dt8b">
+                        <nav className="md:hidden mt-4 space-y-3 pb-3" data-oid="zk036y1">
                             <a
                                 href="#home"
                                 className="block text-gray-700 hover:text-purple-700 transition-colors font-bold"
@@ -227,7 +227,7 @@ export default function Page() {
                                     setActiveSection('home');
                                     toggleMenu();
                                 }}
-                                data-oid="xnehfka"
+                                data-oid="zu1fo7i"
                             >
                                 Home
                             </a>
@@ -237,7 +237,7 @@ export default function Page() {
                                 onClick={() => {
                                     toggleMenu();
                                 }}
-                                data-oid="322g5jl"
+                                data-oid="yiipywq"
                             >
                                 Features
                             </a>
@@ -248,7 +248,7 @@ export default function Page() {
                                     setActiveSection('how-it-works');
                                     toggleMenu();
                                 }}
-                                data-oid="cg58wj:"
+                                data-oid="959kabi"
                             >
                                 How It Works
                             </a>
@@ -259,7 +259,7 @@ export default function Page() {
                                     setActiveSection('pricing');
                                     toggleMenu();
                                 }}
-                                data-oid="jw2luko"
+                                data-oid="2r9yukr"
                             >
                                 Pricing
                             </a>
@@ -268,7 +268,7 @@ export default function Page() {
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="block bg-purple-600 hover:bg-purple-700 text-white font-medium py-2 px-4 rounded-lg transition-colors text-center mt-4"
-                                data-oid="js6p-1u"
+                                data-oid="1jpdzx2"
                             >
                                 Download Now
                             </a>
@@ -278,66 +278,66 @@ export default function Page() {
             </header>
 
             {/* Hero Section */}
-            <section id="home" className="py-20 px-4" data-oid="5zbe3e1">
+            <section id="home" className="py-20 px-4" data-oid=".nsngxy">
                 <div
                     className="container mx-auto max-w-6xl flex flex-col md:flex-row items-center"
-                    data-oid="d9csuay"
+                    data-oid="kje2xro"
                 >
-                    <div className="md:w-1/2 mb-10 md:mb-0" data-oid="x9z4m4a">
+                    <div className="md:w-1/2 mb-10 md:mb-0" data-oid="jjmwwng">
                         <h1
                             className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight text-white drop-shadow-md"
-                            data-oid="a1l5v4d"
+                            data-oid="2n_so:0"
                         >
                             Secure Your Online Privacy with{' '}
-                            <span className="text-purple-400" data-oid="zhr1ic8">
+                            <span className="text-purple-400" data-oid="4jv9ch2">
                                 Ryn VPN
                             </span>
                         </h1>
-                        <p className="text-xl text-gray-300 mb-8" data-oid="xlsu9bp">
+                        <p className="text-xl text-gray-300 mb-8" data-oid="sr..w7j">
                             Browse anonymously, secure your connection, and access content from
                             anywhere in the world with our fast and reliable VPN service.
                         </p>
-                        <div className="flex flex-col sm:flex-row gap-4" data-oid="pw43-lb">
+                        <div className="flex flex-col sm:flex-row gap-4" data-oid="6vcd-mp">
                             <a
                                 href="https://play.google.com/store/apps/details?id=com.secure.cryptovpn&hl=en_IN"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="inline-block transform hover:-translate-y-1 transition-transform duration-300"
                                 aria-label="Get it on Google Play"
-                                data-oid="xjzmnm3"
+                                data-oid="rnyz-xb"
                             >
                                 <img
                                     src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"
                                     alt="Get it on Google Play"
                                     className="h-14 w-auto shadow-lg rounded"
-                                    data-oid="v5xvk3a"
+                                    data-oid="4co6sop"
                                 />
                             </a>
                             <a
                                 href="#features"
                                 className="border border-purple-600 text-white hover:bg-purple-600 font-medium py-3 px-6 rounded-lg transition-colors text-center"
-                                data-oid="bdkrcb1"
+                                data-oid="4ppvqk4"
                             >
                                 Learn More
                             </a>
                         </div>
                     </div>
-                    <div className="md:w-1/2 flex justify-center items-center" data-oid="r5lflgt">
+                    <div className="md:w-1/2 flex justify-center items-center" data-oid="bwyz7rt">
                         <div
                             className="relative shadow-2xl rounded-3xl overflow-hidden max-w-[90%] border border-white border-opacity-20"
-                            data-oid="jqnicgc"
+                            data-oid="4z0-hxh"
                         >
-                            <div className="relative" data-oid=":3_-djf">
+                            <div className="relative" data-oid="plt-n-y">
                                 <img
                                     src="/vpn-app-mockup.png"
                                     alt="Ryn VPN App Mockup"
                                     className="w-full h-auto max-h-[550px] object-contain"
-                                    data-oid="cwn52bh"
+                                    data-oid="diglf4g"
                                 />
 
                                 <div
                                     className="absolute bottom-0 left-0 right-0 text-center pb-4 text-purple-600 font-bold text-xl"
-                                    data-oid="241udb2"
+                                    data-oid="l3ojicm"
                                 >
                                     Access Content Worldwide
                                 </div>
@@ -348,16 +348,16 @@ export default function Page() {
             </section>
 
             {/* Features Section */}
-            <section id="features" className="py-20 px-4 bg-gray-900" data-oid="5xzoh6f">
-                <div className="container mx-auto max-w-6xl" data-oid="h8m25uj">
-                    <div className="text-center mb-16" data-oid="ik4jgzn">
+            <section id="features" className="py-20 px-4 bg-gray-900" data-oid="7n1a-yj">
+                <div className="container mx-auto max-w-6xl" data-oid="6ubacdt">
+                    <div className="text-center mb-16" data-oid="l_ny4i3">
                         <h2
                             className="text-3xl md:text-4xl font-bold mb-4 text-white drop-shadow-sm"
-                            data-oid="b.a59u0"
+                            data-oid="b161_g_"
                         >
                             Why Choose Ryn VPN?
                         </h2>
-                        <p className="text-xl text-gray-300 max-w-3xl mx-auto" data-oid="h6b6l0g">
+                        <p className="text-xl text-gray-300 max-w-3xl mx-auto" data-oid="ndf-3tz">
                             Ryn VPN provides a secure and fast online experience, safeguarding your
                             privacy with strong encryption and a no-logs policy. Enjoy unrestricted,
                             global internet access with ease, protecting all your devices through
@@ -366,23 +366,23 @@ export default function Page() {
                         </p>
                     </div>
 
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8" data-oid="w.0x449">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8" data-oid="oe.5i7_">
                         {features.map((feature, index) => (
                             <div
                                 key={index}
                                 className="bg-white rounded-xl p-6 hover:bg-gray-50 transition-colors border border-gray-200 shadow-md hover:shadow-lg"
-                                data-oid="33-coer"
+                                data-oid="c5ckmh1"
                             >
-                                <div className="mb-4" data-oid="sjq4ku6">
+                                <div className="mb-4" data-oid="2jl53_3">
                                     {feature.icon}
                                 </div>
                                 <h3
                                     className="text-xl font-bold mb-2 text-gray-800"
-                                    data-oid="qxwnye1"
+                                    data-oid="754d5.a"
                                 >
                                     {feature.title}
                                 </h3>
-                                <p className="text-gray-600" data-oid="pzpcj_p">
+                                <p className="text-gray-600" data-oid="1iq--bv">
                                     {feature.description}
                                 </p>
                             </div>
@@ -395,76 +395,76 @@ export default function Page() {
             <section
                 id="how-it-works"
                 className="py-20 px-4 bg-purple-900 bg-opacity-30"
-                data-oid="i_i3::d"
+                data-oid="a159tzc"
             >
-                <div className="container mx-auto max-w-6xl" data-oid="bizqhmc">
-                    <div className="text-center mb-16" data-oid="yon.n3v">
-                        <h2 className="text-3xl md:text-4xl font-bold mb-4" data-oid="kdwaeuj">
+                <div className="container mx-auto max-w-6xl" data-oid=".rxt1y4">
+                    <div className="text-center mb-16" data-oid="s9sx1i-">
+                        <h2 className="text-3xl md:text-4xl font-bold mb-4" data-oid="ux3h07a">
                             How Ryn VPN Works
                         </h2>
-                        <p className="text-xl text-gray-300 max-w-3xl mx-auto" data-oid="ot3434g">
+                        <p className="text-xl text-gray-300 max-w-3xl mx-auto" data-oid="gban_ah">
                             Protecting your online privacy has never been easier. Just three simple
                             steps to secure your connection.
                         </p>
                     </div>
 
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-8" data-oid="fxc09_0">
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-8" data-oid="vx6e5jj">
                         <div
                             className="bg-gray-800 rounded-xl p-6 text-center border border-white border-opacity-5"
-                            data-oid="bcbnrik"
+                            data-oid="-9r:e:-"
                         >
                             <div
                                 className="w-16 h-16 bg-teal-600 rounded-full flex items-center justify-center mx-auto mb-6"
-                                data-oid="7521-gr"
+                                data-oid="th7m4wm"
                             >
-                                <span className="text-2xl font-bold" data-oid="h2fp41q">
+                                <span className="text-2xl font-bold" data-oid="ors09us">
                                     1
                                 </span>
                             </div>
-                            <h3 className="text-xl font-bold mb-2" data-oid="dtsy-wv">
+                            <h3 className="text-xl font-bold mb-2" data-oid="e5mhm5:">
                                 Download the App
                             </h3>
-                            <p className="text-gray-300" data-oid="m0cb0zm">
+                            <p className="text-gray-300" data-oid="ay3u8kd">
                                 Get Ryn VPN from the Google Play Store and install it on your
                                 device.
                             </p>
                         </div>
                         <div
                             className="bg-gray-800 rounded-xl p-6 text-center border border-white border-opacity-5"
-                            data-oid="g_-70s."
+                            data-oid="h:0s3w:"
                         >
                             <div
                                 className="w-16 h-16 bg-purple-600 rounded-full flex items-center justify-center mx-auto mb-6"
-                                data-oid="7uuuz2r"
+                                data-oid="zzfmnko"
                             >
-                                <span className="text-2xl font-bold" data-oid="h:_kzsh">
+                                <span className="text-2xl font-bold" data-oid="sdzmhz0">
                                     2
                                 </span>
                             </div>
-                            <h3 className="text-xl font-bold mb-2" data-oid="1icm6_p">
+                            <h3 className="text-xl font-bold mb-2" data-oid=":utmejy">
                                 Connect to a Server
                             </h3>
-                            <p className="text-gray-300" data-oid=":g3mhvw">
+                            <p className="text-gray-300" data-oid="rzu7.hh">
                                 Choose from our global network of high-speed servers with just one
                                 tap.
                             </p>
                         </div>
                         <div
                             className="bg-gray-800 rounded-xl p-6 text-center border border-white border-opacity-5"
-                            data-oid="-ru6aby"
+                            data-oid="rwk_-mr"
                         >
                             <div
                                 className="w-16 h-16 bg-indigo-600 rounded-full flex items-center justify-center mx-auto mb-6"
-                                data-oid="ovok60r"
+                                data-oid="mz9jn9:"
                             >
-                                <span className="text-2xl font-bold" data-oid="tmcjhab">
+                                <span className="text-2xl font-bold" data-oid="qz9fu7r">
                                     3
                                 </span>
                             </div>
-                            <h3 className="text-xl font-bold mb-2" data-oid="q2lftzg">
+                            <h3 className="text-xl font-bold mb-2" data-oid="3574atx">
                                 Enjoy Secure Browsing
                             </h3>
-                            <p className="text-gray-300" data-oid="uk4c4ji">
+                            <p className="text-gray-300" data-oid="z.un2on">
                                 Browse, stream, and download with complete privacy and security.
                             </p>
                         </div>
@@ -476,69 +476,69 @@ export default function Page() {
             <section
                 id="pricing"
                 className="py-20 px-4 bg-white text-gray-900 relative"
-                data-oid="9.9aqth"
+                data-oid="wr:7qwb"
             >
                 <div
                     className="absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(168,85,247,0.1)_0%,_transparent_70%)]"
-                    data-oid="751csiq"
+                    data-oid="hxlsteh"
                 ></div>
-                <div className="container mx-auto max-w-6xl relative z-10" data-oid="nd8i8ky">
-                    <div className="text-center mb-16" data-oid="iw4gnl2">
+                <div className="container mx-auto max-w-6xl relative z-10" data-oid="mf_3ek6">
+                    <div className="text-center mb-16" data-oid="r8i.__0">
                         <h2
                             className="text-3xl md:text-4xl font-bold mb-4 text-purple-900"
-                            data-oid="ue:8o62"
+                            data-oid="7.j2f4v"
                         >
                             Simple, Transparent Pricing
                         </h2>
-                        <p className="text-xl text-gray-600 max-w-3xl mx-auto" data-oid="6xwwl_s">
+                        <p className="text-xl text-gray-600 max-w-3xl mx-auto" data-oid="vwhnkhu">
                             Choose the plan that works best for you. All plans include our core
                             features.
                         </p>
                     </div>
 
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-8" data-oid="3yede.r">
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-8" data-oid="ftj.hse">
                         <div
                             className="bg-white rounded-xl p-6 border border-gray-200 shadow-lg hover:shadow-xl transition-all"
-                            data-oid="i74i5kt"
+                            data-oid=":nmb-w:"
                         >
-                            <div className="text-center mb-6" data-oid="_jmnb:h">
+                            <div className="text-center mb-6" data-oid="db2loof">
                                 <h3
                                     className="text-xl font-bold mb-2 text-gray-800"
-                                    data-oid="ujkhlt6"
+                                    data-oid="o0zclpr"
                                 >
                                     Free
                                 </h3>
                                 <div
                                     className="text-4xl font-bold mb-2 text-purple-900"
-                                    data-oid="bjo7lq:"
+                                    data-oid="36idxhz"
                                 >
                                     $0
                                 </div>
-                                <p className="text-gray-500" data-oid="a1gtud7">
+                                <p className="text-gray-500" data-oid="_wpfrdy">
                                     Limited features
                                 </p>
                             </div>
                             <div
                                 className="bg-gray-100 text-gray-800 rounded-lg p-4 mb-6"
-                                data-oid="j6siypr"
+                                data-oid="90m4y11"
                             >
                                 <h4
                                     className="font-bold text-lg mb-3 text-center"
-                                    data-oid="rzxla:i"
+                                    data-oid="7wxc654"
                                 >
                                     Free Features:
                                 </h4>
-                                <ul className="space-y-3 list-disc pl-5" data-oid="ru8a0u_">
-                                    <li className="font-medium" data-oid="x-30b3v">
+                                <ul className="space-y-3 list-disc pl-5" data-oid="7cyl9.-">
+                                    <li className="font-medium" data-oid="rt2ei_h">
                                         Basic encryption protection
                                     </li>
-                                    <li className="font-medium" data-oid="iolj9o2">
+                                    <li className="font-medium" data-oid="f_gv2-0">
                                         Limited server locations
                                     </li>
-                                    <li className="font-medium" data-oid="g5m6_wq">
+                                    <li className="font-medium" data-oid="v43_4m4">
                                         Standard connection speed
                                     </li>
-                                    <li className="font-medium text-gray-500" data-oid="vz86_j8">
+                                    <li className="font-medium text-gray-500" data-oid="z7_zf8z">
                                         Includes advertisements
                                     </li>
                                 </ul>
@@ -548,7 +548,7 @@ export default function Page() {
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="block text-center bg-purple-100 hover:bg-purple-200 text-purple-900 font-medium py-2 px-4 rounded-lg transition-colors border border-purple-200"
-                                data-oid="ym4clgy"
+                                data-oid="rzo2fm1"
                             >
                                 Download Free
                             </a>
@@ -556,52 +556,52 @@ export default function Page() {
 
                         <div
                             className="bg-purple-900 rounded-xl p-6 border-2 border-purple-600 transform md:scale-105 z-10 shadow-2xl text-white ring-4 ring-purple-200"
-                            data-oid="n81hw1t"
+                            data-oid="bd5i3sn"
                         >
-                            <div className="text-center mb-6" data-oid="13keb7p">
+                            <div className="text-center mb-6" data-oid=".-qpck2">
                                 <div
                                     className="bg-white text-purple-900 text-sm font-bold py-1 px-3 rounded-full inline-block mb-2 shadow-md"
-                                    data-oid="8t-qfit"
+                                    data-oid="qk39mx-"
                                 >
                                     MOST POPULAR
                                 </div>
                                 <h3
                                     className="text-xl font-bold mb-2 text-white"
-                                    data-oid="u-0ilw9"
+                                    data-oid="rrlh7an"
                                 >
                                     Premium
                                 </h3>
                                 <div
                                     className="text-4xl font-bold mb-2 text-white"
-                                    data-oid="7j-xu6s"
+                                    data-oid="pfwtfym"
                                 >
                                     ₹999.00/mo
                                 </div>
-                                <p className="text-purple-200" data-oid=":4:cy7a">
+                                <p className="text-purple-200" data-oid="4y0kntf">
                                     per month
                                 </p>
                             </div>
                             <div
                                 className="bg-white text-purple-900 rounded-lg p-4 mb-6 shadow-inner"
-                                data-oid="d2imtcd"
+                                data-oid="eug0x0v"
                             >
                                 <h4
                                     className="font-bold text-lg mb-3 text-center"
-                                    data-oid="z:8t2cv"
+                                    data-oid=":c8j-tr"
                                 >
                                     Premium Features:
                                 </h4>
-                                <ul className="space-y-3 list-disc pl-5" data-oid="_7jdf8g">
-                                    <li className="font-medium" data-oid=":y5yafi">
+                                <ul className="space-y-3 list-disc pl-5" data-oid="7e2790h">
+                                    <li className="font-medium" data-oid=".8j.qf5">
                                         Military-grade encryption
                                     </li>
-                                    <li className="font-medium" data-oid="7.cb92l">
+                                    <li className="font-medium" data-oid="gulkd23">
                                         1000+ server locations worldwide
                                     </li>
-                                    <li className="font-medium" data-oid=":0l36ct">
+                                    <li className="font-medium" data-oid="h1pdt-0">
                                         High-speed servers for streaming
                                     </li>
-                                    <li className="font-medium" data-oid="5sl8myy">
+                                    <li className="font-medium" data-oid="gmoz1:n">
                                         Ad-free experience guaranteed
                                     </li>
                                 </ul>
@@ -611,7 +611,7 @@ export default function Page() {
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="block text-center bg-purple-600 hover:bg-purple-700 text-white font-medium py-2 px-4 rounded-lg transition-colors"
-                                data-oid="059-sh_"
+                                data-oid="sk7flau"
                             >
                                 Get Premium
                             </a>
@@ -619,49 +619,49 @@ export default function Page() {
 
                         <div
                             className="bg-white rounded-xl p-6 border border-gray-200 shadow-lg hover:shadow-xl transition-all"
-                            data-oid="36p8ew3"
+                            data-oid="ejn_5ev"
                         >
-                            <div className="text-center mb-6" data-oid="m:p.tqp">
+                            <div className="text-center mb-6" data-oid=".hed7q4">
                                 <h3
                                     className="text-xl font-bold mb-2 text-gray-800"
-                                    data-oid="3.23.h-"
+                                    data-oid="gzlh6nw"
                                 >
                                     Yearly Plan
                                 </h3>
                                 <div
                                     className="text-4xl font-bold mb-2 text-purple-900"
-                                    data-oid="sy6-ct:"
+                                    data-oid="3f_vp_v"
                                 >
                                     ₹4450.00/mo
                                 </div>
-                                <p className="text-gray-500" data-oid="03rn34u">
+                                <p className="text-gray-500" data-oid="465:ape">
                                     12 Months
                                 </p>
                             </div>
                             <div
                                 className="bg-gray-100 text-gray-800 rounded-lg p-4 mb-6"
-                                data-oid="hsbafm_"
+                                data-oid="xeirb9s"
                             >
                                 <h4
                                     className="font-bold text-lg mb-3 text-center"
-                                    data-oid="21uthp5"
+                                    data-oid="sccrl2i"
                                 >
                                     Yearly Plan Features:
                                 </h4>
-                                <ul className="space-y-3 list-disc pl-5" data-oid=".8_xqjq">
-                                    <li className="font-medium" data-oid="lmrec17">
+                                <ul className="space-y-3 list-disc pl-5" data-oid="t1gwfg0">
+                                    <li className="font-medium" data-oid="_k1ql1z">
                                         All Premium features included
                                     </li>
-                                    <li className="font-medium" data-oid="vtps8.:">
+                                    <li className="font-medium" data-oid="3kuis3s">
                                         Dedicated IP address option
                                     </li>
-                                    <li className="font-medium" data-oid="q8:k1ok">
+                                    <li className="font-medium" data-oid="74rz6v0">
                                         Priority customer support
                                     </li>
-                                    <li className="font-medium" data-oid="cdubk1t">
+                                    <li className="font-medium" data-oid="m0:s.ve">
                                         Connect up to 10 devices simultaneously
                                     </li>
-                                    <li className="font-medium" data-oid="fvh69k7">
+                                    <li className="font-medium" data-oid="g3q04zp">
                                         Team management console access
                                     </li>
                                 </ul>
@@ -671,7 +671,7 @@ export default function Page() {
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="block text-center bg-purple-600 hover:bg-purple-700 text-white font-medium py-2 px-4 rounded-lg transition-colors"
-                                data-oid="copddh7"
+                                data-oid="c9p8lsv"
                             >
                                 Get Premium
                             </a>
@@ -683,13 +683,13 @@ export default function Page() {
             {/* Download CTA Section */}
             <section
                 className="py-20 px-4 bg-purple-800 border-t border-b border-white border-opacity-10"
-                data-oid="j:kd.se"
+                data-oid="xv69l8g"
             >
-                <div className="container mx-auto max-w-4xl text-center" data-oid="qseaq8m">
-                    <h2 className="text-3xl md:text-4xl font-bold mb-6" data-oid="09wmqy3">
+                <div className="container mx-auto max-w-4xl text-center" data-oid="vs.:sn3">
+                    <h2 className="text-3xl md:text-4xl font-bold mb-6" data-oid="ll:y1vg">
                         Ready to Secure Your Online Privacy?
                     </h2>
-                    <p className="text-xl text-gray-200 mb-8 max-w-2xl mx-auto" data-oid="9:euq0x">
+                    <p className="text-xl text-gray-200 mb-8 max-w-2xl mx-auto" data-oid="r63f3z6">
                         Download Ryn VPN now and take control of your online security and privacy
                         with just one tap. Experience anonymous browsing and protect your sensitive
                         data with our top-rated VPN. Enjoy unblock websites and stream content from
@@ -698,7 +698,7 @@ export default function Page() {
                     </p>
                     <div
                         className="flex flex-col sm:flex-row justify-center gap-4"
-                        data-oid="q9kyh7g"
+                        data-oid="eiab7gu"
                     >
                         <a
                             href="https://play.google.com/store/apps/details?id=com.secure.cryptovpn&hl=en_IN"
@@ -706,13 +706,13 @@ export default function Page() {
                             rel="noopener noreferrer"
                             className="inline-block transform hover:-translate-y-1 transition-transform duration-300"
                             aria-label="Get it on Google Play"
-                            data-oid=":og4ua8"
+                            data-oid="zr7lcbz"
                         >
                             <img
                                 src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"
                                 alt="Get it on Google Play"
                                 className="h-16 w-auto shadow-lg rounded-lg"
-                                data-oid=":a.3wdv"
+                                data-oid="24njwo9"
                             />
                         </a>
                         <a
@@ -721,13 +721,13 @@ export default function Page() {
                             rel="noopener noreferrer"
                             className="inline-block transform hover:-translate-y-1 transition-transform duration-300"
                             aria-label="Download on the App Store"
-                            data-oid="4l6t9:x"
+                            data-oid=".ehbuj5"
                         >
                             <img
                                 src="https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg"
                                 alt="Download on the App Store"
                                 className="h-16 w-auto shadow-lg rounded-lg"
-                                data-oid="015don3"
+                                data-oid="vpizp60"
                             />
                         </a>
                     </div>
@@ -735,42 +735,42 @@ export default function Page() {
             </section>
 
             {/* FAQ Section */}
-            <section id="faq" className="py-20 px-4 bg-gray-900" data-oid="8_2n1bn">
-                <div className="container mx-auto max-w-4xl" data-oid="2ng3282">
-                    <div className="text-center mb-16" data-oid="tngvc0q">
+            <section id="faq" className="py-20 px-4 bg-gray-900" data-oid="glcm048">
+                <div className="container mx-auto max-w-4xl" data-oid="x1i_3sr">
+                    <div className="text-center mb-16" data-oid="9j0ihlc">
                         <h2
                             className="text-3xl md:text-4xl font-bold mb-4 text-white"
-                            data-oid="cx1ob6d"
+                            data-oid="e2bosh-"
                         >
                             Frequently Asked Questions
                         </h2>
-                        <p className="text-xl text-gray-300 max-w-3xl mx-auto" data-oid="08b0fd9">
+                        <p className="text-xl text-gray-300 max-w-3xl mx-auto" data-oid="0b-fml-">
                             Get answers to the most common questions about Ryn VPN and online
                             security
                         </p>
                     </div>
 
-                    <div className="space-y-6" data-oid="x.u4gqn">
+                    <div className="space-y-6" data-oid="90-5_03">
                         {/* FAQ Item 1 */}
                         <div
                             className="bg-gray-800 rounded-xl p-6 border border-white border-opacity-5 hover:border-purple-500 transition-colors"
-                            data-oid="ognf3ro"
+                            data-oid="54sex-z"
                         >
                             <div
                                 className="flex justify-between items-center cursor-pointer"
                                 onClick={() => toggleFaq(0)}
-                                data-oid="zeuch07"
+                                data-oid="5-ip.2d"
                             >
-                                <h3 className="text-xl font-bold text-white" data-oid="8jnwgi_">
+                                <h3 className="text-xl font-bold text-white" data-oid="rj7.8xh">
                                     What is a VPN and why do I need one for online privacy?
                                 </h3>
-                                <div className="text-purple-400 text-2xl" data-oid="3gh1rko">
+                                <div className="text-purple-400 text-2xl" data-oid="jpbs6em">
                                     {expandedFaqs.includes(0) ? '−' : '+'}
                                 </div>
                             </div>
                             {expandedFaqs.includes(0) && (
-                                <div className="mt-3" data-oid="n4qcao3">
-                                    <p className="text-gray-300" data-oid="v-vf6g9">
+                                <div className="mt-3" data-oid="69:9cj1">
+                                    <p className="text-gray-300" data-oid="we5jhqa">
                                         A VPN (Virtual Private Network) creates an encrypted tunnel
                                         for your internet traffic, protecting your data from
                                         hackers, ISPs, and surveillance. Ryn VPN ensures your online
@@ -786,23 +786,23 @@ export default function Page() {
                         {/* FAQ Item 2 */}
                         <div
                             className="bg-gray-800 rounded-xl p-6 border border-white border-opacity-5 hover:border-purple-500 transition-colors"
-                            data-oid="trgsecw"
+                            data-oid="poch4kq"
                         >
                             <div
                                 className="flex justify-between items-center cursor-pointer"
                                 onClick={() => toggleFaq(1)}
-                                data-oid="9b0__cs"
+                                data-oid=":6.jfv:"
                             >
-                                <h3 className="text-xl font-bold text-white" data-oid="9vjuqm1">
+                                <h3 className="text-xl font-bold text-white" data-oid="c2a.h-_">
                                     Does Ryn VPN keep logs of my browsing history?
                                 </h3>
-                                <div className="text-purple-400 text-2xl" data-oid="x0o:whp">
+                                <div className="text-purple-400 text-2xl" data-oid="f.w4chg">
                                     {expandedFaqs.includes(1) ? '−' : '+'}
                                 </div>
                             </div>
                             {expandedFaqs.includes(1) && (
-                                <div className="mt-3" data-oid="qds66kh">
-                                    <p className="text-gray-300" data-oid="cqijea8">
+                                <div className="mt-3" data-oid="juatq7k">
+                                    <p className="text-gray-300" data-oid="wl:g0.o">
                                         No, Ryn VPN follows a strict no-logs policy. We do not
                                         track, collect, or store any information about your online
                                         activities, browsing history, or data content. Our secure
@@ -819,24 +819,24 @@ export default function Page() {
                         {/* FAQ Item 3 */}
                         <div
                             className="bg-gray-800 rounded-xl p-6 border border-white border-opacity-5 hover:border-purple-500 transition-colors"
-                            data-oid="auquve_"
+                            data-oid="jfi7kh."
                         >
                             <div
                                 className="flex justify-between items-center cursor-pointer"
                                 onClick={() => toggleFaq(2)}
-                                data-oid="yxo0gtt"
+                                data-oid="5ker741"
                             >
-                                <h3 className="text-xl font-bold text-white" data-oid="xx592bu">
+                                <h3 className="text-xl font-bold text-white" data-oid="1s2hf30">
                                     Can I use Ryn VPN to access geo-restricted content and streaming
                                     services?
                                 </h3>
-                                <div className="text-purple-400 text-2xl" data-oid="erhttvc">
+                                <div className="text-purple-400 text-2xl" data-oid="lou4-mw">
                                     {expandedFaqs.includes(2) ? '−' : '+'}
                                 </div>
                             </div>
                             {expandedFaqs.includes(2) && (
-                                <div className="mt-3" data-oid="lbk_7z:">
-                                    <p className="text-gray-300" data-oid="dlgwnf2">
+                                <div className="mt-3" data-oid="88sjqjn">
+                                    <p className="text-gray-300" data-oid="u5vog89">
                                         Yes, Ryn VPN allows you to bypass geo-restrictions and
                                         access content from anywhere in the world. With our global
                                         network of high-speed servers across multiple countries, you
@@ -854,23 +854,23 @@ export default function Page() {
                         {/* FAQ Item 4 */}
                         <div
                             className="bg-gray-800 rounded-xl p-6 border border-white border-opacity-5 hover:border-purple-500 transition-colors"
-                            data-oid="ntv8wfd"
+                            data-oid=":73ccq6"
                         >
                             <div
                                 className="flex justify-between items-center cursor-pointer"
                                 onClick={() => toggleFaq(3)}
-                                data-oid="g_t_vpz"
+                                data-oid="ml5gi0u"
                             >
-                                <h3 className="text-xl font-bold text-white" data-oid="gmuerob">
+                                <h3 className="text-xl font-bold text-white" data-oid="qc7tun0">
                                     How does Ryn VPN protect me on public Wi-Fi networks?
                                 </h3>
-                                <div className="text-purple-400 text-2xl" data-oid="q:m4p5j">
+                                <div className="text-purple-400 text-2xl" data-oid="1v:f-g:">
                                     {expandedFaqs.includes(3) ? '−' : '+'}
                                 </div>
                             </div>
                             {expandedFaqs.includes(3) && (
-                                <div className="mt-3" data-oid="xckkfy0">
-                                    <p className="text-gray-300" data-oid="6go33d1">
+                                <div className="mt-3" data-oid="-7kce9m">
+                                    <p className="text-gray-300" data-oid=".8nr7o2">
                                         Public Wi-Fi networks are notorious hotspots for
                                         cybercriminals. Ryn VPN protects you by creating a secure
                                         encrypted tunnel for your data, preventing hackers from
@@ -888,23 +888,23 @@ export default function Page() {
                         {/* FAQ Item 5 */}
                         <div
                             className="bg-gray-800 rounded-xl p-6 border border-white border-opacity-5 hover:border-purple-500 transition-colors"
-                            data-oid="rny97id"
+                            data-oid="9v0u.1z"
                         >
                             <div
                                 className="flex justify-between items-center cursor-pointer"
                                 onClick={() => toggleFaq(4)}
-                                data-oid="2rou7:y"
+                                data-oid="g7nj8bh"
                             >
-                                <h3 className="text-xl font-bold text-white" data-oid="iu5zpxz">
+                                <h3 className="text-xl font-bold text-white" data-oid="f3wq2o1">
                                     Will using a VPN slow down my internet connection?
                                 </h3>
-                                <div className="text-purple-400 text-2xl" data-oid=":0t4.nu">
+                                <div className="text-purple-400 text-2xl" data-oid="b-p.::4">
                                     {expandedFaqs.includes(4) ? '−' : '+'}
                                 </div>
                             </div>
                             {expandedFaqs.includes(4) && (
-                                <div className="mt-3" data-oid="-9ec:02">
-                                    <p className="text-gray-300" data-oid="wi-oeif">
+                                <div className="mt-3" data-oid="dyw.xde">
+                                    <p className="text-gray-300" data-oid="7um8ady">
                                         While all VPNs can affect speed due to encryption, Ryn VPN
                                         is designed to minimize this impact. Our high-speed VPN
                                         servers are optimized for performance with unlimited
@@ -925,44 +925,44 @@ export default function Page() {
             {/* Footer */}
             <footer
                 className="bg-white py-12 px-4 border-t border-purple-100 shadow-inner"
-                data-oid="mkadbed"
+                data-oid="43xg7_a"
             >
-                <div className="container mx-auto max-w-6xl" data-oid="amf3.gf">
-                    <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8" data-oid="6693p03">
-                        <div data-oid="ubz0qmm">
-                            <div className="flex items-center space-x-2 mb-4" data-oid="c5an8oz">
-                                <div className="h-10 w-10 overflow-hidden" data-oid="r3llsdy">
+                <div className="container mx-auto max-w-6xl" data-oid="jw.y8ii">
+                    <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8" data-oid="i_::k-.">
+                        <div data-oid="ncfqo34">
+                            <div className="flex items-center space-x-2 mb-4" data-oid="ba8onuf">
+                                <div className="h-10 w-10 overflow-hidden" data-oid="wxb895a">
                                     <img
                                         src="/ryn-vpn-logo.png"
                                         alt="Ryn VPN Logo"
                                         className="h-full w-full object-contain"
-                                        data-oid="g:ai:_j"
+                                        data-oid="3vzwl7y"
                                     />
                                 </div>
                                 <span
                                     className="text-xl font-bold text-purple-800"
-                                    data-oid="trckww5"
+                                    data-oid="ckwcovo"
                                 >
                                     Ryn VPN
                                 </span>
                             </div>
-                            <p className="text-gray-600 mb-4" data-oid="ck3s4bp">
+                            <p className="text-gray-600 mb-4" data-oid="rnvxfzi">
                                 Secure, fast, and reliable VPN service for all your devices.
                             </p>
-                            <div className="flex flex-col gap-3" data-oid="maele7p">
+                            <div className="flex flex-col gap-3" data-oid="_32cxa8">
                                 <a
                                     href="https://play.google.com/store/apps/details?id=com.secure.cryptovpn&hl=en_IN"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="inline-block hover:opacity-90 transition-opacity"
                                     aria-label="Get it on Google Play"
-                                    data-oid=".yimmyo"
+                                    data-oid="tqmmqv_"
                                 >
                                     <img
                                         src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"
                                         alt="Get it on Google Play"
                                         className="h-12 w-auto shadow-md rounded-lg"
-                                        data-oid="qlbhpug"
+                                        data-oid="avxke.9"
                                     />
                                 </a>
                                 <a
@@ -971,95 +971,95 @@ export default function Page() {
                                     rel="noopener noreferrer"
                                     className="inline-block hover:opacity-90 transition-opacity"
                                     aria-label="Download on the App Store"
-                                    data-oid="m6in79:"
+                                    data-oid="uudq4e5"
                                 >
                                     <img
                                         src="https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg"
                                         alt="Download on the App Store"
                                         className="h-12 w-auto shadow-md rounded-lg"
-                                        data-oid="tlh7c5s"
+                                        data-oid="jkeh:cq"
                                     />
                                 </a>
                             </div>
                         </div>
-                        <div data-oid="oxo1btw">
+                        <div data-oid="_w0g:04">
                             <h3
                                 className="text-lg font-bold mb-4 text-purple-800"
-                                data-oid="qjsprb9"
+                                data-oid="02f5su1"
                             >
                                 Company
                             </h3>
-                            <ul className="space-y-2" data-oid="facoe2g">
-                                <li data-oid="xpr8zeq">
+                            <ul className="space-y-2" data-oid="y6h4f67">
+                                <li data-oid="68gy4z9">
                                     <a
                                         href="#"
                                         className="text-gray-600 hover:text-purple-700 transition-colors"
-                                        data-oid="m2ug0ry"
+                                        data-oid="hk-e46."
                                     >
                                         About Us
                                     </a>
                                 </li>
-                                <li data-oid="2.n-a9v">
+                                <li data-oid="3u6npae">
                                     <a
                                         href="#"
                                         className="text-gray-600 hover:text-purple-700 transition-colors"
-                                        data-oid="f21zq.a"
+                                        data-oid="viy8smb"
                                     >
                                         Blog
                                     </a>
                                 </li>
-                                <li data-oid="6-5on4y"></li>
-                                <li data-oid="91x2mze">
+                                <li data-oid="l8w48t-"></li>
+                                <li data-oid="h1u-a0x">
                                     <a
                                         href="/privacy-policy"
                                         className="text-gray-600 hover:text-purple-700 transition-colors"
-                                        data-oid="os5rduy"
+                                        data-oid="m._ihye"
                                     >
                                         Privacy Policy
                                     </a>
                                 </li>
                             </ul>
                         </div>
-                        <div data-oid="g3zn:nb">
+                        <div data-oid="ia4jstv">
                             <h3
                                 className="text-lg font-bold mb-4 text-purple-800"
-                                data-oid="28uu2za"
+                                data-oid="4w.a184"
                             >
                                 Support
                             </h3>
-                            <ul className="space-y-2" data-oid="jnad05:">
-                                <li data-oid="eb1.44_">
+                            <ul className="space-y-2" data-oid=".c4l-m3">
+                                <li data-oid="u8yd074">
                                     <a
                                         href="#"
                                         className="text-gray-600 hover:text-purple-700 transition-colors"
-                                        data-oid="rv-8ppi"
+                                        data-oid="9_ghcj1"
                                     >
                                         Help Center
                                     </a>
                                 </li>
-                                <li data-oid="49rto9y">
+                                <li data-oid="w.g.h5e">
                                     <a
                                         href="#"
                                         className="text-gray-600 hover:text-purple-700 transition-colors"
-                                        data-oid="5q90nw_"
+                                        data-oid="vyc67dm"
                                     >
                                         Contact Us
                                     </a>
                                 </li>
-                                <li data-oid="1mo61_6">
+                                <li data-oid="mljiaye">
                                     <a
                                         href="#faq"
                                         className="text-gray-600 hover:text-purple-700 transition-colors"
-                                        data-oid="gd5hntc"
+                                        data-oid="hvp5xfq"
                                     >
                                         FAQs
                                     </a>
                                 </li>
-                                <li data-oid="eoa09._">
+                                <li data-oid="7p4uvnd">
                                     <a
                                         href="#"
                                         className="text-gray-600 hover:text-purple-700 transition-colors"
-                                        data-oid="0u1ifh2"
+                                        data-oid="1bykkk."
                                     >
                                         Server Status
                                     </a>
@@ -1067,23 +1067,23 @@ export default function Page() {
                             </ul>
                         </div>
 
-                        <div data-oid="s78v7lm">
+                        <div data-oid="7vjqe6x">
                             <h3
                                 className="text-lg font-bold mb-4 text-purple-800"
-                                data-oid="l-5_zh1"
+                                data-oid="ues3hvp"
                             >
                                 Contact Us
                             </h3>
-                            <div className="text-gray-600 space-y-2" data-oid="blfuqir">
-                                <p data-oid="2p69v59">Human Data Systems Private Limited,</p>
-                                <p data-oid="ep7x_tm">H NO.-8/9, BASEMENT ROAD-8,</p>
-                                <p data-oid="78cd18-">SARVPRIYA VIHAR NEW DELHI South Delhi DL</p>
-                                <p data-oid="80xti9u">110017 IN</p>
-                                <p className="pt-2" data-oid="b_up972">
+                            <div className="text-gray-600 space-y-2" data-oid="nlgdoqr">
+                                <p data-oid="_ewiq.h">Human Data Systems Private Limited,</p>
+                                <p data-oid="228vq1h">H NO.-8/9, BASEMENT ROAD-8,</p>
+                                <p data-oid="umzw.eg">SARVPRIYA VIHAR NEW DELHI South Delhi DL</p>
+                                <p data-oid="49fsb4k">110017 IN</p>
+                                <p className="pt-2" data-oid="0bb0rq7">
                                     <a
                                         href="mailto:bugs@rynvpn.com"
                                         className="text-purple-400 hover:text-purple-300 transition-colors"
-                                        data-oid="p77j9yc"
+                                        data-oid="lnkihq6"
                                     >
                                         bugs@rynvpn.com
                                     </a>
@@ -1093,27 +1093,27 @@ export default function Page() {
                     </div>
                     <div
                         className="border-t border-purple-100 pt-8 flex flex-col md:flex-row justify-between items-center"
-                        data-oid="b3:p4ki"
+                        data-oid="y.-:b2c"
                     >
-                        <div className="text-gray-600 mb-4 md:mb-0" data-oid="o.rr7r2">
+                        <div className="text-gray-600 mb-4 md:mb-0" data-oid="52_i.4t">
                             © 2025 Ryn VPN - All Rights Reserved.
                         </div>
-                        <div className="flex space-x-4" data-oid="tccy5gw">
+                        <div className="flex space-x-4" data-oid="bpukqm5">
                             <a
                                 href="#"
                                 className="text-purple-600 hover:text-purple-800 transition-colors"
-                                data-oid="j.3w12v"
+                                data-oid="95cntcz"
                             >
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     className="h-6 w-6"
                                     fill="currentColor"
                                     viewBox="0 0 24 24"
-                                    data-oid="jh7epy9"
+                                    data-oid="1hlvu:r"
                                 >
                                     <path
                                         d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.325v-21.35c0-.732-.593-1.325-1.325-1.325z"
-                                        data-oid="n-vct22"
+                                        data-oid="xoxy:t4"
                                     />
                                 </svg>
                             </a>
@@ -1122,36 +1122,36 @@ export default function Page() {
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="text-purple-600 hover:text-purple-800 transition-colors"
-                                data-oid="fx4dg1l"
+                                data-oid="vh..mpr"
                             >
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     className="h-6 w-6"
                                     fill="currentColor"
                                     viewBox="0 0 24 24"
-                                    data-oid="dgmr97e"
+                                    data-oid="ylu5umj"
                                 >
                                     <path
                                         d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723 10.054 10.054 0 01-3.127 1.184 4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"
-                                        data-oid="0wio23q"
+                                        data-oid="b_9t0fr"
                                     />
                                 </svg>
                             </a>
                             <a
                                 href="#"
                                 className="text-purple-600 hover:text-purple-800 transition-colors"
-                                data-oid="-1_i:b9"
+                                data-oid="f0ii-r3"
                             >
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     className="h-6 w-6"
                                     fill="currentColor"
                                     viewBox="0 0 24 24"
-                                    data-oid="olrgu62"
+                                    data-oid="4ze8qgs"
                                 >
                                     <path
                                         d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"
-                                        data-oid="b0npklh"
+                                        data-oid="9zw5v5q"
                                     />
                                 </svg>
                             </a>
@@ -1160,18 +1160,18 @@ export default function Page() {
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="text-purple-600 hover:text-purple-800 transition-colors"
-                                data-oid="i_l88ok"
+                                data-oid="w3j3m2n"
                             >
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     className="h-6 w-6"
                                     fill="currentColor"
                                     viewBox="0 0 24 24"
-                                    data-oid="qgnb4dd"
+                                    data-oid="hko1w2t"
                                 >
                                     <path
                                         d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"
-                                        data-oid="t2.1j7."
+                                        data-oid="8r-.:y."
                                     />
                                 </svg>
                             </a>
